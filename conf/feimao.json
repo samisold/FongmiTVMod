@@ -1,18 +1,18 @@
 {
-  "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1744455885565/custom_spider.jar;md5;73a6cd23d8cb9fe1db96c7078eead597",
+  "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745057663206/feimao0419v3.txt;md5;f96f1093911150ab4984576c6522dc39",
   "wallpaper": "http://ceshi.xn--z7x900a.com/ppic/feimao.php",
   "logo": "http://ceshi.xn--z7x900a.com/panda/0262.png",
   "sites": [
     {
-      "key": "drpy_js_豆瓣",
-      "name": "🐼┃备用公众号┃我不是肥猫",
+      "key": "drpy_js_иұҶз“Ј",
+      "name": "рҹҗјв”ғеӨҮз”Ёе…¬дј—еҸ·в”ғжҲ‘дёҚжҳҜиӮҘзҢ«",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
     },
     {
-      "key": "豆瓣",
-      "name": "🐼┃豆瓣┃预告",
+      "key": "иұҶз“Ј",
+      "name": "рҹҗјв”ғиұҶз“Јв”ғйў„е‘Ҡ",
       "type": 3,
       "api": "csp_YGP",
       "playerType": 2,
@@ -20,14 +20,14 @@
     },
     {
       "key": "config",
-      "name": "🐼┃配置┃中心",
+      "name": "рҹҗјв”ғй…ҚзҪ®в”ғдёӯеҝғ",
       "type": 3,
       "api": "csp_Config",
       "playerType": 2
     },
     {
       "key": "csp_FeiMaoUC",
-      "name": "⚡┃闪电┃优汐",
+      "name": "вҡЎв”ғй—Әз”өв”ғдјҳжұҗ",
       "type": 3,
       "api": "csp_Duopan",
       "filterable": 1,
@@ -40,7 +40,7 @@
     },
     {
       "key": "csp_Duopan",
-      "name": "🖍︎┃蜡笔┃影视",
+      "name": "рҹ–ҚпёҺв”ғиңЎз¬”в”ғеҪұи§Ҷ",
       "type": 3,
       "api": "csp_Duopan",
       "filterable": 1,
@@ -51,27 +51,16 @@
           "http://feimaoai.site",
           "http://www.labi88.sbs"
         ],
+        "threadinfo": {
+          "chunksize": 512,
+          "threads": 16
+        },
         "url_key": "Duopan2"
-      }
-    },
-        {
-      "key": "csp_XMUC",
-      "name": "🍚┃小米┃UC",
-      "type": 3,
-      "api": "csp_Duopan",
-      "filterable": 1,
-      "ext": {
-        "site_urls": [
-          "http://www.mucpan.cc",
-          "https://milvdou.fun",
-          "https://54271.fun"
-        ],
-        "url_key": "XMUC"
       }
     },
     {
       "key": "csp_Netfixtv",
-      "name": "💌┃️至臻┃影视",
+      "name": "рҹ’Ңв”ғпёҸиҮіиҮ»в”ғеҪұи§Ҷ",
       "type": 3,
       "api": "csp_Duopan",
       "filterable": 1,
@@ -79,22 +68,21 @@
         "site_urls": [
           "http://xiaomi666.fun",
           "https://xiaomiai.site",
+          "https://mihdr.top",
+          "https://www.mihdr.top",
           "http://www.miqk.cc",
-          "https://mihdr.top"
+          "https://www.zhizhenpan.fun"
         ],
         "url_key": "Netfixtv2",
-        "token": "",
-        "ucCookie": "",
-        "quarkCookie": "",
         "threadinfo": {
-          "chunksize": 450,
-          "threads": 10
+          "chunksize": 512,
+          "threads": 16
         }
       }
     },
     {
-      "key": "csp_Panda_玩偶哥哥",
-      "name": "👲┃玩偶┃影视",
+      "key": "csp_Panda_зҺ©еҒ¶е“Ҙе“Ҙ",
+      "name": "рҹ‘Ів”ғзҺ©еҒ¶в”ғеҪұи§Ҷ",
       "api": "csp_Wogg",
       "type": 3,
       "searchable": 1,
@@ -104,86 +92,86 @@
       "ext": "https://www.wogg.one/"
     },
     {
-      "key": "潮流",
-      "name": "🏜┃潮流┃影视",
+      "key": "жҪ®жөҒ",
+      "name": "рҹҸңв”ғжҪ®жөҒв”ғеҪұи§Ҷ",
       "type": 3,
       "api": "csp_AppRJ",
       "ext": "sHR2rlsfjI4L3t4RXQMkn9mmg6Ofmy66+wcs9waIyn4hKqT9jG9s4kO6qzcu2OSqWS1/T+wfkqe+UwoipekwvcM11PTDrQqKYI8lmMXUc1vBHxp/2uWIw5HUoscBNWEb"
     },
     {
-      "key": "梦回",
-      "name": "🏈┃梦回┃影视",
+      "key": "жўҰеӣһ",
+      "name": "рҹҸҲв”ғжўҰеӣһв”ғеҪұи§Ҷ",
       "type": 3,
       "api": "csp_AppRJ",
       "ext": "sHR2rlsfjI4L3t4RXQMkn9NPgTvCXvJVoUvXJHT6PqBNTg88Q5I4mc95m2RizprWhdAIQNMU/HShly4WRNzUsfhvqzHXHhHD57G7QagNV0Cx+WDSBgm0uZMAbZVHmzjM"
     },
     {
-      "key": "星辉",
-      "name": "🦢┃星辉┃影视",
+      "key": "жҳҹиҫү",
+      "name": "рҹҰўв”ғжҳҹиҫүв”ғеҪұи§Ҷ",
       "type": 3,
       "api": "csp_AppRJ",
       "ext": "sHR2rlsfjI4L3t4RXQMknxhunFUlA4159TKiKvIPpfcM1xianxebcSLajBbwFymqC+z9WoGzQYbh7FSvh8KdiC0BKF0CalaPaCEMOZm+ClGEeNzXAaR0FnrV04SiB2NK"
     },
     {
-      "key": "菲儿",
-      "name": "🍁┃菲菲┃影视",
+      "key": "иҸІе„ҝ",
+      "name": "рҹҚҒв”ғиҸІиҸІв”ғеҪұи§Ҷ",
       "type": 3,
       "api": "csp_AppFerr",
       "ext": "sHR2rlsfjI4L3t4RXQMkn/M3t4AXAKTrZj3tfhm1t/gMT3dOrHqIzUNqLUEOIDMvllTbX6e1hMhB2mfpOaCmHNOL1yBB3SmxNyqXlai90EIpdnwOOgCR9Z+YwCTj6ySjzJ2VBiH3eXeOGcavcNeVRA=="
     },
     {
       "key": "csp_Jpys",
-      "name": "🥇️┃金牌┃影视",
+      "name": "рҹҘҮпёҸв”ғйҮ‘зүҢв”ғеҪұи§Ҷ",
       "type": 3,
       "api": "csp_Jpys"
     },
     {
       "key": "csp_Wwys",
-      "name": "🌾️┃农民┃影视",
+      "name": "рҹҢҫпёҸв”ғеҶңж°‘в”ғеҪұи§Ҷ",
       "type": 3,
       "api": "csp_Wwys",
       "ext": "https://www.wwgz.cn"
     },
     {
       "key": "csp_KmeiJu",
-      "name": "🍐┃鸭梨┃影视",
+      "name": "рҹҚҗв”ғйёӯжўЁв”ғеҪұи§Ҷ",
       "type": 3,
       "api": "csp_KmeiJu"
     },
     {
       "key": "csp_Siren",
-      "name": "🎉️┃私人┃影城",
+      "name": "рҹҺүпёҸв”ғз§Ғдәәв”ғеҪұеҹҺ",
       "type": 3,
       "api": "csp_Siren"
     },
     {
       "key": "csp_Lkdy",
-      "name": "🏔️┃来看┃影视",
+      "name": "рҹҸ”пёҸв”ғжқҘзңӢв”ғеҪұи§Ҷ",
       "type": 3,
       "api": "csp_Lkdy"
     },
     {
       "key": "csp_Tvyb",
-      "name": "☁️️┃云播┃影视",
+      "name": "вҳҒпёҸпёҸв”ғдә‘ж’ӯв”ғеҪұи§Ҷ",
       "type": 3,
       "api": "csp_Tvyb"
     },
     {
       "key": "csp_Qiyou",
-      "name": "🥝┃奇优┃影视",
+      "name": "рҹҘқв”ғеҘҮдјҳв”ғеҪұи§Ҷ",
       "type": 3,
       "api": "csp_Qiyou",
       "ext": "http://www.dyxz2.com/"
     },
     {
       "key": "csp_Apphip",
-      "name": "🌼┃️嗨皮┃影视",
+      "name": "рҹҢјв”ғпёҸе—Ёзҡ®в”ғеҪұи§Ҷ",
       "type": 3,
       "api": "csp_Apphip"
     },
     {
-      "key": "荐片",
-      "name": "🎬┃荐片┃影视",
+      "key": "иҚҗзүҮ",
+      "name": "рҹҺ¬в”ғиҚҗзүҮв”ғеҪұи§Ҷ",
       "api": "csp_Jianpian",
       "type": 3,
       "playerType": "2",
@@ -191,36 +179,36 @@
     },
     {
       "key": "csp_Quanwk",
-      "name": "👀┃全看┃影视",
+      "name": "рҹ‘Җв”ғе…ЁзңӢв”ғеҪұи§Ҷ",
       "type": 3,
       "api": "csp_Quanwk",
       "ext": "https://www.91qkw.com"
     },
     {
       "key": "csp_J",
-      "name": "🌎┃饺子┃外剧",
+      "name": "рҹҢҺв”ғйҘәеӯҗв”ғеӨ–еү§",
       "type": 3,
       "api": "csp_Jiaozi",
       "playerType": 2
     },
     {
       "key": "csp_SaoHuo",
-      "name": "🔥┃火火┃影视",
+      "name": "рҹ”Ҙв”ғзҒ«зҒ«в”ғеҪұи§Ҷ",
       "type": 3,
       "api": "csp_SaoHuo",
       "playerType": 2,
-      "ext":"https://shdy5.us"
+      "ext": "https://shdy5.us"
     },
     {
       "key": "csp_Gz360",
-      "name": "🍉┃瓜子┃影视",
+      "name": "рҹҚүв”ғз“ңеӯҗв”ғеҪұи§Ҷ",
       "type": 3,
       "api": "csp_Gz360",
       "playerType": 2
     },
     {
       "key": "csp_LiteApple",
-      "name": "🍎┃苹果┃影视",
+      "name": "рҹҚҺв”ғиӢ№жһңв”ғеҪұи§Ҷ",
       "type": 3,
       "api": "csp_LiteApple",
       "searchable": 1,
@@ -228,8 +216,8 @@
       "filterable": 1
     },
     {
-      "key": "厂长",
-      "name": "🏭┃厂长┃影视",
+      "key": "еҺӮй•ҝ",
+      "name": "рҹҸӯв”ғеҺӮй•ҝв”ғеҪұи§Ҷ",
       "type": 3,
       "playerType": "2",
       "api": "csp_Czsapp",
@@ -240,19 +228,19 @@
     },
     {
       "key": "csp_AppXY",
-      "name": "🎀️┃星牙┃短剧",
+      "name": "рҹҺҖпёҸв”ғжҳҹзүҷв”ғзҹӯеү§",
       "type": 3,
       "api": "csp_AppXY"
     },
     {
       "key": "csp_SP360",
-      "name": "📺┃360┃官源",
+      "name": "рҹ“әв”ғ360в”ғе®ҳжәҗ",
       "type": 3,
       "api": "csp_SP360"
     },
     {
       "key": "csp_Bili",
-      "name": "🅱┃️哔哩┃合集",
+      "name": "рҹ…ұв”ғпёҸе“”е“©в”ғеҗҲйӣҶ",
       "type": 3,
       "api": "csp_Bili",
       "playerType": 2,
@@ -267,7 +255,7 @@
     },
     {
       "key": "csp_YouShengBook",
-      "name": "📚┃六月┃听书",
+      "name": "рҹ“ҡв”ғе…ӯжңҲв”ғеҗ¬д№Ұ",
       "type": 3,
       "playerType": "2",
       "api": "csp_TingBook",
@@ -279,14 +267,14 @@
     },
     {
       "key": "csp_Dm84",
-      "name": "🤣┃动漫┃巴士",
+      "name": "рҹӨЈв”ғеҠЁжј«в”ғе·ҙеЈ«",
       "type": 3,
       "playerType": "2",
       "api": "csp_Dm84"
     },
     {
       "key": "csp_FirstAid",
-      "name": "🚑┃急救┃教学",
+      "name": "рҹҡ‘в”ғжҖҘж•‘в”ғж•ҷеӯҰ",
       "type": 3,
       "api": "csp_FirstAid",
       "searchable": 0,
@@ -298,32 +286,32 @@
       "gridview": "0-0-4.1"
     },
     {
-      "key": "酷狗",
-      "name": "🐾┃酷狗┃音乐",
+      "key": "й…·зӢ—",
+      "name": "рҹҗҫв”ғй…·зӢ—в”ғйҹід№җ",
       "type": 3,
       "api": "csp_Kugou",
       "playerType": 2,
       "ext": {
         "classes": [
           {
-            "type_name": "酷狗",
+            "type_name": "й…·зӢ—",
             "type_id": "kugou"
           }
         ]
       }
     },
     {
-      "key": "酷奇",
-      "name": "🎤┃酷奇┃MV",
+      "key": "й…·еҘҮ",
+      "name": "рҹҺӨв”ғй…·еҘҮв”ғMV",
       "type": 3,
       "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
       "searchable": 0,
       "quickSearch": 0,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/酷奇MV.js"
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/й…·еҘҮMV.js"
     },
     {
       "key": "MTV",
-      "name": "🎧┃明星┃MV",
+      "name": "рҹҺ§в”ғжҳҺжҳҹв”ғMV",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -331,8 +319,8 @@
       "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/MTV.json"
     },
     {
-      "key": "虎牙直播js",
-      "name": "🐯┃虎牙┃直播",
+      "key": "иҷҺзүҷзӣҙж’ӯjs",
+      "name": "рҹҗҜв”ғиҷҺзүҷв”ғзӣҙж’ӯ",
       "type": 3,
       "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
       "searchable": 0,
@@ -341,27 +329,27 @@
       "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/huya2.js"
     },
     {
-      "key": "斗鱼js",
-      "name": "🐟┃斗鱼┃直播",
+      "key": "ж–—йұјjs",
+      "name": "рҹҗҹв”ғж–—йұјв”ғзӣҙж’ӯ",
       "type": 3,
       "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
       "searchable": 0,
       "quickSearch": 0,
       "playerType": 1,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/斗鱼直播.js"
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/ж–—йұјзӣҙж’ӯ.js"
     },
     {
-      "key": "聚短视频js",
-      "name": "📽┃️聚短┃视频",
+      "key": "иҒҡзҹӯи§Ҷйў‘js",
+      "name": "рҹ“Ҫв”ғпёҸиҒҡзҹӯв”ғи§Ҷйў‘",
       "type": 3,
       "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
       "searchable": 0,
       "quickSearch": 0,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/短视频.js"
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/зҹӯи§Ҷйў‘.js"
     },
     {
-      "key": "看球",
-      "name": "⚾┃看球┃直播",
+      "key": "зңӢзҗғ",
+      "name": "вҡҫв”ғзңӢзҗғв”ғзӣҙж’ӯ",
       "type": 3,
       "api": "csp_Kanqiu",
       "searchable": 1,
@@ -373,8 +361,8 @@
       }
     },
     {
-      "key": "drpy_js_310直播",
-      "name": "🏀┃体育┃直播",
+      "key": "drpy_js_310зӣҙж’ӯ",
+      "name": "рҹҸҖв”ғдҪ“иӮІв”ғзӣҙж’ӯ",
       "type": 3,
       "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
       "changeable": 0,
@@ -385,22 +373,22 @@
       "ext": "https://img2.gelonghui.com/library/d6014-7a5d5b19-3fe5-456a-8335-925bc845606fnull"
     },
     {
-      "key": "米搜",
-      "name": "🌖┃米搜┃网盘",
+      "key": "зұіжҗң",
+      "name": "рҹҢ–в”ғзұіжҗңв”ғзҪ‘зӣҳ",
       "type": 3,
       "api": "csp_MiSou",
       "ext": "http://127.0.0.1:9978/file/fatcat/kk.txt"
     },
     {
       "key": "csp_PanSearch",
-      "name": "🚃┃盘搜┃网盘",
+      "name": "рҹҡғв”ғзӣҳжҗңв”ғзҪ‘зӣҳ",
       "type": 3,
       "api": "csp_PanSearch",
       "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
     },
     {
-      "key": "儿童",
-      "name": "📚┃儿童┃启蒙",
+      "key": "е„ҝз«Ҙ",
+      "name": "рҹ“ҡв”ғе„ҝз«Ҙв”ғеҗҜи’ҷ",
       "type": 3,
       "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
       "searchable": 0,
@@ -413,8 +401,8 @@
       "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js"
     },
     {
-      "key": "少儿",
-      "name": "📚┃少儿┃教育",
+      "key": "е°‘е„ҝ",
+      "name": "рҹ“ҡв”ғе°‘е„ҝв”ғж•ҷиӮІ",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -424,11 +412,11 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/少儿教育.json"
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/е°‘е„ҝж•ҷиӮІ.json"
     },
     {
-      "key": "小学",
-      "name": "📚┃小学┃课堂",
+      "key": "е°ҸеӯҰ",
+      "name": "рҹ“ҡв”ғе°ҸеӯҰв”ғиҜҫе Ӯ",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -438,11 +426,11 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/小学课堂.json"
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/е°ҸеӯҰиҜҫе Ӯ.json"
     },
     {
-      "key": "初中",
-      "name": "📚┃初中┃课堂",
+      "key": "еҲқдёӯ",
+      "name": "рҹ“ҡв”ғеҲқдёӯв”ғиҜҫе Ӯ",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -452,11 +440,11 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/初中课堂.json"
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/еҲқдёӯиҜҫе Ӯ.json"
     },
     {
-      "key": "高中",
-      "name": "📚┃高中┃课堂",
+      "key": "й«ҳдёӯ",
+      "name": "рҹ“ҡв”ғй«ҳдёӯв”ғиҜҫе Ӯ",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -466,11 +454,11 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/高中课堂.json"
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/й«ҳдёӯиҜҫе Ӯ.json"
     },
     {
       "key": "push_agent",
-      "name": "关注公众号：肥猫宝贝",
+      "name": "е…іжіЁе…¬дј—еҸ·пјҡиӮҘзҢ«е®қиҙқ",
       "type": 3,
       "api": "csp_Push",
       "playerType": "1",
@@ -480,40 +468,40 @@
   ],
   "parses": [
     {
-      "name": "Json聚合",
+      "name": "JsonиҒҡеҗҲ",
       "type": 3,
       "url": "Demo"
     },
     {
-      "name": "Web聚合",
+      "name": "WebиҒҡеҗҲ",
       "type": 3,
       "url": "Web"
     },
     {
-      "name": "qiyi[官源]",
+      "name": "qiyi[е®ҳжәҗ]",
       "type": 1,
       "url": "http://39.104.230.177:1122/lxjx/myyk.php?url="
     },
     {
-      "name": "肥猫最可爱",
+      "name": "иӮҘзҢ«жңҖеҸҜзҲұ",
       "type": 1,
       "url": "http://xn--ihqu10cn4c.xn--z7x900a.live/jx.php?id=2&url=",
       "ext": {
         "flag": [
           "qq",
-          "腾讯",
+          "и…ҫи®Ҝ",
           "qiyi",
-          "爱奇艺",
-          "奇艺",
+          "зҲұеҘҮиүә",
+          "еҘҮиүә",
           "youku",
-          "优酷",
+          "дјҳй…·",
           "tucheng",
           "sohu",
-          "搜狐",
+          "жҗңзӢҗ",
           "letv",
-          "乐视",
+          "д№җи§Ҷ",
           "mgtv",
-          "芒果",
+          "иҠ’жһң",
           "tnmb",
           "seven",
           "yzm",
