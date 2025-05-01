@@ -1,6 +1,6 @@
 {
- "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1744815381208/wex.txt;md5;d51df16fd164ac4c50295520b455be7d",
-  "wallpaper": "https://牛逼.王二小放牛娃.xyz/",
+ "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1746005525627/wex.txt;md5;8abd792a1c4be8eac11dc021ee690da5",
+  "wallpaper": "http://王二小放牛娃牛逼.999888987.xyz",
   "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716818643045/wexfnw.gif",
   "sites": [
     {
@@ -744,11 +744,19 @@
       "searchable": 1,
       "changeable": 0
     },
-		{
+	{
       "key": "WexbaidusoGuard",
       "name": "🎠给力┃百度🎠",
       "type": 3,
       "api": "csp_WexbaidusoGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+	{
+      "key": "WexAiPanGuard",
+      "name": "🎠给力┃综合🎠",
+      "type": 3,
+      "api": "csp_WexAiPanGuard",
       "searchable": 1,
       "changeable": 0
     },	
@@ -1028,15 +1036,9 @@
   ],
    "lives": [	
        {
-        "name": "BJTV",
+        "name": "范明明",
         "type": 0,
-        "url": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1742130501942/bjtv.txt",
-        "playerType": 1
-    },
-    {
-        "name": "钵钵鸡(四网通用)",
-        "type": 0,
-        "url": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1736923192652/boboji.m3u",
+        "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
         "playerType": 1
     }
  ]  
