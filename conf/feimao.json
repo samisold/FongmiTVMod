@@ -1,207 +1,541 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>肥猫 | ✎ℳ𝓪𝓸</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <div class="loader"></div>
-    <nav class="nav-container">
-        <ul class="nav-menu">
-            <li class="nav-item" id="home">主页</li>
-            <li class="nav-item" id="tvbox">TVBOX接口</li>
-            <li class="nav-item" id="related">相关推荐</li>
-        </ul>
-    </nav>
-    <main>
-        <div class="carousel-container">
-            <div class="carousel-item active">
-                <img src="img/1.webp" alt="千反田爱瑠" class="character-image" loading="lazy">
-                <div class="quote-text active">「"愿你以渺小启程 以伟大结束 在星辰大海的征途中 遇到那个最想要的自己"」</div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/2.webp" alt="古典部活动室" class="character-image" loading="lazy">
-                <div class="quote-text">「"没有一个冬天不可逾越 没有一个春天不会来临"」</div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/3.webp" alt="樱花树下" class="character-image" loading="lazy">
-                <div class="quote-text">「"岁岁年年 万喜万般宜"」</div>
-            </div>
-        </div>
-        <div class="link-container">
-            <div class="link-item">
-                <div class="link-title">肥猫 接口</div>
-                <div class="link-url">http://ceshi.肥猫.com/PandaQ</div>
-            </div>
-            <div class="link-item">
-                <div class="link-title">饭太硬 接口</div>
-                <div class="link-url">http://www.饭太硬.com/tv</div>
-            </div>
-            <div class="link-item">
-                <div class="link-title">小米 接口</div>
-                <div class="link-url">https://mpanso.me/DEMO.json</div>
-            </div>
-            <div class="link-item">
-                <div class="link-title">王二小 接口</div>
-                <div class="link-url">http://tvbox.xn--4kq62z5rby2qupq9ub.top/</div>
-            </div>
-            <div class="link-item">
-                <div class="link-title">南风 接口</div>
-                <div class="link-url">https://ghproxy.net/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json</div>
-            </div>
-            <div class="link-item">
-                <div class="link-title">菜妮丝 接口</div>
-                <div class="link-url">https://tvbox.cainisi.c</div>
-            </div>
-        </div>
-        <div class="related-container" style="display: none;">
-            <div class="recommend-wrap">
-                <a href="https://jq.qq.com/?_wv=1027&k=nuiEmPrv" class="related-item" target="_blank">
-                    <div class="item">
-                        <div class="avatar">
-                            <img src="http://p.qlogo.cn/gh/137475118/137475118/100/" alt="群聊图标">
-                        </div>
-                        <div class="inner">
-                            <h5>小白分享交流群</h5>
-                            <p>点击加入QQ交流群</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="http://z.qiqiv.cn" class="related-item" target="_blank">
-                    <div class="item">
-                        <div class="avatar">
-                            <img src="https://i.imgtg.com/2022/12/04/DUMqP.png" alt="编辑器图标">
-                        </div>
-                        <div class="inner">
-                            <h5>tvbox配置编辑</h5>
-                            <p>配置编辑器，支持加解密</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="http://1.95.79.193/" class="related-item" target="_blank">
-                    <div class="item">
-                        <div class="avatar">
-                            <img src="https://xn--z7x900a.com/sd.ico" alt="闪电图标">
-                        </div>
-                        <div class="inner">
-                            <h5>闪电优汐</h5>
-                            <p>肥猫UC网盘资源</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://labipan.com/" class="related-item" target="_blank">
-                    <div class="item">
-                        <div class="avatar">
-                            <img src="https://feimao666.fun/upload/dycms/20240530-1/9b409f92d6516bcbcf35f3131cb93ac2.jpg" alt="蜡笔图标">
-                        </div>
-                        <div class="inner">
-                            <h5>蜡笔影视</h5>
-                            <p>肥猫夸克网盘资源</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://mp.weixin.qq.com/s/EUv5ryTY83PI2TKm7kjStg?token=1380008592&lang=zh_CN" class="related-item" target="_blank">
-                    <div class="item">
-                        <div class="avatar">
-                            <img src="https://s1.imagehub.cc/images/2024/11/06/14281e4fd77c9a4844353b6b57b7ea10.png" alt="公众号图标">
-                        </div>
-                        <div class="inner">
-                            <h5>肥猫公众号</h5>
-                            <p>微信公众号搜索【肥猫宝贝】</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://github.com/FongMi/TV" class="related-item" target="_blank">
-                    <div class="item">
-                        <div class="avatar">
-                            <img src="https://i.imgtg.com/2022/12/04/DTIbD.png" alt="FM图标">
-                        </div>
-                        <div class="inner">
-                            <h5>FongMI仓库</h5>
-                            <p>台湾活雷锋，极简而强大的播放器</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://gh.api.99988866.xyz" class="related-item" target="_blank">
-                    <div class="item">
-                        <div class="avatar">
-                            <img src="https://i.imgtg.com/2022/12/04/DUOAb.png" alt="GitHub文件加速图标">
-                        </div>
-                        <div class="inner">
-                            <h5>GitHub文件加速</h5>
-                            <p>项目基于Cloudflare Workers</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://github.com/hjdhnx/dr_py" class="related-item" target="_blank">
-                    <div class="item">
-                        <div class="avatar">
-                            <img src="https://s1.imagehub.cc/images/2023/07/01/daoz.png" alt="道长DRPY项目图标">
-                        </div>
-                        <div class="inner">
-                            <h5>道长DRPY项目</h5>
-                            <p>可直接用于tvbox和pluto软件数据源使用</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://c.runoob.com" class="related-item" target="_blank">
-                    <div class="item">
-                        <div class="avatar">
-                            <img src="img/c-runoob-logo.ico" alt="菜鸟工具图标">
-                        </div>
-                        <div class="inner">
-                            <h5>菜鸟工具</h5>
-                            <p>常用工具大全,包括js美化base64加解密</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://adzhp.net/?ref=www.widiz.com" class="related-item" target="_blank">
-                    <div class="item">
-                        <div class="avatar">
-                            <img src="https://adzhp.net/wp-content/uploads/2019/02/A.png" alt="爱达杂货铺具图标">
-                        </div>
-                        <div class="inner">
-                            <h5>爱达杂货铺</h5>
-                            <p>收集那些有用的东西</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://shubao.site/" class="related-item" target="_blank">
-                    <div class="item">
-                        <div class="avatar">
-                            <img src="https://shubao.site/static/img/logo.png" alt="L先生图标">
-                        </div>
-                        <div class="inner">
-                            <h5>L先生的主页</h5>
-                            <p>网站、小程序、苹果定制多开</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </main>
-    <div class="music-player">
-        <audio id="bgm">
-            <source src="mp3/1.mp3" type="audio/mpeg">
-            <source src="mp3/2.mp3" type="audio/mpeg">
-            <source src="mp3/3.mp3" type="audio/mpeg">
-        </audio>
-        <div class="player-controls">
-            <button class="play-btn">▶</button>
-            <div class="track-info">《冰菓主题曲》</div>
-        </div>
-        <div class="playlist">
-            <div class="track active">優しさの理由 - ちょうちょ</div>
-            <div class="track">DAYS of DASH - 鈴木このみ</div>
-            <div class="track">secret base～君がくれたもの～</div>
-        </div>
-    </div>
-    <div class="mobile-play-btn">🎵</div>
-    <script src="js/script.js"></script>
-</body>
-</html>
+{
+  "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1745288510700/feimao0422.jar;md5;b40f328ddc5becefbfca81db7bdca250",
+  "wallpaper": "http://ceshi.xn--z7x900a.com/ppic/feimao.php",
+  "logo": "http://ceshi.xn--z7x900a.com/panda/0262.png",
+  "sites": [
+    {
+      "key": "drpy_js_豆瓣",
+      "name": "🐼┃备用公众号┃我不是肥猫",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0
+    },
+    {
+      "key": "豆瓣",
+      "name": "🐼┃豆瓣┃预告",
+      "type": 3,
+      "api": "csp_YGP",
+      "playerType": 2,
+      "searchable": 0
+    },
+    {
+      "key": "config",
+      "name": "🐼┃配置┃中心",
+      "type": 3,
+      "api": "csp_Config",
+      "playerType": 2
+    },
+    {
+      "key": "csp_FeiMaoUC",
+      "name": "⚡┃闪电┃优汐",
+      "type": 3,
+      "api": "csp_Duopan",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://1.95.79.193/"
+        ],
+        "url_key": "FeiMaoUC"
+      }
+    },
+    {
+      "key": "csp_Duopan",
+      "name": "🖍︎┃蜡笔┃影视",
+      "type": 3,
+      "api": "csp_Duopan",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "https://feimao666.fun",
+          "http://feimao888.fun",
+          "http://feimaoai.site",
+          "http://www.labi88.sbs",
+          "http://fmao.site",
+          "https://fmao.shop"
+        ],
+        "threadinfo": {
+          "chunksize": 512,
+          "threads": 16
+        },
+        "url_key": "Duopan2"
+      }
+    },
+    {
+      "key": "csp_Netfixtv",
+      "name": "💌┃️至臻┃影视",
+      "type": 3,
+      "api": "csp_Duopan",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://xiaomi666.fun",
+          "https://xiaomiai.site",
+          "https://mihdr.top",
+          "https://www.mihdr.top",
+          "http://www.miqk.cc",
+          "https://www.zhizhenpan.fun"
+        ],
+        "url_key": "Netfixtv2",
+        "threadinfo": {
+          "chunksize": 512,
+          "threads": 16
+        }
+      }
+    },
+    {
+      "key": "csp_Panda_玩偶哥哥",
+      "name": "👲┃玩偶┃影视",
+      "api": "csp_Wogg",
+      "type": 3,
+      "searchable": 1,
+      "playerType": 2,
+      "timeout": 30,
+      "changeable": 0,
+      "ext": "https://www.wogg.one/"
+    },
+    {
+      "key": "潮流",
+      "name": "🏜┃潮流┃影视",
+      "type": 3,
+      "api": "csp_AppRJ",
+      "ext": "sHR2rlsfjI4L3t4RXQMkn9mmg6Ofmy66+wcs9waIyn4hKqT9jG9s4kO6qzcu2OSqWS1/T+wfkqe+UwoipekwvcM11PTDrQqKYI8lmMXUc1vBHxp/2uWIw5HUoscBNWEb"
+    },
+    {
+      "key": "梦回",
+      "name": "🏈┃梦回┃影视",
+      "type": 3,
+      "api": "csp_AppRJ",
+      "ext": "sHR2rlsfjI4L3t4RXQMkn9NPgTvCXvJVoUvXJHT6PqBNTg88Q5I4mc95m2RizprWhdAIQNMU/HShly4WRNzUsfhvqzHXHhHD57G7QagNV0Cx+WDSBgm0uZMAbZVHmzjM"
+    },
+    {
+      "key": "星辉",
+      "name": "🦢┃星辉┃影视",
+      "type": 3,
+      "api": "csp_AppRJ",
+      "ext": "sHR2rlsfjI4L3t4RXQMknxhunFUlA4159TKiKvIPpfcM1xianxebcSLajBbwFymqC+z9WoGzQYbh7FSvh8KdiC0BKF0CalaPaCEMOZm+ClGEeNzXAaR0FnrV04SiB2NK"
+    },
+    {
+      "key": "菲儿",
+      "name": "🍁┃菲菲┃影视",
+      "type": 3,
+      "api": "csp_AppFerr",
+      "ext": "sHR2rlsfjI4L3t4RXQMkn/M3t4AXAKTrZj3tfhm1t/gMT3dOrHqIzUNqLUEOIDMvllTbX6e1hMhB2mfpOaCmHNOL1yBB3SmxNyqXlai90EIpdnwOOgCR9Z+YwCTj6ySjzJ2VBiH3eXeOGcavcNeVRA=="
+    },
+    {
+      "key": "csp_Jpys",
+      "name": "🥇️┃金牌┃影视",
+      "type": 3,
+      "api": "csp_Jpys"
+    },
+    {
+      "key": "csp_Wwys",
+      "name": "🌾️┃农民┃影视",
+      "type": 3,
+      "api": "csp_Wwys",
+      "ext": "https://www.wwgz.cn"
+    },
+    {
+      "key": "csp_KmeiJu",
+      "name": "🍐┃鸭梨┃影视",
+      "type": 3,
+      "api": "csp_KmeiJu"
+    },
+    {
+      "key": "csp_FourK",
+      "name": "🐿️┃绝对┃影视",
+      "type": 3,
+      "api": "csp_FourK",
+      "ext": "https://www.4kvm.tv"
+    },
+    {
+      "key": "csp_Siren",
+      "name": "🎉️┃私人┃影城",
+      "type": 3,
+      "api": "csp_Siren"
+    },
+    {
+      "key": "csp_Lkdy",
+      "name": "🏔️┃来看┃影视",
+      "type": 3,
+      "api": "csp_Lkdy"
+    },
+    {
+      "key": "csp_Tvyb",
+      "name": "☁️️┃云播┃影视",
+      "type": 3,
+      "api": "csp_Tvyb"
+    },
+    {
+      "key": "csp_Qiyou",
+      "name": "🥝┃奇优┃影视",
+      "type": 3,
+      "api": "csp_Qiyou",
+      "ext": "http://www.dyxz2.com/"
+    },
+    {
+      "key": "荐片",
+      "name": "🎬┃荐片┃影视",
+      "api": "csp_Jianpian",
+      "type": 3,
+      "playerType": "2",
+      "ext": "http://api2.rinhome.com"
+    },
+    {
+      "key": "csp_Quanwk",
+      "name": "👀┃全看┃影视",
+      "type": 3,
+      "api": "csp_Quanwk",
+      "ext": "https://www.91qkw.com"
+    },
+    {
+      "key": "csp_Lggys",
+      "name": "🤣┃攻阁┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_Lggys"
+    },
+    {
+      "key": "csp_J",
+      "name": "🌎┃饺子┃外剧",
+      "type": 3,
+      "api": "csp_Jiaozi",
+      "playerType": 2
+    },
+    {
+      "key": "csp_SaoHuo",
+      "name": "🔥┃火火┃影视",
+      "type": 3,
+      "api": "csp_SaoHuo",
+      "playerType": 2,
+      "ext": "https://shdy5.us"
+    },
+    {
+      "key": "csp_Gz360",
+      "name": "🍉┃瓜子┃影视",
+      "type": 3,
+      "api": "csp_Gz360",
+      "playerType": 2
+    },
+    {
+      "key": "csp_LiteApple",
+      "name": "🍎┃苹果┃影视",
+      "type": 3,
+      "api": "csp_LiteApple",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "厂长",
+      "name": "🏭┃厂长┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_Czsapp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://www.czzyvideo.com"
+    },
+    {
+      "key": "csp_AppXY",
+      "name": "🎀️┃星牙┃短剧",
+      "type": 3,
+      "api": "csp_AppXY"
+    },
+    {
+      "key": "csp_SP360",
+      "name": "📺┃360┃官源",
+      "type": 3,
+      "api": "csp_SP360"
+    },
+    {
+      "key": "csp_Bili",
+      "name": "🅱┃️哔哩┃合集",
+      "type": 3,
+      "api": "csp_Bili",
+      "playerType": 2,
+      "ext": {
+        "json": "./bili.json",
+        "cookie": ""
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      }
+    },
+    {
+      "key": "csp_YouShengBook",
+      "name": "📚┃六月┃听书",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_TingBook",
+      "searchable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      }
+    },
+    {
+      "key": "csp_Dm84",
+      "name": "🤣┃动漫┃巴士",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_Dm84"
+    },
+    {
+      "key": "csp_FirstAid",
+      "name": "🚑┃急救┃教学",
+      "type": 3,
+      "api": "csp_FirstAid",
+      "searchable": 0,
+      "quickSearch": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 3.8
+      },
+      "gridview": "0-0-4.1"
+    },
+    {
+      "key": "酷狗",
+      "name": "🐾┃酷狗┃音乐",
+      "type": 3,
+      "api": "csp_Kugou",
+      "playerType": 2,
+      "ext": {
+        "classes": [
+          {
+            "type_name": "酷狗",
+            "type_id": "kugou"
+          }
+        ]
+      }
+    },
+    {
+      "key": "酷奇",
+      "name": "🎤┃酷奇┃MV",
+      "type": 3,
+      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/酷奇MV.js"
+    },
+    {
+      "key": "MTV",
+      "name": "🎧┃明星┃MV",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/MTV.json"
+    },
+    {
+      "key": "虎牙直播js",
+      "name": "🐯┃虎牙┃直播",
+      "type": 3,
+      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "playerType": 1,
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/huya2.js"
+    },
+    {
+      "key": "斗鱼js",
+      "name": "🐟┃斗鱼┃直播",
+      "type": 3,
+      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "playerType": 1,
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/斗鱼直播.js"
+    },
+    {
+      "key": "聚短视频js",
+      "name": "📽┃️聚短┃视频",
+      "type": 3,
+      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/短视频.js"
+    },
+    {
+      "key": "看球",
+      "name": "⚾┃看球┃直播",
+      "type": 3,
+      "api": "csp_Kanqiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "gridview": 3,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "drpy_js_310直播",
+      "name": "🏀┃体育┃直播",
+      "type": 3,
+      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+      "changeable": 0,
+      "gridview": 3,
+      "style": {
+        "type": "list"
+      },
+      "ext": "https://img2.gelonghui.com/library/d6014-7a5d5b19-3fe5-456a-8335-925bc845606fnull"
+    },
+    {
+      "key": "米搜",
+      "name": "🌖┃米搜┃网盘",
+      "type": 3,
+      "api": "csp_MiSou",
+      "ext": "http://127.0.0.1:9978/file/fatcat/kk.txt"
+    },
+    {
+      "key": "csp_PanSearch",
+      "name": "🚃┃盘搜┃网盘",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
+    },
+    {
+      "key": "儿童",
+      "name": "📚┃儿童┃启蒙",
+      "type": 3,
+      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js"
+    },
+    {
+      "key": "少儿",
+      "name": "📚┃少儿┃教育",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/少儿教育.json"
+    },
+    {
+      "key": "小学",
+      "name": "📚┃小学┃课堂",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/小学课堂.json"
+    },
+    {
+      "key": "初中",
+      "name": "📚┃初中┃课堂",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/初中课堂.json"
+    },
+    {
+      "key": "高中",
+      "name": "📚┃高中┃课堂",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/高中课堂.json"
+    },
+    {
+      "key": "push_agent",
+      "name": "关注公众号：肥猫宝贝",
+      "type": 3,
+      "api": "csp_Push",
+      "playerType": "1",
+      "searchable": 0,
+      "ext": ".json/txt/ken.txt"
+    }
+  ],
+  "parses": [
+    {
+      "name": "Json聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "Web聚合",
+      "type": 3,
+      "url": "Web"
+    },
+    {
+      "name": "qiyi[官源]",
+      "type": 1,
+      "url": "http://39.104.230.177:1122/lxjx/myyk.php?url="
+    },
+    {
+      "name": "肥猫最可爱",
+      "type": 1,
+      "url": "http://xn--ihqu10cn4c.xn--z7x900a.live/jx.php?id=2&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "tucheng",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "yzm",
+          "aliyun",
+          "RJuMao",
+          "bilibili",
+          "1905",
+          "xinvip",
+          "XAL",
+          "qiqi",
+          "XALS",
+          "YuMi-vip"
+        ]
+      }
+    }
+  ],
+  "lives": [
+    {
+      "name": "live",
+      "type": 0,
+      "playerType": 1,
+      "url": "https://6296.kstore.vip/25.txt",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+  ]
+}

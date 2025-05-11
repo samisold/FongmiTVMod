@@ -1,379 +1,1087 @@
 {
-    --primary-color: #4a90e2;
-    --error-color: #e74c3c;
-    --text-color: #2c3e50;
-    --bg-color: #f5f6fa;
-}
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: 'Segoe UI', Arial, sans-serif;
-    background: var(--bg-color);
-    color: var(--text-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow-x: hidden;
-}
-/* ipxinxi 容器 */
-.ipxinxi {
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
-    position: fixed;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 15px 30px;
-    border-radius: 12px;
-    transition: all 0.3s ease;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    z-index: 1000;
-}
-.ipxinxi:hover {
-    transform: translateX(-50%) translateY(-2px);
-    box-shadow: 0 12px 40px rgba(31, 38, 135, 0.2);
-}
-/* 图片容器 */
-.images-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    margin: 40px 0;
-    perspective: 1000px;
-}
-/* 图片样式和动画 */
-.images-container img {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-}
-/* 图片尺寸设置 */
-.电脑 { 
-    width: 70px;
-    height: auto;
-}
-.箭头_右 { 
-    width: 40px;
-    height: auto;
-}
-.SCDN { 
-    width: 70px;
-    height: auto;
-}
-.叉 { 
-    width: 25px;
-    height: auto;
-}
-.服务器 { 
-    width: 60px;
-    height: auto;
-}
-@keyframes floatAnimation {
-    0%, 100% { transform: translate3d(0, 0, 0) rotate(0deg); }
-    25% { transform: translate3d(0, -10px, 5px) rotate(2deg); }
-    75% { transform: translate3d(0, 10px, -5px) rotate(-2deg); }
-}
-@keyframes fadeInScale {
-    from {
-        opacity: 0;
-        transform: scale(0.8) translateY(20px);
+  "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1746807605372/wex.txt;md5;fcbad20cd76a28c2508bdc5237f217bb",
+  "wallpaper": "http://王二小放牛娃牛逼.999888987.xyz",
+  "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716818643045/wexfnw.gif",
+  "sites": [
+    {
+      "key": "Douban",
+      "name": "🐮【公众号：王二小放牛娃】🐮",
+      "type": 3,
+      "api": "csp_DoubanGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1729769265800/douban.json"
+    },
+    {
+      "key": "Doubana",
+      "name": "⬇️【网盘类先扫码】⬇️",
+      "type": 3,
+      "api": "csp_DoubanGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1729769265800/douban.json"
+    },
+    {
+      "key": "Wexconfig",
+      "name": "🐮通用类型┃配置中心🐮",
+      "type": 3,
+      "api": "csp_WexconfigGuard",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0
+    },
+    {
+      "key": "Wexokconfig",
+      "name": "🐮影视专用┃配置中心🐮",
+      "type": 3,
+      "api": "csp_WexokconfigGuard",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0
+    },
+    {
+      "key": "Wexerxiaoziyuan",
+      "name": "💓‍二小┃4K💓‍",
+      "type": 3,
+      "api": "csp_WexerxiaoziyuanGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "WexxzysGuard",
+      "name": "💓校长┃4K💓",
+      "type": 3,
+      "api": "csp_WexxzysGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "玩偶",
+      "name": "💓‍玩偶┃4K💓‍",
+      "type": 3,
+      "api": "csp_WoggGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexzhizhen",
+      "name": "💓至臻┃4K💓",
+      "type": 3,
+      "api": "csp_WexzhizhenGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexnullname",
+      "name": "💓无名┃4K💓",
+      "type": 3,
+      "api": "csp_WexnullnameGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 120
+    },
+    {
+      "key": "WexTuanZhangGuard",
+      "name": "💓团长┃4K💓",
+      "type": 3,
+      "api": "csp_WexTuanZhangGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 120
+    },
+    {
+      "key": "Wexmuougg",
+      "name": "💓木偶┃4K💓",
+      "type": 3,
+      "api": "csp_WexmuouggGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexyingchao",
+      "name": "💓鸟巢┃4K💓",
+      "type": 3,
+      "api": "csp_WexyingchaoGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexwanni",
+      "name": "💓玩你┃4K💓",
+      "type": 3,
+      "api": "csp_WexwanniGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "WexshuangzixingGuard",
+      "name": "💓双星┃4K💓",
+      "type": 3,
+      "api": "csp_WexshuangzixingGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "WexfeimaoziyuanGuard",
+      "name": "💓肥猫┃4K💓",
+      "type": 3,
+      "api": "csp_WexfeimaoziyuanGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "WexhubanGuard",
+      "name": "💓虎斑┃4K💓",
+      "type": 3,
+      "api": "csp_WexhubanGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "WextexiafanGuard",
+      "name": "💓下饭┃4K💓",
+      "type": 3,
+      "api": "csp_WextexiafanGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "WexbaijiaGuard",
+      "name": "💓百家┃4K💓",
+      "type": 3,
+      "api": "csp_WexbaijiaGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "趣盘",
+      "name": "💓‍趣盘┃4K💓‍",
+      "type": 3,
+      "api": "csp_WexbdqupanGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "盘他",
+      "name": "💓‍盘他┃4K💓‍",
+      "type": 3,
+      "api": "csp_WexYDpantaGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexpan123ziyuanGuard",
+      "name": "💓‍123┃4K💓‍",
+      "type": 3,
+      "api": "csp_Wexpan123ziyuanGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "雷鲸",
+      "name": "💓‍雷鲸┃4K💓‍",
+      "type": 3,
+      "api": "csp_WexleijingGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "海绵",
+      "name": "💓‍海绵┃4K💓‍",
+      "type": 3,
+      "api": "csp_WexTYhaimianGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "夸父",
+      "name": "💓‍夸父┃4K💓‍",
+      "type": 3,
+      "api": "csp_WexQKkuafuGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "WexydbixinGuard",
+      "name": "💓比心┃YD💓",
+      "type": 3,
+      "api": "csp_WexydbixinGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wex123qingying",
+      "name": "💓清影┃123💓",
+      "type": 3,
+      "api": "csp_Wex123qingyingGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wex4kfmGuard",
+      "name": "💓影库┃4K💓",
+      "type": 3,
+      "api": "csp_Wex4kfmGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 120
+    },
+    {
+      "key": "Wexalllive",
+      "name": "💓‍聚合┃直播💓‍",
+      "type": 3,
+      "api": "csp_WexallliveGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexhanxiaoquan",
+      "name": "💥韩剧┃弹幕💥",
+      "type": 3,
+      "api": "csp_WexhanxiaoquanGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexrenrenyingshi",
+      "name": "💥人人┃弹幕💥",
+      "type": 3,
+      "api": "csp_WexrenrenyingshiGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "賤賤",
+      "name": "💥賤片┃p2p💥",
+      "type": 3,
+      "api": "csp_WexJianpianGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "WexkuihuatvGuard",
+      "name": "💥葵花┃影视💥",
+      "type": 3,
+      "api": "csp_WexkuihuatvGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "WexquickvodGuard",
+      "name": "🎇美剧┃秒播🎇",
+      "type": 3,
+      "api": "csp_WexquickvodGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wex4Kav",
+      "name": "🎇急速┃秒播🎇",
+      "type": 3,
+      "api": "csp_Wex4KavGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexsaohuo",
+      "name": "🎇火火┃秒播🎇",
+      "type": 3,
+      "api": "csp_WexsaohuoGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexzxzj",
+      "name": "🎇外剧┃秒播🎇",
+      "type": 3,
+      "api": "csp_WexzxzjGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexbaozitv",
+      "name": "🎇包子┃秒播🎇",
+      "type": 3,
+      "api": "csp_WexbaozitvGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_Nmys",
+      "name": "🎇伯伯┃秒播🎇",
+      "type": 3,
+      "api": "csp_WexNmysGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Diduanys",
+      "name": "🎇深渊┃秒播🎇",
+      "type": 3,
+      "api": "csp_WexDiduanysGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "WexBDys",
+      "name": "🎇滴滴┃秒播🎇",
+      "type": 3,
+      "api": "csp_WexBDysGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "WexF4kvmGuard",
+      "name": "🎇纯享┃秒播🎇",
+      "type": 3,
+      "api": "csp_WexF4kvmGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "WexbttwoGuard",
+      "name": "🎇大鼻涕┃秒播🎇",
+      "type": 3,
+      "api": "csp_WexbttwoGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "WexikanbotGuard",
+      "name": "🎇爱看┃采集🎇",
+      "type": 3,
+      "api": "csp_WexikanbotGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "新6V",
+      "name": "🛩️新6V┃P2P🛩",
+      "type": 3,
+      "api": "csp_WexXb6vGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Wexemby",
+      "name": "🀄️emby┃4K🀄️",
+      "type": 3,
+      "api": "csp_WexembyGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexwencai",
+      "name": "🌺文才┃秒播🌺",
+      "type": 3,
+      "api": "csp_WexwencaiGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexxpgtv",
+      "name": "🌺苹果┃秒播🌺",
+      "type": 3,
+      "api": "csp_WexxpgtvGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexshandian",
+      "name": "🌺闪电┃秒播🌺",
+      "type": 3,
+      "api": "csp_WexshandianGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexduanjuquark",
+      "name": "🍉短剧┃夸克🍉",
+      "type": 3,
+      "api": "csp_WexduanjuquarkGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "Wexduanjuvip",
+      "name": "🍉短剧┃免费🍉",
+      "type": 3,
+      "api": "csp_WexduanjuvipGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexvipduanju",
+      "name": "🍉短剧┃综合🍉",
+      "type": 3,
+      "api": "csp_WexvipduanjuGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexduanjuvop",
+      "name": "🍉短剧┃秒播🍉",
+      "type": 3,
+      "api": "csp_WexduanjuvopGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexduanjuhema",
+      "name": "🍉短剧┃仙品🍉",
+      "type": 3,
+      "api": "csp_WexduanjuhemaGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "WexduanjuvmpGuard",
+      "name": "🍉短剧┃帝品🍉",
+      "type": 3,
+      "api": "csp_WexduanjuvmpGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexduanju001",
+      "name": "🍉短剧┃极品🍉",
+      "type": 3,
+      "api": "csp_Wexduanju001Guard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexlaobaitingshu",
+      "name": "🎃‍白兔┃听书🎃",
+      "type": 3,
+      "api": "csp_WexlaobaitingshuGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wex275tingshu",
+      "name": "🎃‍极品┃听书🎃",
+      "type": 3,
+      "api": "csp_Wex275tingshuGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexliyuan",
+      "name": "🎎戏曲┃秒播🎎",
+      "type": 3,
+      "api": "csp_WexliyuanGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 2
+      }
+    },
+    {
+      "key": "Wextangdou",
+      "name": "💃跳舞┃教学💃",
+      "type": 3,
+      "api": "csp_WextangdouGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 2
+      }
+    },
+    {
+      "key": "Wexergeduoduo",
+      "name": "👼多多┃儿歌👼",
+      "type": 3,
+      "api": "csp_WexergeduoduoGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 2
+      }
+    },
+    {
+      "key": "Wexbaobaobashi",
+      "name": "👼宝宝┃儿歌👼",
+      "type": 3,
+      "api": "csp_WexbaobaobashiGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 2
+      }
+    },
+    {
+      "key": "Wexbeiwa",
+      "name": "👼贝贝┃儿歌👼",
+      "type": 3,
+      "api": "csp_WexbeiwaGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 2
+      }
+    },
+    {
+      "key": "Wextuxiaobei",
+      "name": "👼兔兔┃儿歌👼",
+      "type": 3,
+      "api": "csp_WextuxiaobeiGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 2
+      }
+    },
+    {
+      "key": "Pandalivetv",
+      "name": "😍韩国┃直播😍",
+      "type": 3,
+      "api": "csp_WexPandalivetvGuard",
+      "searchable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "Iktv",
+      "name": "🎤KTV┃音乐🎤",
+      "type": 3,
+      "api": "csp_WexIktvGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Wexciyuancheng",
+      "name": "🤡次元┃动漫🤡",
+      "type": 3,
+      "api": "csp_WexciyuanchengGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexxifan",
+      "name": "🤡稀饭┃动漫🤡",
+      "type": 3,
+      "api": "csp_WexxifanGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "WexDm84",
+      "name": "🤡巴士┃动漫🤡",
+      "type": 3,
+      "api": "csp_WexDm84Guard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "WexYsj",
+      "name": "🤡异界┃动漫🤡",
+      "type": 3,
+      "api": "csp_WexYsjGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "自定义",
+      "name": "🥇全能┃DIY🥇",
+      "type": 3,
+      "api": "csp_WexdiyGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "AList",
+      "name": "🥇Alist┃DIY🥇",
+      "type": 3,
+      "api": "csp_AListGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Wexbiliys",
+      "name": "🅱‍哔哔┃影视🅱‍",
+      "type": 3,
+      "api": "csp_WexbiliysGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "bili",
+      "name": "🅱哔哔┃合集🅱",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1730557872081/bili001.txt"
+      }
+    },
+    {
+      "key": "biliych",
+      "name": "🅱哔哔┃歌曲🅱",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1730557798499/bilisong.txt"
+      }
+    },
+    {
+      "key": "少儿教育",
+      "name": "📚少儿┃教育📚",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://im.feelec.com.cn/res/file.html?id=2c9a91099584ed4901963ec8251e772b"
+      }
+    },
+    {
+      "key": "小学课堂",
+      "name": "📚小学┃课堂📚",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://im.feelec.com.cn/res/file.html?id=2c9a91099584ed4901963ec82537772c"
+      }
+    },
+    {
+      "key": "初中课堂",
+      "name": "📚初中┃课堂📚",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://im.feelec.com.cn/res/file.html?id=2c9a91099584ed4901963ec824cc7729"
+      }
+    },
+    {
+      "key": "高中教育",
+      "name": "📚高中┃课堂📚",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": {
+        "json": "https://im.feelec.com.cn/res/file.html?id=2c9a91099584ed4901963ec824fd772a"
+      }
+    },
+    {
+      "key": "Wexqingfengdj",
+      "name": "🎼舞曲┃摇头🎼",
+      "type": 3,
+      "api": "csp_WexqingfengdjGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Wexxsmp3",
+      "name": "🎤随身┃相声🎤",
+      "type": 3,
+      "api": "csp_Wexxsmp3Guard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Wexpsmp3",
+      "name": "🎤随身┃评书🎤",
+      "type": 3,
+      "api": "csp_Wexpsmp3Guard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Wexwwe",
+      "name": "🌐格斗┃WWE🌐",
+      "type": 3,
+      "api": "csp_WexwweGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "看球",
+      "name": "🌐88┃体育🌐",
+      "type": 3,
+      "api": "csp_KanqiuGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "926看球",
+      "name": "🌐926┃体育🌐",
+      "type": 3,
+      "api": "csp_Wex926kanqiuGuard",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "WexTJso",
+      "name": "🎠TJ┃综合🎠",
+      "type": 3,
+      "api": "csp_WexTJsoGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Wextyso",
+      "name": "🎠给力┃天逸🎠",
+      "type": 3,
+      "api": "csp_WextysoGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WexbaidusoGuard",
+      "name": "🎠给力┃百度🎠",
+      "type": 3,
+      "api": "csp_WexbaidusoGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WexAiPanGuard",
+      "name": "🎠给力┃综合🎠",
+      "type": 3,
+      "api": "csp_WexAiPanGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "115",
+      "name": "💓我的┃115💓‍",
+      "type": 3,
+      "api": "csp_Wex115shareGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 50,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "tianyi",
+      "name": "💓我的┃天逸💓‍",
+      "type": 3,
+      "api": "csp_WexWo189Guard",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 50,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "夸克",
+      "name": "💓我的┃夸克💓‍",
+      "type": 3,
+      "api": "csp_WexWoquarkpanGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 50,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "优熙",
+      "name": "💓我的┃优熙💓‍",
+      "type": 3,
+      "api": "csp_WexWoucpanGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 50,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "异动",
+      "name": "💓我的┃异动💓‍",
+      "type": 3,
+      "api": "csp_WexWoydpanGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 50,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "WexWo123panGuard",
+      "name": "💓我的┃123💓‍",
+      "type": 3,
+      "api": "csp_WexWo123panGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 50,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "xunlei",
+      "name": "💓我的┃讯蕾💓‍",
+      "type": 3,
+      "api": "csp_WexWoXunLeiPanGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 50,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "baidu",
+      "name": "💓我的┃百度💓‍",
+      "type": 3,
+      "api": "csp_WexWoBaiduPanGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 50,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "push_agent",
+      "name": "推送",
+      "type": 3,
+      "api": "csp_PushGuard",
+      "searchable": 1,
+      "changeable": 0
     }
-    to {
-        opacity: 1;
-        transform: scale(1) translateY(0);
+  ],
+  "parses": [
+    {
+      "name": "王",
+      "type": 1,
+      "url": "http://122.228.84.103:7777/api/?key=4Dk5tdayvY6NZufEMG&url="
+    },
+    {
+      "name": "二",
+      "type": 1,
+      "url": "http://110.42.7.182:880/api/?key=7e84f07dc78fbb3406d64a1ab7d966b3&url="
+    },
+    {
+      "name": "小",
+      "type": 1,
+      "url": "http://43.136.176.188:91/api/?key=4ef232e96172b0bda78d393c695fe7c4&url="
+    },
+    {
+      "name": "帅",
+      "type": 1,
+      "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url="
     }
-}
-.电脑, .服务器, .SCDN {
-    animation: fadeInScale 0.5s forwards, floatAnimation 6s ease-in-out infinite;
-}
-.箭头_右 {
-    animation: fadeInScale 0.5s forwards 0.3s;
-    transform-origin: center;
-    transition: transform 0.3s ease;
-}
-.箭头_右:hover {
-    transform: scale(1.2);
-}
-.叉 {
-    animation: fadeInScale 0.5s forwards 0.6s;
-    transform-origin: center;
-    transition: transform 0.3s ease;
-}
-.叉:hover {
-    transform: rotate(180deg) scale(1.2);
-}
-/* 标题样式 */
-h1 {
-    font-weight: 600;
-    font-size: 4rem;
-    background: linear-gradient(135deg, var(--primary-color), var(--error-color));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin: 20px 0;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
-    animation: fadeInScale 0.8s forwards;
-}
-/* 页脚样式 */
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
-    padding: 15px 0;
-    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-footer:hover {
-    transform: translateY(-2px);
-}
-.left-content, .right-content {
-    flex: 1;
-    text-align: center;
-    padding: 0 20px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-.left-content::after {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    height: 80%;
-    width: 1px;
-    background: linear-gradient(to bottom, transparent, var(--text-color), transparent);
-}
-h2 {
-    font-weight: 600;
-    color: var(--primary-color);
-    margin: 0;
-    font-size: 1.1rem;
-}
-p {
-    margin: 0;
-    color: var(--text-color);
-    font-size: 1rem;
-}
-/* 响应式设计 */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 2.5rem;
+  ],
+  "doh": [
+    {
+      "name": "Google",
+      "url": "https://dns.google/dns-query",
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ]
+    },
+    {
+      "name": "AdGuard",
+      "url": "https://dns.adguard.com/dns-query",
+      "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
+      ]
+    },
+    {
+      "name": "DNSWatch",
+      "url": "https://resolver2.dns.watch/dns-query",
+      "ips": [
+        "84.200.69.80",
+        "84.200.70.40"
+      ]
+    },
+    {
+      "name": "Quad9",
+      "url": "https://dns.quad9.net/dns-quer",
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112"
+      ]
     }
-    
-    .images-container {
-        flex-wrap: wrap;
-        gap: 15px;
+  ],
+  "rules": [
+    {
+      "name": "proxy",
+      "hosts": [
+        "raw.githubusercontent.com",
+        "googlevideo.com",
+        "cdn.v82u1l.com",
+        "cdn.iz8qkg.com",
+        "cdn.kin6c1.com",
+        "c.biggggg.com",
+        "c.olddddd.com",
+        "haiwaikan.com",
+        "www.histar.tv",
+        "youtube.com",
+        "uhibo.com",
+        ".*boku.*",
+        ".*nivod.*",
+        ".*ulivetv.*"
+      ]
+    },
+    {
+      "name": "海外看",
+      "hosts": [
+        "haiwaikan"
+      ],
+      "regex": [
+        "10.0099",
+        "10.3333",
+        "16.0599",
+        "8.1748",
+        "12.33",
+        "10.85"
+      ]
+    },
+    {
+      "name": "火山嗅探",
+      "hosts": [
+        "huoshan.com"
+      ],
+      "regex": [
+        "item_id="
+      ]
+    },
+    {
+      "name": "抖音嗅探",
+      "hosts": [
+        "douyin.com"
+      ],
+      "regex": [
+        "is_play_url="
+      ]
+    },
+    {
+      "name": "農民嗅探",
+      "hosts": [
+        "toutiaovod.com"
+      ],
+      "regex": [
+        "video/tos/cn"
+      ]
+    },
+    {
+      "name": "新视觉嗅探",
+      "hosts": [
+        "muzhi-video.bj.bcebos.com"
+      ],
+      "regex": [
+        "202403/"
+      ]
+    },
+    {
+      "name": "七新嗅探",
+      "hosts": [
+        "api.52wyb.com"
+      ],
+      "regex": [
+        "m3u8?pt=m3u8"
+      ]
+    },
+    {
+      "name": "夜市點擊",
+      "hosts": [
+        "yeslivetv.com"
+      ],
+      "script": [
+        "document.getElementsByClassName('vjs-big-play-button')[0].click()"
+      ]
+    },
+    {
+      "name": "毛驢點擊",
+      "hosts": [
+        "www.maolvys.com"
+      ],
+      "script": [
+        "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+      ]
     }
-    
-    .ipxinxi {
-        width: 80%;
-        font-size: 0.9rem;
+  ],
+  "ads": [
+    "mozai.4gtv.tv",
+    "pv.vipwm.cc"
+  ],
+  "lives": [
+    {
+      "name": "范明明",
+      "type": 0,
+      "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
+      "playerType": 1
     }
-    
-    footer {
-        padding: 12px 0;
-    }
-    
-    .left-content, .right-content {
-        padding: 0 10px;
-        font-size: 0.9rem;
-    }
-    
-    h2 {
-        font-size: 1rem;
-    }
-    
-    p {
-        font-size: 0.9rem;
-    }
-    /* 移动端按钮样式 */
-    .help-button {
-        padding: 4px 8px;
-        font-size: 10px;
-        border-radius: 3px 0 0 3px;
-    }
-    .help-button:hover {
-        padding-right: 10px;
-    }
-    /* 移动端提示框样式 */
-    .tooltip {
-        right: 50px;
-        padding: 3px 6px;
-        font-size: 9px;
-        max-width: 70px;
-        border-radius: 3px;
-    }
-    .tooltip::after {
-        border-width: 3px 0 3px 3px;
-        right: -3px;
-    }
+  ]
 }
-/* 更小屏幕的特殊处理 */
-@media (max-width: 480px) {
-    .help-button {
-        padding: 3px 6px;
-        font-size: 9px;
-    }
-    .help-button:hover {
-        padding-right: 8px;
-    }
-    .tooltip {
-        right: 40px;
-        padding: 2px 4px;
-        font-size: 8px;
-        max-width: 60px;
-    }
-}
-/* 添加按钮和提示框样式 */
-.help-button {
-    position: fixed;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    background: linear-gradient(135deg, var(--primary-color), #2980b9);
-    color: white;
-    padding: 8px 15px;
-    border: none;
-    border-radius: 5px 0 0 5px;
-    cursor: pointer;
-    font-size: 13px;
-    font-weight: bold;
-    box-shadow: -2px 2px 10px rgba(0,0,0,0.2);
-    transition: all 0.3s ease;
-    z-index: 999;
-    text-decoration: none;
-}
-.help-button:hover {
-    padding-right: 18px;
-    background: linear-gradient(135deg, #2980b9, var(--primary-color));
-}
-.tooltip {
-    position: fixed;
-    right: 100px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: white;
-    padding: 8px 12px;
-    border-radius: 5px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    font-size: 12px;
-    color: var(--text-color);
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s ease;
-    z-index: 998;
-    max-width: 140px;
-}
-.tooltip::after {
-    content: '';
-    position: absolute;
-    right: -8px;
-    top: 50%;
-    transform: translateY(-50%);
-    border-width: 8px 0 8px 8px;
-    border-style: solid;
-    border-color: transparent transparent transparent white;
-}
-.tooltip.show {
-    opacity: 1;
-    visibility: visible;
-    animation: pulse 1s infinite;
-}
-@keyframes pulse {
-    0% { transform: translateY(-50%) scale(1); }
-    50% { transform: translateY(-50%) scale(1.05); }
-    100% { transform: translateY(-50%) scale(1); }
-}
-</style>
-</head>
-<body>
-    <div class="ipxinxi" style="text-align: center;">
-    <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">您的IP: 168.138.201.195 &bull;<br></span>
-    <span class="inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed">节点IP: 172.26.7.227<br></span>
-</div>
-<div class="images-container">
-    <img src="https://assets.rnmcnm.com/assets/img/cdnfly/%E7%94%B5%E8%84%91.svg" class="电脑" alt="电脑">
-    <img src="https://assets.rnmcnm.com/assets/img/cdnfly/%E7%AE%AD%E5%A4%B4_%E5%8F%B3.svg" class="箭头_右" alt="箭头_右">
-    <a href="https://www.cdn1.vip" target="_blank">
-  <img src="https://assets.rnmcnm.com/assets/img/cdnfly/SCDN.svg" class="SCDN" alt="SCDN">
-</a>
-    <img src="https://assets.rnmcnm.com/assets/img/cdnfly/%E5%8F%89.svg" class="叉" alt="叉">
-    <img src="https://assets.rnmcnm.com/assets/img/cdnfly/%E6%9C%8D%E5%8A%A1%E5%99%A8.svg" class="服务器" alt="服务器">
-</div>
-<div class="center-container">
-    <h1 class="inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight">
-       <span data-translate="error">Error</span>
-       <span>512</span>
-    </h1>
-</div>
-<footer>
-    <div class="left-content">
-        <h2>什么问题？</h2>
-        <p>该站所用套餐已到期~</p>
-    </div>
-    <div class="right-content">
-        <h2>如何解决？</h2>
-        <p>请续费或更换您的套餐~</p>
-    </div>
-</footer>
-<a href="https://www.rnmcnm.com/archives/3479" class="help-button">疑难杂症</a>
-<div class="tooltip">点"疑难杂症"查解决方法</div>
-<script>
-// 添加页面载入动画
-document.addEventListener('DOMContentLoaded', function() {
-    // 为所有图片添加渐入效果
-    const images = document.querySelectorAll('.images-container img');
-    images.forEach((img, index) => {
-        setTimeout(() => {
-            img.style.opacity = '1';
-            img.style.transform = 'translateY(0)';
-        }, index * 200);
-    });
-    // IP信息容器动画
-    const ipxinxi = document.querySelector('.ipxinxi');
-    ipxinxi.style.opacity = '0';
-    ipxinxi.style.transform = 'translateX(-50%) translateY(-20px)';
-    
-    setTimeout(() => {
-        ipxinxi.style.transition = 'all 0.5s ease';
-        ipxinxi.style.opacity = '1';
-        ipxinxi.style.transform = 'translateX(-50%) translateY(0)';
-    }, 300);
-});
-// 添加鼠标移动视差效果
-document.addEventListener('mousemove', function(e) {
-    const images = document.querySelectorAll('.images-container img');
-    const xAxis = (window.innerWidth / 2 - e.pageX) / 25;
-    const yAxis = (window.innerHeight / 2 - e.pageY) / 25;
-    
-    images.forEach((img) => {
-        img.style.transform = `translate(${xAxis}px, ${yAxis}px)`;
-    });
-});
-// 添加提示框显示逻辑
-function showTooltip() {
-    const tooltip = document.querySelector('.tooltip');
-    tooltip.classList.add('show');
-    
-    setTimeout(() => {
-        tooltip.classList.remove('show');
-    }, 3000); // 显示3秒后隐藏
-}
-// 每5秒显示一次提示
-setInterval(showTooltip, 5000);
-// 页面加载后先显示一次
-setTimeout(showTooltip, 1000);
-</script>
-</body>
-</html>
