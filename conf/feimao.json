@@ -1,5 +1,5 @@
 {
-    "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1752147136736/PandaQ0710.jpg;md5;2199d0eb0e8a03acb35b935c088ef6db",
+    "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1752558800184/PandaQ0715.jpg;md5;59185e76c5cf42b7a5465fbd2c15af06",
     "wallpaper": "./ppic/feimao.php",
     "logo": "./panda/0262.png",
     "sites": [
@@ -51,7 +51,7 @@
                     "http://feimaoai.site",
                     "http://www.labi88.sbs",
                     "http://fmao.site",
-                    "https://fmao.shop",
+                    "http://fmao.shop",
                     "http://xiaocge.fun"
                 ],
                 "threadinfo": {
@@ -134,28 +134,28 @@
             "name": "📀┃光盘┃APP",
             "type": 3,
             "api": "csp_AppGet",
-            "ext": "5ztMiKPUcHLR7TRusm5rHsPgFhlXstdsZuadxKTvmldCWgloYKsAMQA+2Sr7eCUj"
+            "ext": "Qrf5S6Si5oF7dQyuv+Srh3uh0lT3z1Y7u59ip9hRVeUKFHSUUbLyGMREENFjE1N9FXjZ6Z7tiLWs6P15Ol/g5GJXlo8gIlG7ul8a9uA76+A="
         },
         {
             "key": "行动",
             "name": "😌┃行动┃APP",
             "type": 3,
-            "api": "csp_AppSy",
-            "ext": "iUYplHbim/qVptUBrzCuqk72erYn+xHvZVGawkGUOqtLGtiWlDcWpUagYzdfPYeECbG+IjVf7Mhz2ZqZ70k6X72tkUhQDNEpIN/XScTGlUE="
+            "api": "csp_AppGet",
+            "ext": "Koog6uPyOjHNZh8eY8CgUL+XGp1zR8d/K2NE9Ls6xomS8zNeZA6OEFwcZ27Zy0ZH9i0JczXR1zmcv9qIihz837BdnQrvJfE8QEyUmS3qKxs="
         },
         {
             "key": "再来",
             "name": "✌️┃再来┃APP",
             "type": 3,
             "api": "csp_AppGet",
-            "ext": "gKqtScS9maa2YW8G9NNOtUsSxDvraRvNMDiazqRUzDYklDH0MMxfu9ZPgRdHKBcI"
+            "ext": "QxNFQL63IQgXoB/O+Q12SpWJNcSeybsKVx0uAk9+pBwLEYRybmr89ubfoMpO9ZMnmJwYP5eKIrLK/w5t9S+6+F2ZlfWUyUoDUP2rV9QVabZh8nM+rBV7F/sxe+7GgsdL"
         },
         {
             "key": "一碗",
             "name": "🥣┃一碗┃APP",
             "type": 3,
             "api": "csp_AppGet",
-            "ext": "cOS1UvSbYM3xW1jXF4QBcYkSAhpFDDoh7c53wGBZEyxDhNunH+Feq+RreiUkQsV1"
+            "ext": "ALuKLnutJ05qjASk0Chn7a1ibR0W0XHqemfuZwhL7IuMdagHkHIMn3C5V/5JLCsoeZGsBV/Lw0xVXwTkIlgq0Q=="
         },
         {
             "key": "猫抓",
@@ -176,7 +176,7 @@
             "name": "🫛┃蔬菜┃APP",
             "type": 3,
             "api": "csp_AppGet",
-            "ext": "II6EBjEX9APRjw9zkvfuusSMPTiiXvPm9pK9Zv0wFaq4AWWODp1x+otEA1t0ZFTSq+p0AmaiQvE9cq5Hdl/Vlg=="
+            "ext": "/eCbNvmrG2960Ybun3e0F4Nv6y2xkgJD5jOna5SVI+QW4PXMkizOh5qQPL132WcH"
         },
         {
             "key": "黑猫",
@@ -212,13 +212,6 @@
             "api": "csp_KmeiJu"
         },
         {
-            "key": "csp_FourK",
-            "name": "🐿️┃绝对┃影视",
-            "type": 3,
-            "api": "csp_FourK",
-            "ext": "https://www.4kvm.tv"
-        },
-        {
             "key": "csp_Lkdy",
             "name": "🏔️┃来看┃影视",
             "type": 3,
@@ -234,8 +227,7 @@
             "key": "csp_Qiyou",
             "name": "🥝┃奇优┃影视",
             "type": 3,
-            "api": "csp_Qiyou",
-            "ext": "http://www.dyxz2.com/"
+            "api": "csp_Qiyou"
         },
         {
             "key": "荐片",
@@ -292,7 +284,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.czzy77.com"
+            "ext": "https://www.czzymovie.com"
         },
         {
             "key": "csp_AppXY",
@@ -328,6 +320,14 @@
             "playerType": "2",
             "api": "csp_Dm84",
             "ext": "https://dm84.net"
+        },
+        {
+            "key": "csp_FourK",
+            "name": "🌋┃绝对┃影视",
+            "type": 3,
+            "playerType": "2",
+            "api": "csp_FourK",
+            "ext": "https://www.4kvm.tv"
         },
         {
             "key": "csp_FirstAid",
