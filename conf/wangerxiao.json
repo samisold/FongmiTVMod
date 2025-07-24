@@ -1,5 +1,5 @@
 {
- "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1752426605450/wex.png;md5;16076852fc989e402b748a4f69e48f0b",
+ "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1753289189595/wex.png;md5;2df1226e3e4515cccc08658aefca0444",
   "wallpaper": "http://王二小放牛娃牛逼.999888987.xyz",
   "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716818643045/wexfnw.gif",
   "sites": [
@@ -133,6 +133,14 @@
       "searchable": 1,
       "changeable": 1
     },
+	{
+      "key": "WexXuexi",
+      "name": "💓综合┃4K💓",
+      "type": 3,
+      "api": "csp_WexXuexiGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
     {
       "key": "WexfeimaoziyuanGuard",
       "name": "💓肥猫┃4K💓",
@@ -197,14 +205,6 @@
       "name": "💓比心┃YD💓",
       "type": 3,
       "api": "csp_WexydbixinGuard",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "WexXuexi",
-      "name": "💓原盘┃4K💓",
-      "type": 3,
-      "api": "csp_WexXuexiGuard",
       "searchable": 1,
       "changeable": 1
     },
@@ -732,6 +732,22 @@
       "name": "🎠给力┃综合🎠",
       "type": 3,
       "api": "csp_WexAiPanGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WexHaiYinsoGuard",
+      "name": "🎠海音┃综合🎠",
+      "type": 3,
+      "api": "csp_WexHaiYinsoGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "WexZhaoPansoGuard",
+      "name": "🎠找盘┃综合🎠",
+      "type": 3,
+      "api": "csp_WexZhaoPansoGuard",
       "searchable": 1,
       "changeable": 0
     },
