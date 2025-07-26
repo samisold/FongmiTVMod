@@ -1,1328 +1,843 @@
-
-<!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
-<head>
-<title>sudun请使用域名访问</title>
-<meta charset="UTF-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
-<meta name="robots" content="noindex, nofollow" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<style>
-*, body, html {
-    margin: 0;
-    padding: 0;
-}
-body, html {
-    --text-opacity: 1;
-    color: #404040;
-    color: rgba(64,64,64,var(--text-opacity));
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
-    font-size: 16px;
-}
-* {
-    box-sizing: border-box;
-}
-html[Attributes Style] {
-    -webkit-locale: "en-US";
-}
-.p-0 {
-    padding: 0;
-}
-.w-240 {
-    width: 60rem;
-}
-.antialiased {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-.pt-10 {
-    padding-top: 2.5rem;
-}
-.mb-15 {
-    margin-bottom: 3.75rem;
-}
-.mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-}
-.text-black-dark {
-    --text-opacity: 1;
-    color: #404040;
-    color: rgba(64,64,64,var(--text-opacity));
-}
-.mr-2 {
-    margin-right: .5rem;
-}
-.leading-tight {
-    line-height: 1.25;
-}
-.text-60 {
-    font-size: 60px;
-}
-.font-light {
-    font-weight: 300;
-}
-.inline-block {
-    display: inline-block;
-}
-.text-15 {
-    font-size: 15px;
-}
-.font-mono {
-    font-family: monaco,courier,monospace;
-}
-.text-gray-600 {
-    --text-opacity: 1;
-    color: #999;
-    color: rgba(153,153,153,var(--text-opacity));
-}
-.leading-1\.3 {
-    line-height: 1.3;
-}
-.text-3xl {
-    font-size: 1.875rem;
-}
-.mb-8 {
-    margin-bottom: 2rem;
-}
-.w-1\/2 {
-    width: 50%;
-}
-.mt-6 {
-    margin-top: 1.5rem;
-}
-.mb-4 {
-    margin-bottom: 1rem;
-}
-.font-normal {
-    font-weight: 400;
-}
-#what-happened-section p {
-    font-size: 15px;
-    line-height: 1.5;
-}
-</style>
-</head>
-<body>
-  <div id="cf-wrapper">
-    <div id="cf-error-details" class="p-0">
-      <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased">
-         <h1 class="inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight">
-           <span data-translate="error">Error</span>
-           <span>1003</span>
-         </h1>
-        <h2 class="text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light">请使用域名访问</h2>
-      </header>
-      <section class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
-          <div id="what-happened-section" class="w-1/2 md:w-full">
-            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_happened">什么问题?</h2>
-            <p>当前是直接访问的节点IP。</p>
+{
+    "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1753445349681/PandaQ0725.jpg;md5;4bb05945b726cf06209fb3b562f6aa83",
+    "wallpaper": "./ppic/feimao.php",
+    "logo": "./panda/0262.png",
+    "sites": [
+        {
+            "key": "豆瓣",
+            "name": "🐼┃备用公众号┃我不是肥猫",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0
+        },
+        {
+            "key": "豆瓣预告",
+            "name": "🐼┃豆瓣┃预告",
+            "type": 3,
+            "api": "csp_YGP",
+            "playerType": 2,
+            "searchable": 0
+        },
+        {
+            "key": "config",
+            "name": "🐼┃配置┃中心",
+            "type": 3,
+            "api": "csp_Config",
+            "playerType": 2
+        },
+        {
+            "key": "csp_FeiMaoUC",
+            "name": "⚡┃闪电┃优汐",
+            "type": 3,
+            "api": "csp_Duopan",
+            "filterable": 1,
+            "ext": {
+                "site_urls": [
+                    "http://1.95.79.193/"
+                ],
+                "url_key": "FeiMaoUC"
+            }
+        },
+        {
+            "key": "csp_Duopan",
+            "name": "🖍︎┃蜡笔┃影视",
+            "type": 3,
+            "api": "csp_Duopan",
+            "filterable": 1,
+            "ext": {
+                "site_urls": [
+                    "https://feimao666.fun",
+                    "http://feimao888.fun",
+                    "http://feimaoai.site",
+                    "http://www.labi88.sbs",
+                    "http://fmao.site",
+                    "http://fmao.shop",
+                    "http://xiaocge.fun"
+                ],
+                "threadinfo": {
+                    "chunksize": 512,
+                    "threads": 16
+                },
+                "url_key": "Duopan2"
+            }
+        },
+        {
+            "key": "csp_Netfixtv",
+            "name": "💌┃️至臻┃影视",
+            "type": 3,
+            "api": "csp_Duopan",
+            "filterable": 1,
+            "ext": {
+                "site_urls": [
+                    "http://xiaomi666.fun",
+                    "https://xiaomiai.site",
+                    "https://mihdr.top",
+                    "https://www.mihdr.top",
+                    "http://www.miqk.cc",
+                    "https://www.zhizhenpan.fun"
+                ],
+                "url_key": "Netfixtv2",
+                "threadinfo": {
+                    "chunksize": 512,
+                    "threads": 16
+                }
+            }
+        },
+        {
+            "key": "csp_Panda_玩偶哥哥",
+            "name": "👲┃玩偶┃影视",
+            "api": "csp_Wogg",
+            "type": 3,
+            "searchable": 1,
+            "playerType": 2,
+            "timeout": 30,
+            "changeable": 0,
+            "ext": "https://www.wogg.one/"
+        },
+        {
+            "key": "潮流",
+            "name": "🏜┃潮流┃APP",
+            "type": 3,
+            "api": "csp_AppRJ",
+            "ext": "http://v.rbotv.cn"
+        },
+        {
+            "key": "梦回",
+            "name": "🏈┃梦回┃APP",
+            "type": 3,
+            "api": "csp_AppRJ",
+            "ext": "http://v.lkuys.cn"
+        },
+        {
+            "key": "星辉",
+            "name": "🦢┃星辉┃APP",
+            "type": 3,
+            "api": "csp_AppRJ",
+            "ext": "http://tt.ysdqjs.cn"
+        },
+        {
+            "key": "肥猫",
+            "name": "🐼┃肥猫┃APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://mac.555618.xyz",
+                "dataKey": "#getapp@TMD@2025",
+                "siteApi": "get",
+                "version": "201"
+            }
+        },
+        {
+            "key": "干饭",
+            "name": "🍚┃干饭┃APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://omofun.lol/coffee.txt",
+                "dataKey": "qwertyuiopqwertm",
+                "siteApi": "qiji",
+                "version": "301"
+            }
+        },
+        {
+            "key": "光盘",
+            "name": "📀┃光盘┃APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://app.xifanys.com",
+                "dataKey": "HM6Ly9yeS4ya3dvL",
+                "siteApi": "get",
+                "version": "119"
+            }
+        },
+        {
+            "key": "行动",
+            "name": "😌┃行动┃APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://vip.123pan.cn/1848451100/zl/xfdd.txt",
+                "dataKey": "xasdasdqwertyuio",
+                "siteApi": "get",
+                "version": "304"
+            }
+        },
+        {
+            "key": "再来",
+            "name": "✌️┃再来┃APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://cnb.cool/xiaomideyun/xiaomideyun/-/git/raw/main/kan.txt",
+                "dataKey": "2268331221bobobo",
+                "siteApi": "get",
+                "version": "107"
+            }
+        },
+        {
+            "key": "一碗",
+            "name": "🥣┃一碗┃APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://bind.315999.xyz/89.txt",
+                "dataKey": "#getapp@TMD@2025",
+                "siteApi": "get",
+                "version": "102"
+            }
+        },
+        {
+            "key": "猫抓",
+            "name": "🐱┃猫抓┃APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://qjappcms.ll4k.xyz",
+                "dataKey": "1yGA85sJ5STtE7uj",
+                "siteApi": "qiji",
+                "version": ""
+            }
+        },
+        {
+            "key": "仓鼠",
+            "name": "🐹┃耗子┃APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",
+                "dataKey": "ca94b06ca359d80e",
+                "siteApi": "qiji",
+                "version": ""
+            }
+        },
+        {
+            "key": "蔬菜",
+            "name": "🫛┃蔬菜┃APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://huohu.yihn.cc",
+                "dataKey": "huohushipingetap",
+                "siteApi": "get",
+                "version": "140"
+            }
+        },
+        {
+            "key": "黑猫",
+            "name": "🐼┃黑猫┃APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://dm.xxdm123.top:9991",
+                "dataKey": "0fe3b5781782c621",
+                "siteApi": "get",
+                "version": "203"
+            }
+        },
+        {
+            "key": "小丑",
+            "name": "🤡┃小丑┃APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://172.247.192.138:18520",
+                "dataKey": "SuNlEkOLAoWJj1Oe",
+                "siteApi": "qiji",
+                "version": ""
+            }
+        },
+        {
+            "key": "csp_Jpys",
+            "name": "🥇️┃金牌┃影视",
+            "type": 3,
+            "api": "csp_Jpys"
+        },
+        {
+            "key": "csp_Wwys",
+            "name": "🌾️┃农民┃影视",
+            "type": 3,
+            "api": "csp_Wwys",
+            "ext": "https://www.wwgz.cn"
+        },
+        {
+            "key": "csp_KmeiJu",
+            "name": "🍐┃鸭梨┃影视",
+            "type": 3,
+            "api": "csp_KmeiJu"
+        },
+        {
+            "key": "csp_Xlys",
+            "name": "🏔️┃修罗┃磁力",
+            "type": 3,
+            "api": "csp_Xlys",
+            "ext": "https://xl01.com.de"
+        },
+        {
+            "key": "csp_Tvyb",
+            "name": "☁️️┃云播┃影视",
+            "type": 3,
+            "api": "csp_Tvyb"
+        },
+        {
+            "key": "csp_Qiyou",
+            "name": "🥝┃奇优┃影视",
+            "type": 3,
+            "api": "csp_Qiyou"
+        },
+        {
+            "key": "荐片",
+            "name": "🎬┃荐片┃影视",
+            "api": "csp_Jianpian",
+            "type": 3,
+            "playerType": "2"
             
-          </div>
-          
-          <div id="resolution-copy-section" class="w-1/2 mt-6 text-15 leading-normal">
-            <h2 class="text-3xl leading-tight font-normal mb-4 text-black-dark antialiased" data-translate="what_can_i_do">如何解决?</h2>
-            <p>请使用域名访问。</p>
-          </div>
-          
-      </section>
-      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
-</div><!-- /.error-footer -->
-    </div><!-- /#cf-error-details -->
-  </div><!-- /#cf-wrapper -->
-</body>
-</html>
-<html><script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script><p id="sys_ip_remark" style=" position: fixed;bottom: 10px;left: 48%;"> </p></html>
-<script>var ip_remark_txt =function() {  
- var l_key=CryptoJS.MD5(location.hostname).toString();
- if ( l_key== 'c8a4b0e5dac6bd570ea2a5aab2496aee') {  return "第一集群香港2"; }; 
- if ( l_key == '5a205d48d491212d4ebe86123eb37dc5') {  return  "第一集群香港2"; }; 
- if ( l_key == 'a39b86a10078e9434f2ce64b62ccb5b5') {  return  "第一集群香港2"; }; 
- if ( l_key == '24fb6103bb1581a1b702f5b7cc88015b') {  return  "第一集群香港2"; }; 
- if ( l_key == 'c3651d89bcf0fa4691741472a840a366') {  return  "第一集群香港2"; }; 
- if ( l_key == '0327fd8c77f1f148d0baba0c3b88cbf3') {  return  "第一集群香港2"; }; 
- if ( l_key == '36ca1a92b7dffbbcf5e07eec6ade6158') {  return  "第一集群香港2"; }; 
- if ( l_key == 'a75bc5ef1cfaea68400ea4c8d8052b5d') {  return  "第一集群香港2"; }; 
- if ( l_key == 'd48d90aba20a01264268ae1ad9b81c0f') {  return  "第一集群香港2"; }; 
- if ( l_key == 'a86ada3fd3c00f8a13269121c84d2be4') {  return  "第一集群香港2"; }; 
- if ( l_key == '7595486e9888f99f26e32e0a5af52b4e') {  return  "第一集群香港2"; }; 
- if ( l_key == '1128f598b684c5c7286e55e1364ca9d4') {  return  "第一集群香港2"; }; 
- if ( l_key == '10bd9e383fb4d2f5ee5558f9fc1bbf40') {  return  "第一集群香港2"; }; 
- if ( l_key == 'd2e5a13f30bb0f7303b33a6bc2de45ee') {  return  "第一集群香港2"; }; 
- if ( l_key == '286a90649cbd1a503d6e2fe63748c33f') {  return  "第一集群香港2"; }; 
- if ( l_key == 'f03557efde1e795de731027df640f825') {  return  "第一集群香港2"; }; 
- if ( l_key == 'ecddc3cd73f0ad5223c818441d640be2') {  return  "第一集群香港2"; }; 
- if ( l_key == '6947248a77d7481be917e52618845ade') {  return  "第一集群香港2"; }; 
- if ( l_key == 'e2d515df45a78bbd317382cb5a979b78') {  return  "第一集群香港2"; }; 
- if ( l_key == 'a61781ea9e931c2b23773b150f224afa') {  return  "第一集群香港2"; }; 
- if ( l_key == '386a82538d65e254681dfda697ae93d2') {  return  "第一集群香港2"; }; 
- if ( l_key == '6cbe52ba8e844a7db40ede6be376993a') {  return  "第一集群香港2"; }; 
- if ( l_key == 'f7c21cd3fe133b9d58dd66f763ae9d04') {  return  "第一集群香港2"; }; 
- if ( l_key == '134c92032113e29b77eba9d51b059015') {  return  "第一集群香港2"; }; 
- if ( l_key == '3da59a0c24f9eaab90c8188d527866e4') {  return  "第一集群香港2"; }; 
- if ( l_key == 'af5154d5e4cf432e889b9ea28536e149') {  return  "第一集群香港2"; }; 
- if ( l_key == '291ff8d63b5efa98db9f99e9b6deb3ec') {  return  "第一集群香港2"; }; 
- if ( l_key == '12965f545ec348e31d5bd020f4426cb8') {  return  "第一集群香港2"; }; 
- if ( l_key == '428d91c7a8f1d8ebf0877fbb7ed312a1') {  return  "第一集群香港2"; }; 
- if ( l_key == '106150eece6477e23c6592f27c1bce04') {  return  "第一集群香港2"; }; 
- if ( l_key == '85be804b7d00318c9e51e634b170e8c6') {  return  "第一集群香港2"; }; 
- if ( l_key == '5d482ca78b615f1f406b05efd2938121') {  return  "第一集群香港2"; }; 
- if ( l_key == '0fb24cd31ecdeb0a5eb9ed5a4114a239') {  return  "第一集群香港2"; }; 
- if ( l_key == 'cb34ae27e07d71a2ca4ed5d1c7c176ad') {  return  "第一集群香港2"; }; 
- if ( l_key == 'c953e3a4f94b6ebceb9b8b2035705069') {  return  "第一集群香港2"; }; 
- if ( l_key == '1cf4e4e8143ed4099eba9ed4dfda4bd4') {  return  "第一集群香港2"; }; 
- if ( l_key == '4c75be877adecc11a4accef1d3b1196b') {  return  "第一集群香港2"; }; 
- if ( l_key == '4492d4b63c32a94cf6e50d8e778157ca') {  return  "第一集群香港2"; }; 
- if ( l_key == '8b64121d63db42fa81aafd1c71f01866') {  return  "第一集群香港2"; }; 
- if ( l_key == 'bc5547cdb80d4cc856ed38c7885e6f07') {  return  "第一集群香港2"; }; 
- if ( l_key == '6945e8205ed85ea720d217d8c4f80b41') {  return  "第一集群香港2"; }; 
- if ( l_key == '058a4adfa6c995f126f48a470886eee6') {  return  "第一集群香港2"; }; 
- if ( l_key == '2ff463e31e34d47e1f314e2b308586b5') {  return  "第一集群香港2"; }; 
- if ( l_key == 'ce0d0a9bbc6f6dcc7579b11d24bf3bfb') {  return  "第一集群香港2"; }; 
- if ( l_key == 'e15af1fd72ea808351c692b3c9b57957') {  return  "第一集群香港2"; }; 
- if ( l_key == 'acc18071d41a03b7dbb340b1e0234f87') {  return  "第一集群香港2"; }; 
- if ( l_key == 'ddc570c73f42f87f2bbbafb293725ccf') {  return  "第一集群香港2"; }; 
- if ( l_key == '4054b93afca86b1e506736d01f2ecc7e') {  return  "第一集群香港2"; }; 
- if ( l_key == 'b787056a0f0beabcf4b0fdec9d2b1feb') {  return  "第一集群香港2"; }; 
- if ( l_key == '2d150229d71eb7d396a50158ef1d490c') {  return  "第一集群香港2"; }; 
- if ( l_key == 'd01a688089bc0cfdbc02ebdfe1ce1773') {  return  "第一集群香港2"; }; 
- if ( l_key == '5171570ef9d31faaee169ceb4d50392d') {  return  "第一集群香港2"; }; 
- if ( l_key == '3cdc45f237d0addcf0e1404b1372bdfd') {  return  "第一集群香港2"; }; 
- if ( l_key == '93d3d694c8d16b010449ab58dfa84748') {  return  "第一集群香港2"; }; 
- if ( l_key == 'd7281e7e527aafe233852078b4787aaa') {  return  "第一集群香港2"; }; 
- if ( l_key == '46880a65ae0a8515a32e1a0dcc53efb8') {  return  "第一集群香港2"; }; 
- if ( l_key == '7351f7ff0d92e0e29abd56d97a163af3') {  return  "第一集群香港2"; }; 
- if ( l_key == '21cd3dba0e01f029c846896b611d6a30') {  return  "第一集群香港2"; }; 
- if ( l_key == '3a016475a40935adbcdd301461f34298') {  return  "第一集群香港2"; }; 
- if ( l_key == '818d06fd2d2b20fdc0784fa23959ef8a') {  return  "第一集群香港2"; }; 
- if ( l_key == '3cd25bf39c828690cf50d69d33c4aaf9') {  return  "第一集群香港2"; }; 
- if ( l_key == '87b8ca47288af2c441c4f11bdabec56c') {  return  "第一集群香港2"; }; 
- if ( l_key == '83c005301eb2542c6729531938bb118a') {  return  "第一集群香港2"; }; 
- if ( l_key == '037d4d7a003e69224994d2adc5f11125') {  return  "第一集群香港2"; }; 
- if ( l_key == '5d8dbce79a4d8737fa834e054ad3b9e1') {  return  "第一集群香港2"; }; 
- if ( l_key == '5b29f8aa71cc7a9238985beb0981f5cb') {  return  "第一集群香港2"; }; 
- if ( l_key == 'c32f50ac0cccd0d9110886947775eaed') {  return  "第一集群香港2"; }; 
- if ( l_key == '27ddbc1aee4bbbb95d3dd6e035ca3ba1') {  return  "第一集群香港2"; }; 
- if ( l_key == '2400682ed2fc2f742ab9f1dd2c0d796e') {  return  "第一集群香港2"; }; 
- if ( l_key == 'c5836bf0fde491f8acb7c01ab69443c2') {  return  "第一集群香港2"; }; 
- if ( l_key == 'ee40e54c3f75fe1368f2f4e4438ca8c8') {  return  "第一集群香港2"; }; 
- if ( l_key == '68b95442bb2af5a7cec829d2936d6876') {  return  "第一集群香港2"; }; 
- if ( l_key == 'f70424b425a46b2332674ee535073402') {  return  "第一集群香港2"; }; 
- if ( l_key == 'edab7d92dbae4d4c84f4569404b0eec5') {  return  "第一集群香港2"; }; 
- if ( l_key == '9c01f3dbb0f8f32c6e7352f3a71de699') {  return  "第一集群香港2"; }; 
- if ( l_key == '31146fd778dd52675d04fdb6817208be') {  return  "第一集群香港2"; }; 
- if ( l_key == 'b7a73d293ea4be395f7df8889df7baf9') {  return  "第一集群香港2"; }; 
- if ( l_key == '8d6bdc118eb3b23732b9719afc953c6b') {  return  "第一集群香港2"; }; 
- if ( l_key == 'b86c2e3f738cd5bd61a5e442e090d16c') {  return  "第一集群香港2"; }; 
- if ( l_key == '9213c3b800b86fe6b6487946eaab6112') {  return  "第一集群香港2"; }; 
- if ( l_key == 'df138f060ceef9a1565da3b97ae6f56c') {  return  "第一集群香港2"; }; 
- if ( l_key == '781deb43f8460a35c44dcf26cc8ead08') {  return  "第一集群香港2"; }; 
- if ( l_key == 'c04c2ec53fc58d859410513cd939834c') {  return  "第一集群香港2"; }; 
- if ( l_key == '43fba992d8576955e19f2e1d613551a7') {  return  "第一集群香港2"; }; 
- if ( l_key == '9a9b92428b97e8f907c0c4e17f5ea588') {  return  "第一集群香港2"; }; 
- if ( l_key == '5e22bec1741731435952993e53100ee2') {  return  "第一集群香港2"; }; 
- if ( l_key == '54e928651393f017d86fa2aa832e471a') {  return  "第一集群香港2"; }; 
- if ( l_key == '3ecb360a286227f7e6fcc478785cd87f') {  return  "第一集群香港2"; }; 
- if ( l_key == '93f857dcbbb35ecea39898b0a62500da') {  return  "第一集群香港2"; }; 
- if ( l_key == '0d99447840ae5af7fb5ddbc619261e9e') {  return  "第一集群香港2"; }; 
- if ( l_key == 'c06650d5683bfbf0f316c1e1992fadc5') {  return  "第一集群香港2"; }; 
- if ( l_key == '496856ddb39f715c190c95ea3759d667') {  return  "第一集群香港2"; }; 
- if ( l_key == 'badfd89451964e11d0ec2b6e136d17eb') {  return  "第一集群香港2"; }; 
- if ( l_key == 'e19e6a1264bb3bd6a0ea31a96c55cdd2') {  return  "第一集群香港2"; }; 
- if ( l_key== 'bbfd708d2d516532f1164c4f1a0503dc') {  return "HK2"; }; 
- if ( l_key == '054d21324ab5034244d9d67d4e886021') {  return  "HK2"; }; 
- if ( l_key == '3d4fecec59d48dd05d48d0ebfb648119') {  return  "HK2"; }; 
- if ( l_key == '31a82043b0ddf16fa07992c530ac645d') {  return  "HK2"; }; 
- if ( l_key == '8df1e686bec5a346c6b15d21c7dc886d') {  return  "HK2"; }; 
- if ( l_key == '703b37bcd9c0f34a545111e2652210e2') {  return  "HK2"; }; 
- if ( l_key == '4ef7aeb2d0645180593b6337f22c143d') {  return  "HK2"; }; 
- if ( l_key == 'ed05c32dfe64853b0f1ad981164513c3') {  return  "HK2"; }; 
- if ( l_key == 'fe6e281af056fb3007bc5fb11396a54a') {  return  "HK2"; }; 
- if ( l_key == '59af7d142e925dd4e5b58145f8a37c70') {  return  "HK2"; }; 
- if ( l_key == 'b9b0cbd9089e13ee6a958b49de428048') {  return  "HK2"; }; 
- if ( l_key == 'd2a4dfa10aae0fb69a8831614ad9f88f') {  return  "HK2"; }; 
- if ( l_key == 'a3464ccb4ba04f3610d4a175774cf34b') {  return  "HK2"; }; 
- if ( l_key == 'b1749ea33c85473291bee08ab5e0bf06') {  return  "HK2"; }; 
- if ( l_key == '5693717575cf1d674cd07afbc120b9ce') {  return  "HK2"; }; 
- if ( l_key == '4b0b1e6a20f306a57c89cb27390ceb28') {  return  "HK2"; }; 
- if ( l_key == 'b0f9374d6153069d10cd7bcb661047df') {  return  "HK2"; }; 
- if ( l_key == 'a6d3126bbc66dca961586fc48a07017b') {  return  "HK2"; }; 
- if ( l_key == 'c13a444976682c1f76623b8371f29121') {  return  "HK2"; }; 
- if ( l_key == '541c056f5b606993ff7d5595975d4c7f') {  return  "HK2"; }; 
- if ( l_key == '3cab8dc9698fad12d8f0d77b49e3430a') {  return  "HK2"; }; 
- if ( l_key == 'e7d47ee0ada616c9e894c9e85d4c657f') {  return  "HK2"; }; 
- if ( l_key == 'a07a2a4c5e5b5dd2a55f574345964eb7') {  return  "HK2"; }; 
- if ( l_key == '0d9892936b8a2329a6a7b8cfc54f44dc') {  return  "HK2"; }; 
- if ( l_key == 'a9533365b3563083599fd9676f31d08e') {  return  "HK2"; }; 
- if ( l_key == 'b9e11584e09e58fa34011d13875e1b30') {  return  "HK2"; }; 
- if ( l_key == 'd64dccbdba094c12880e198c2cdac9e3') {  return  "HK2"; }; 
- if ( l_key == '5539f80a260be3293a8e40fb0a84e70d') {  return  "HK2"; }; 
- if ( l_key == '7b77e988ab2047ef93377f54ecb460d4') {  return  "HK2"; }; 
- if ( l_key == 'c3466eccad45e6e5769b833ac076dffd') {  return  "HK2"; }; 
- if ( l_key == '1f6dbfca5b73b7f2591d36ce8fbc5448') {  return  "HK2"; }; 
- if ( l_key == '29fefe062831e856f72e5cb140130d14') {  return  "HK2"; }; 
- if ( l_key == '228a703bea0f22801b22398ae9a6ecee') {  return  "HK2"; }; 
- if ( l_key == '63faea568a83e0b97dd46a52206b221f') {  return  "HK2"; }; 
- if ( l_key == '7b1f2de95d647324e1e4edbf22be83ae') {  return  "HK2"; }; 
- if ( l_key == 'c2ab3f5e8132399b45a613386a782189') {  return  "HK2"; }; 
- if ( l_key == 'c61e0f39a8d67ef29f5a5b9bf3e7f710') {  return  "HK2"; }; 
- if ( l_key == '27468bde0493ed7c323078a2790a496b') {  return  "HK2"; }; 
- if ( l_key == 'f1c2d19a74a6fb55dadbb222b176e8ba') {  return  "HK2"; }; 
- if ( l_key == 'ff8b4deb76ca2bbca411ba82d394f69e') {  return  "HK2"; }; 
- if ( l_key == 'cc9cd5330ca912cb78b69aae2e921cb3') {  return  "HK2"; }; 
- if ( l_key == '15e89338661dfa4caa2fc2b32d480435') {  return  "HK2"; }; 
- if ( l_key == 'ad5f78c3b650e96a8857cffafb183f36') {  return  "HK2"; }; 
- if ( l_key == '55acd620a69289fea4d7fe86ecf0ff71') {  return  "HK2"; }; 
- if ( l_key == '506e2a1646b29b4b9c2577ac23a2a22c') {  return  "HK2"; }; 
- if ( l_key == 'a045db31537b2cc185f41f1fe0aa2458') {  return  "HK2"; }; 
- if ( l_key == '0284407a93220b777dfa1caa7c96a761') {  return  "HK2"; }; 
- if ( l_key == '818426c1ae1d1fb3e0466f669b9b8559') {  return  "HK2"; }; 
- if ( l_key == '5c0c1f09984a4b4c212aaade00dfd3c1') {  return  "HK2"; }; 
- if ( l_key == '876016b9bb5b6a99d4753be8b4ed0443') {  return  "HK2"; }; 
- if ( l_key == '8713ba969d32e4048fe37b458fc4442c') {  return  "HK2"; }; 
- if ( l_key == '6937a80975480a85c5e9b7fd622cb2d6') {  return  "HK2"; }; 
- if ( l_key == '874403f17a6338e530d0ebfc5b7d0d4c') {  return  "HK2"; }; 
- if ( l_key == '20f1f0b3cf0b0b04ca138933aa6a3868') {  return  "HK2"; }; 
- if ( l_key== '741312eca1297268f1906b4993b7475f') {  return "香港节点1"; }; 
- if ( l_key == '5bf397f811bd0615b28abc066fee74d9') {  return  "香港节点1"; }; 
- if ( l_key == 'e3aad5d2fd1197cf1005599733d0693c') {  return  "香港节点1"; }; 
- if ( l_key == '55cefc7642879b13da01af0b97959c76') {  return  "香港节点1"; }; 
- if ( l_key == '0b9c42f617e54c1f3e94ee35ce528640') {  return  "香港节点1"; }; 
- if ( l_key == '73645718cf9fbba79459d6f1f0b26d38') {  return  "香港节点1"; }; 
- if ( l_key == 'd66f3d1686b790498ee61df40374c8fc') {  return  "香港节点1"; }; 
- if ( l_key == '80ee5c5706f7b247bcbd955ffd9373d0') {  return  "香港节点1"; }; 
- if ( l_key == 'a82511c45e2084042ed966690c0dba40') {  return  "香港节点1"; }; 
- if ( l_key == '557bef5a2e22a8440beeaefc520a04cc') {  return  "香港节点1"; }; 
- if ( l_key == 'f78862121ce50701834f00fa1348d4e6') {  return  "香港节点1"; }; 
- if ( l_key == '4b4800b551aa8b9710e5a6f3e3445c1a') {  return  "香港节点1"; }; 
- if ( l_key == 'f63d67060fb3f12ea3432c8f56d4bee5') {  return  "香港节点1"; }; 
- if ( l_key == 'df667a9e4407eeade93df212ef5f6667') {  return  "香港节点1"; }; 
- if ( l_key == '16f579ae3302355b6c81c3be719594a0') {  return  "香港节点1"; }; 
- if ( l_key == 'abceefc56432bba25327d86d140932ff') {  return  "香港节点1"; }; 
- if ( l_key == '58056cf79790375e08c9662f12524419') {  return  "香港节点1"; }; 
- if ( l_key == '1e82fa9da77561ea400cb2cbd3dab873') {  return  "香港节点1"; }; 
- if ( l_key == '327efef8f3e07b3e4d99a93ef9ebedad') {  return  "香港节点1"; }; 
- if ( l_key == '6a503c65f7ecfe0b68a37b3b8a393416') {  return  "香港节点1"; }; 
- if ( l_key == '1c8d9f352e325d0939e3320da7cd88d9') {  return  "香港节点1"; }; 
- if ( l_key == '3b8e9bd34d05bb6b8d5acfb15b24e756') {  return  "香港节点1"; }; 
- if ( l_key == 'c6b77cd8c6be4fa8b4fb63635450c6cb') {  return  "香港节点1"; }; 
- if ( l_key == '75bd1477cce99546453b8be235590a0c') {  return  "香港节点1"; }; 
- if ( l_key == 'd5a3153f674a1dd9ddf5f45b2e382a3c') {  return  "香港节点1"; }; 
- if ( l_key == '8a75bf09b9a3f07ec0128d3f89065647') {  return  "香港节点1"; }; 
- if ( l_key == '4917178f71a05c259621a811410264f4') {  return  "香港节点1"; }; 
- if ( l_key == 'ae7a7fcfefb3140fd0458f7e57f248bf') {  return  "香港节点1"; }; 
- if ( l_key == 'd302900bd8bce7334cad10b85497d329') {  return  "香港节点1"; }; 
- if ( l_key == '4870b6f85fe72d3567786b70452982a8') {  return  "香港节点1"; }; 
- if ( l_key == 'b8a90c22bebdcf80205363196249bb79') {  return  "香港节点1"; }; 
- if ( l_key == '1ddc802723ca46e99bd7098594a439f0') {  return  "香港节点1"; }; 
- if ( l_key == 'bcb3e75095be43bfbef5d670811041d8') {  return  "香港节点1"; }; 
- if ( l_key == '3ccd97e2dd950734e473c32331ac231f') {  return  "香港节点1"; }; 
- if ( l_key == 'c603455b863ad40757849318c2f8ec94') {  return  "香港节点1"; }; 
- if ( l_key == 'd00baba721023bc5f08aed55e9df85bc') {  return  "香港节点1"; }; 
- if ( l_key == 'a473b612e9fe404d1b2f3da1a1cd9eef') {  return  "香港节点1"; }; 
- if ( l_key == 'faa77a215df14e8db2666bc89ac61ef9') {  return  "香港节点1"; }; 
- if ( l_key == 'c86e30281d114d182d84c8673bf42c43') {  return  "香港节点1"; }; 
- if ( l_key == 'c184b0ff13495039867d64169f9cf070') {  return  "香港节点1"; }; 
- if ( l_key == 'f59a780cb5113763a349bb5969b72995') {  return  "香港节点1"; }; 
- if ( l_key == '6cb3909c508e6721b36b3a3213b0a7af') {  return  "香港节点1"; }; 
- if ( l_key == 'd96f85e34cc83e0d7a3c0f67d4e9480b') {  return  "香港节点1"; }; 
- if ( l_key == '8ad9b5b9db94d753b623785c2b2fd2dd') {  return  "香港节点1"; }; 
- if ( l_key == '9ea3e31bdc1ceb27d2cd492e2df26cc5') {  return  "香港节点1"; }; 
- if ( l_key == '5083ba4f69f7a54fb52c20ee0d094743') {  return  "香港节点1"; }; 
- if ( l_key == '4ecf0e9152790d58c0d7f95caecd4b3a') {  return  "香港节点1"; }; 
- if ( l_key == 'f85d59f29ee6686d2c29af488c1e378c') {  return  "香港节点1"; }; 
- if ( l_key == 'a510e94a89fd53d0a27da7bc73b69960') {  return  "香港节点1"; }; 
- if ( l_key == '083985d93c1fc751f553bddcfe33e0bf') {  return  "香港节点1"; }; 
- if ( l_key == '8f7af4abb88fe67a1420dda382d96fbd') {  return  "香港节点1"; }; 
- if ( l_key == '23b5af5534a690f2f35eef2b07a51d9b') {  return  "香港节点1"; }; 
- if ( l_key == '44718320b6008ce2f81d156557dfe04d') {  return  "香港节点1"; }; 
- if ( l_key == '3bc34934886f2697d05c40c9ff27daa0') {  return  "香港节点1"; }; 
- if ( l_key == 'e20128545e8cf60c248e24e4a4692da8') {  return  "香港节点1"; }; 
- if ( l_key == 'b0505fa1b7079659e574410499d0690c') {  return  "香港节点1"; }; 
- if ( l_key == '8a5d3132ccc44ea95102271423bc6b32') {  return  "香港节点1"; }; 
- if ( l_key== '7334af33bcbbf731d32d166f3a143098') {  return "香港集群3"; }; 
- if ( l_key == 'f24411b8d19a175a5e4b15fa571ef385') {  return  "香港集群3"; }; 
- if ( l_key == '639508036e660a25c3acdae9f4d5e61a') {  return  "香港集群3"; }; 
- if ( l_key == '0f403069e270452c4793de278a83ac46') {  return  "香港集群3"; }; 
- if ( l_key == 'e044f66f1b218361690cdcde14cd1b1a') {  return  "香港集群3"; }; 
- if ( l_key == 'b9ffcb76e2d3ff3b95e34d7e067d3d92') {  return  "香港集群3"; }; 
- if ( l_key == '1d610a180bc7548df228d52facd8febc') {  return  "香港集群3"; }; 
- if ( l_key == '09790878873bd4aeb61b9bbd9a9b4d19') {  return  "香港集群3"; }; 
- if ( l_key == '2f331e9ed9d3de4828c0922cb7cc4851') {  return  "香港集群3"; }; 
- if ( l_key == 'bda0c7c474b7011ba569cd3f3df466bf') {  return  "香港集群3"; }; 
- if ( l_key == '30c2b8e04a747fc38fa6b256d6577562') {  return  "香港集群3"; }; 
- if ( l_key == 'e8095f9ab8c47be72df090461665a0c9') {  return  "香港集群3"; }; 
- if ( l_key == '12a21b9bbf79a9b457de13f15340647d') {  return  "香港集群3"; }; 
- if ( l_key == 'b9c7f95325bf6fd976ec50d1c5f88088') {  return  "香港集群3"; }; 
- if ( l_key == '04f8e0e8f34fd9046c96ae635eafd7ad') {  return  "香港集群3"; }; 
- if ( l_key == '9ee058b08365e01f0d8cd3d68b74637a') {  return  "香港集群3"; }; 
- if ( l_key == '092cdfabc1cff98cc0935695076d4ec0') {  return  "香港集群3"; }; 
- if ( l_key == '041c957a2a458743ca2d328f0e425cdd') {  return  "香港集群3"; }; 
- if ( l_key == '7a4de943bfac09c38203e6b1c5c7b06c') {  return  "香港集群3"; }; 
- if ( l_key == '42b6e49e3ce3480d9634ed17d22c151e') {  return  "香港集群3"; }; 
- if ( l_key == '2ca628b1dc873c8b5c1c7d64d3460bda') {  return  "香港集群3"; }; 
- if ( l_key == '5457d563484fe9d9be9a1bda88a11fa4') {  return  "香港集群3"; }; 
- if ( l_key == '3fb0d6bfb8b20c8d48a10b3c95b804dc') {  return  "香港集群3"; }; 
- if ( l_key == '08958595296e0602b5dcb94b7d5327de') {  return  "香港集群3"; }; 
- if ( l_key == 'e69458adb48e9fb2afeed4471cce343e') {  return  "香港集群3"; }; 
- if ( l_key == '514c47eb15bf3166d542d60e9c018019') {  return  "香港集群3"; }; 
- if ( l_key == '77538c24a42e6ceb487458144e1613b1') {  return  "香港集群3"; }; 
- if ( l_key == '35ca6395c0d6290bb9ebd1a5e897f4ee') {  return  "香港集群3"; }; 
- if ( l_key== 'e8ef1e79cc4b8a58e6d7f60e63a887cd') {  return "老香港节点2"; }; 
- if ( l_key == 'bb29d8306c0193c2386510eec071936a') {  return  "老香港节点2"; }; 
- if ( l_key == '41f5690b6bd30b19992793956833b55c') {  return  "老香港节点2"; }; 
- if ( l_key == '60803745d8f4588ca36ce016e70bf078') {  return  "老香港节点2"; }; 
- if ( l_key == '590e5c9a53b7b2bf7bb95fe6eeb135d8') {  return  "老香港节点2"; }; 
- if ( l_key == '61f19079bae04ece6fb2d1642bffe1e7') {  return  "老香港节点2"; }; 
- if ( l_key == '65c16846378920d15504488ffd702dba') {  return  "老香港节点2"; }; 
- if ( l_key == 'be4d6b35c32d47d268af2662774faa6c') {  return  "老香港节点2"; }; 
- if ( l_key == 'e14a37eaa872b89f1e51c1d3856ab772') {  return  "老香港节点2"; }; 
- if ( l_key == '4566169ef7d8e5d2b55be843ca935b28') {  return  "老香港节点2"; }; 
- if ( l_key == 'ca7720da08cfdbeb6bb0b420647dcf74') {  return  "老香港节点2"; }; 
- if ( l_key == '4d2caa0ebc2935e756749ac090408215') {  return  "老香港节点2"; }; 
- if ( l_key == 'cdee040e63c07ab832bf2372e952c733') {  return  "老香港节点2"; }; 
- if ( l_key == '50ee04e7437b03f7259c09824ea19783') {  return  "老香港节点2"; }; 
- if ( l_key == '90811fc1a3b48278f91434ce716185b8') {  return  "老香港节点2"; }; 
- if ( l_key == '11a9bfb8625e28db5876f4054d3844c1') {  return  "老香港节点2"; }; 
- if ( l_key == 'eee24711506eb92a7c7e39c2c464e8e7') {  return  "老香港节点2"; }; 
- if ( l_key == '80afc78a0fd5cb13f8d7c224bf1459ee') {  return  "老香港节点2"; }; 
- if ( l_key == '7f6985dca948e1a0dd2099835d973aeb') {  return  "老香港节点2"; }; 
- if ( l_key == 'b9a30b7eb0f0c754c61cecb925f9fdc2') {  return  "老香港节点2"; }; 
- if ( l_key == '305c22c78e14049a087082856472b064') {  return  "老香港节点2"; }; 
- if ( l_key == 'afab50b440041eb8f144fa54f94cf53d') {  return  "老香港节点2"; }; 
- if ( l_key == 'e6c29ea7aec931d8105cf9c88dfac1bf') {  return  "老香港节点2"; }; 
- if ( l_key == 'e97a2c88605495e5d2e11d121ca9ec03') {  return  "老香港节点2"; }; 
- if ( l_key == 'c902406bc3784ca412ebb143c570c21b') {  return  "老香港节点2"; }; 
- if ( l_key == '68f505256b4d23b7db43f076aadb449d') {  return  "老香港节点2"; }; 
- if ( l_key == '66670810799adea8240d68841bf72dbe') {  return  "老香港节点2"; }; 
- if ( l_key == 'c10077c50bd78a65688256d1e3de0064') {  return  "老香港节点2"; }; 
- if ( l_key == 'cc589391b7f81884b45842a8ac7e48c5') {  return  "老香港节点2"; }; 
- if ( l_key == '2e300c4fcffc155b72a733d2508ae52e') {  return  "老香港节点2"; }; 
- if ( l_key == 'ba6552fcb4d8f80feb9151fc75231a20') {  return  "老香港节点2"; }; 
- if ( l_key == '7a01acba02b6684e322fbb91546d6bec') {  return  "老香港节点2"; }; 
- if ( l_key == '472b6a70f054b0dee06a9a996924ac90') {  return  "老香港节点2"; }; 
- if ( l_key == '56a1fd265954c4f8d69080c7637b0e5f') {  return  "老香港节点2"; }; 
- if ( l_key == 'c54700661a183512d031b67aca067349') {  return  "老香港节点2"; }; 
- if ( l_key == '3b1f420af4a689af0fec40a55f9ec87d') {  return  "老香港节点2"; }; 
- if ( l_key == 'cc0a9b6c98e65356f60f999810c1d35a') {  return  "老香港节点2"; }; 
- if ( l_key == '4a50d32048a1cc712dbb3be36cac2c72') {  return  "老香港节点2"; }; 
- if ( l_key == '2f7596a704a1745d62e873b44d3b55ec') {  return  "老香港节点2"; }; 
- if ( l_key == '6e0fe3250b1fdc586b59d9fd4c489343') {  return  "老香港节点2"; }; 
- if ( l_key == 'ddf2911ade58ff720552f88e6f0420b1') {  return  "老香港节点2"; }; 
- if ( l_key == '3cd0d8c94135c4c94beedb9ea2a9ec51') {  return  "老香港节点2"; }; 
- if ( l_key == '918080f8d61886f4f0b5d738f8b4f8be') {  return  "老香港节点2"; }; 
- if ( l_key == 'ba3dbcfac7c518c7612dc6a84099091c') {  return  "老香港节点2"; }; 
- if ( l_key == '17d3bcc399a1d37f106fa9901af6904c') {  return  "老香港节点2"; }; 
- if ( l_key == '5384ec4c841f98b9d2b32ea7d60a22e8') {  return  "老香港节点2"; }; 
- if ( l_key == '56dd662090b8b129419a3f95c2d1c2be') {  return  "老香港节点2"; }; 
- if ( l_key == 'fcf2a40bb4b8114bc6700ee9a123dc20') {  return  "老香港节点2"; }; 
- if ( l_key == 'c30dfd3e15484b6016cf898880cad9fa') {  return  "老香港节点2"; }; 
- if ( l_key == '84c9fab0c166cac818f0c865c74ec071') {  return  "老香港节点2"; }; 
- if ( l_key == 'e36ad336cf7b74c121351ae02db0c82d') {  return  "老香港节点2"; }; 
- if ( l_key == '61f6fa38138d286ed03ad1739d80b1aa') {  return  "老香港节点2"; }; 
- if ( l_key == 'd3c3fef80201d794671c36a9ad8c0fba') {  return  "老香港节点2"; }; 
- if ( l_key == 'ee052ba53074ad98f25326463e7d1bbb') {  return  "老香港节点2"; }; 
- if ( l_key == 'b0ce44b36e11d2f8e124626da47c3294') {  return  "老香港节点2"; }; 
- if ( l_key == '7afa1ab27aab1a021b99b81f0dd3940d') {  return  "老香港节点2"; }; 
- if ( l_key == 'f48feedd5065c08829628f6a0a12b8e8') {  return  "老香港节点2"; }; 
- if ( l_key == 'e3c7d7b01d4f00b8e8b2e6cf255bd708') {  return  "老香港节点2"; }; 
- if ( l_key == '96548e7d1eb5ea49430a0681cdc83bde') {  return  "老香港节点2"; }; 
- if ( l_key == '0e1ce7a78c24b302e6945e9143958ce3') {  return  "老香港节点2"; }; 
- if ( l_key == 'b53c245d2c4e550fd5d1f66ac2b7d54c') {  return  "老香港节点2"; }; 
- if ( l_key == 'b979e96e6c807e13774b24f4fbc6763d') {  return  "老香港节点2"; }; 
- if ( l_key == 'b8035a99b31cc1282ddfb2438bc153d9') {  return  "老香港节点2"; }; 
- if ( l_key == 'e8ec2a13818a62cc94bf57c72e625875') {  return  "老香港节点2"; }; 
- if ( l_key == '39085eee47478a84e4e766aaa6bc925a') {  return  "老香港节点2"; }; 
- if ( l_key == 'bb78efc6c6572cf1fc745f2b33eae0ce') {  return  "老香港节点2"; }; 
- if ( l_key == '1aa7cd9274f6535875c4de6913912ecd') {  return  "老香港节点2"; }; 
- if ( l_key == '3fe30e4a0b9d63fe3e8b1d29fbbc6e6c') {  return  "老香港节点2"; }; 
- if ( l_key == '50e22ef0c68523db8ac4497fbc7d968e') {  return  "老香港节点2"; }; 
- if ( l_key == '80822b321254470bab0538a8aa77fcbb') {  return  "老香港节点2"; }; 
- if ( l_key== 'c904404a5fcafbfffe663a0551c39cbd') {  return "USDDOSYD"; }; 
- if ( l_key == '9f9f9dba7efb72a620b75efb3e65bc03') {  return  "USDDOSYD"; }; 
- if ( l_key == 'd9cc05496f6024fc6511635ea1b7cc7b') {  return  "USDDOSYD"; }; 
- if ( l_key == '7e11493b3fdb5c7f678d92a05ab853a9') {  return  "USDDOSYD"; }; 
- if ( l_key == 'c21534bfe5fe42d00a7459062ac540bd') {  return  "USDDOSYD"; }; 
- if ( l_key == '41e4a3e52fcdd7f4a213d5abc875b90f') {  return  "USDDOSYD"; }; 
- if ( l_key == 'e4f307cdfc4001653ffc63bc9809121b') {  return  "USDDOSYD"; }; 
- if ( l_key == '3c34737d07ad2d5e81ebe900bda3f9aa') {  return  "USDDOSYD"; }; 
- if ( l_key == '40bac048494843dc3a8f7cba69f7fda5') {  return  "USDDOSYD"; }; 
- if ( l_key == 'eb40179a8b60e1562cd5f9c580902d8d') {  return  "USDDOSYD"; }; 
- if ( l_key == 'ab76055247405c99839540e21ad55365') {  return  "USDDOSYD"; }; 
- if ( l_key == 'cb8cec66f7e76dc709b58f7fd890b582') {  return  "USDDOSYD"; }; 
- if ( l_key == 'f36dad000c90116ab2c08e59fa23ef9f') {  return  "USDDOSYD"; }; 
- if ( l_key == 'ab462ac2f6d9e7ce621a010458d69455') {  return  "USDDOSYD"; }; 
- if ( l_key == 'b9f7a310e1f66874d5ffbd412c051dac') {  return  "USDDOSYD"; }; 
- if ( l_key == 'b63203235e1e7442d40cf39e5a934e90') {  return  "USDDOSYD"; }; 
- if ( l_key == 'e7b9a471816e9de871b78fc9a5a00656') {  return  "USDDOSYD"; }; 
- if ( l_key == '001693dd8e9d62f065706073c0144f0d') {  return  "USDDOSYD"; }; 
- if ( l_key == 'e6a6c4b94de1e4807674f558a6965cf5') {  return  "USDDOSYD"; }; 
- if ( l_key == '5113d2187ed7fa3f811cc1c2e20139ca') {  return  "USDDOSYD"; }; 
- if ( l_key == '0ab752090d31b366d1e3f706224bfc1f') {  return  "USDDOSYD"; }; 
- if ( l_key == 'd58a5a5c87c69750b1ece34e7f850017') {  return  "USDDOSYD"; }; 
- if ( l_key == '54bd55f348277bc296e4c39010fd3939') {  return  "USDDOSYD"; }; 
- if ( l_key == '7e8cc3345673161cba25947175e59003') {  return  "USDDOSYD"; }; 
- if ( l_key == 'cc9e649e9b0f42dcfca12781b8ccca8b') {  return  "USDDOSYD"; }; 
- if ( l_key == 'cf904c2c1262b170beb843dc50331822') {  return  "USDDOSYD"; }; 
- if ( l_key == '728ee20188bf72f538f069a2e97c4586') {  return  "USDDOSYD"; }; 
- if ( l_key == '0d9f723aa5b772793339e54bd716c532') {  return  "USDDOSYD"; }; 
- if ( l_key == 'b71eb127438b5758ce361070895e9d49') {  return  "USDDOSYD"; }; 
- if ( l_key == '0d07ff2a1e0e422d7f8b33b6ca87bcb0') {  return  "USDDOSYD"; }; 
- if ( l_key == '5cbc14e464682402e28c4466512fc8e5') {  return  "USDDOSYD"; }; 
- if ( l_key == 'ea873a063ebfe1332c8433490d7be2aa') {  return  "USDDOSYD"; }; 
- if ( l_key == '0748cf6ea767f69c17b96e94a8e15362') {  return  "USDDOSYD"; }; 
- if ( l_key == '5cf494b72e8bef9ff91b62866ce0784e') {  return  "USDDOSYD"; }; 
- if ( l_key == '4a120ee7f75ce79af8e23b4aae4ec04a') {  return  "USDDOSYD"; }; 
- if ( l_key == 'fffd910ca39de423491a1102951d7462') {  return  "USDDOSYD"; }; 
- if ( l_key == '9dd356ad53704404059b3c0804072d31') {  return  "USDDOSYD"; }; 
- if ( l_key == 'bf8ac9e781ca043f9ebb110394a91bcd') {  return  "USDDOSYD"; }; 
- if ( l_key == 'f9a54cc5c1d1049ff78b53115d587ae7') {  return  "USDDOSYD"; }; 
- if ( l_key == '6556dea47a6980e0f6b61f068d529fcf') {  return  "USDDOSYD"; }; 
- if ( l_key == '95a9cf9d9b07d7ec5ab4f0937060e51b') {  return  "USDDOSYD"; }; 
- if ( l_key== '197121d6ae0b2aac65b7e1e2e9317cc7') {  return "集群2美国高防"; }; 
- if ( l_key == '7dc136100b5691181cc62f4e77ffc249') {  return  "集群2美国高防"; }; 
- if ( l_key == '93123ca3029186e1eaaf7daa751e7241') {  return  "集群2美国高防"; }; 
- if ( l_key == '703b8f8240f1204ce2bd71baf203cfb6') {  return  "集群2美国高防"; }; 
- if ( l_key == 'ab4903b6dc9d4620bb30c127e5631f14') {  return  "集群2美国高防"; }; 
- if ( l_key == '5d1c5325cdaf949c1662740566808ebf') {  return  "集群2美国高防"; }; 
- if ( l_key == '105803df2133067e8b1d58ed2226659b') {  return  "集群2美国高防"; }; 
- if ( l_key == '341405fe65c1473fddfe3bb33dc94caf') {  return  "集群2美国高防"; }; 
- if ( l_key == '2f3752ad8b71a4ee88dcf218e4fc3a0d') {  return  "集群2美国高防"; }; 
- if ( l_key == '2e17b007c35160f81a7f710db5482699') {  return  "集群2美国高防"; }; 
- if ( l_key == 'c8a2059a9042250f5d3ea8b51bc15b42') {  return  "集群2美国高防"; }; 
- if ( l_key == '1db8f657928f0a1f772e2b488eeee34b') {  return  "集群2美国高防"; }; 
- if ( l_key == 'b2ab6abac4ce649b412e202de1254582') {  return  "集群2美国高防"; }; 
- if ( l_key == '8030c8d31ac172a4de5da282d27aa316') {  return  "集群2美国高防"; }; 
- if ( l_key == '72f84d0594ede544e89794020c1a44ba') {  return  "集群2美国高防"; }; 
- if ( l_key == '51d5245d0dc549f8adc9cc623777f929') {  return  "集群2美国高防"; }; 
- if ( l_key == 'e903c2119c256fbb260c5d56a46886e0') {  return  "集群2美国高防"; }; 
- if ( l_key == 'c10c2e954aa5f2d7c523e53c029be11b') {  return  "集群2美国高防"; }; 
- if ( l_key== '9570fbca70f46c11d663d0eafaad5763') {  return "无延时YD2"; }; 
- if ( l_key == 'aff189218da2a9627d91a27069430343') {  return  "无延时YD2"; }; 
- if ( l_key == '1c5e97616a286fa380182762774551a3') {  return  "无延时YD2"; }; 
- if ( l_key == '8d05e352aeefb5c1abc82b9306d98bb9') {  return  "无延时YD2"; }; 
- if ( l_key == '55cd1dda9d4e8c081c3ad47681f5f1ac') {  return  "无延时YD2"; }; 
- if ( l_key == 'd63f88e78e7aadb6a5dc27dbc7036478') {  return  "无延时YD2"; }; 
- if ( l_key == '902342ee2b18d9904d465c461794d9e2') {  return  "无延时YD2"; }; 
- if ( l_key == 'c48324211a5782d19c26d7eeeed5a78c') {  return  "无延时YD2"; }; 
- if ( l_key == '1408b5913681603950c696af63a01efb') {  return  "无延时YD2"; }; 
- if ( l_key == '0f74f3a82f95323de909067a57783e62') {  return  "无延时YD2"; }; 
- if ( l_key == 'a46c804c62212bce6949608072768134') {  return  "无延时YD2"; }; 
- if ( l_key == 'cc7eecb09d7d358181e8fad02bbc29b3') {  return  "无延时YD2"; }; 
- if ( l_key == '9ca3007ba1fb71b09c3e39128bf8ee4c') {  return  "无延时YD2"; }; 
- if ( l_key == 'f1623f05b8b9b5560ae1312d3fa2d110') {  return  "无延时YD2"; }; 
- if ( l_key == '2854e02a6fc1da03d0434ae692965bcb') {  return  "无延时YD2"; }; 
- if ( l_key == '4bc2957661bbc53feac2adb12b60571d') {  return  "无延时YD2"; }; 
- if ( l_key == '70d3ea19f24ffc60e2dc69471c82fffa') {  return  "无延时YD2"; }; 
- if ( l_key == '826274db511b5d6c04316c212b41ca5d') {  return  "无延时YD2"; }; 
- if ( l_key == 'a5407060666d4b7dee858dbdf7439e1a') {  return  "无延时YD2"; }; 
- if ( l_key == '317dc9be5dda738930f08a7ae93034ad') {  return  "无延时YD2"; }; 
- if ( l_key == '37398467f90e898dcfcbe2effc66f4d5') {  return  "无延时YD2"; }; 
- if ( l_key == '8f98d3410d83dbd9b18b2fd5462b33c4') {  return  "无延时YD2"; }; 
- if ( l_key == 'e1a8cb9333b9e1c51bc00bf241b4e6c7') {  return  "无延时YD2"; }; 
- if ( l_key == 'a0db706c3e82fb9baf1c830205dd6e41') {  return  "无延时YD2"; }; 
- if ( l_key == '17a40149c6987a6d4ec8d5c1c29c45ce') {  return  "无延时YD2"; }; 
- if ( l_key == 'a1d09983b4b16788ba201f361e328e15') {  return  "无延时YD2"; }; 
- if ( l_key == 'e4c036253983aed9d32980943c2a4e4b') {  return  "无延时YD2"; }; 
- if ( l_key == 'ed42b5fcb82cd80a915011f7590d0e5a') {  return  "无延时YD2"; }; 
- if ( l_key == '910903bd527cfec38db68487d1bcaa0a') {  return  "无延时YD2"; }; 
- if ( l_key == '39fb4687991f8e816b0a280c32ba9d4d') {  return  "无延时YD2"; }; 
- if ( l_key== 'ce31b989463d8bbfa4b3e99f603fbb7b') {  return "集群3美国防"; }; 
- if ( l_key == '81636da66fbd79f5e2b4ea95be0d3631') {  return  "集群3美国防"; }; 
- if ( l_key == 'c09e2a2dc445ea78d113fc5236ffeffe') {  return  "集群3美国防"; }; 
- if ( l_key == 'c493b4e493159cab0468ac96a4e0dd74') {  return  "集群3美国防"; }; 
- if ( l_key == '24f6bba2b7ddae5a1bac4cbcaaadff2f') {  return  "集群3美国防"; }; 
- if ( l_key== '746ed09c054cb288d8a309033f3bb821') {  return "第五集群USA"; }; 
- if ( l_key == '62bbd5138bef0bf1f6876cd0cebc503c') {  return  "第五集群USA"; }; 
- if ( l_key == '77abe3b2afd6cadeb7ec2cb9fbd64eee') {  return  "第五集群USA"; }; 
- if ( l_key == 'ddcb4c882002e8f659a76731410c9f23') {  return  "第五集群USA"; }; 
- if ( l_key == '4b23f071ad50d56d409fa58e30c41e88') {  return  "第五集群USA"; }; 
- if ( l_key == 'a193338598eacf9d479934fa5a05e9c9') {  return  "第五集群USA"; }; 
- if ( l_key == '48a9a1ae6d5c26cb2c51b401d580355e') {  return  "第五集群USA"; }; 
- if ( l_key == 'cf278573422b4b6a84329bc8a8e3781f') {  return  "第五集群USA"; }; 
- if ( l_key == '30a575682cfabcd089a9426edea7a60f') {  return  "第五集群USA"; }; 
- if ( l_key == '2192b2190e199f42ba1eb09715ff293d') {  return  "第五集群USA"; }; 
- if ( l_key == '017caab4378a3f93b8137646fd9bd5ed') {  return  "第五集群USA"; }; 
- if ( l_key == 'd5465d692b7793852034cf6d2828c3f8') {  return  "第五集群USA"; }; 
- if ( l_key == '586ebcfc737a9251e32699ea3e0e5658') {  return  "第五集群USA"; }; 
- if ( l_key == 'c3534c0c3b3e2a857d9a3265ad8d6752') {  return  "第五集群USA"; }; 
- if ( l_key == '52d3e8f28d3e1de677e6684ec51a6dc0') {  return  "第五集群USA"; }; 
- if ( l_key == '587ef110e4dd8c012e0283ee12bc73fd') {  return  "第五集群USA"; }; 
- if ( l_key == '3332ff9b9896e008e94d801ffdf038cd') {  return  "第五集群USA"; }; 
- if ( l_key == '6016a28797397d86af8b30227ca45cfb') {  return  "第五集群USA"; }; 
- if ( l_key == 'be4b251b69acfc040948211f4d6135ba') {  return  "第五集群USA"; }; 
- if ( l_key == '08364ab6ca7dc156e9dfb83d2759f0bf') {  return  "第五集群USA"; }; 
- if ( l_key == '0c58940b1f5659718588dddd646bb3d8') {  return  "第五集群USA"; }; 
- if ( l_key == 'b848630fe944725035f0d1898de0b7bd') {  return  "第五集群USA"; }; 
- if ( l_key == '74fd3d4c9b51c9500895ed668e532bbc') {  return  "第五集群USA"; }; 
- if ( l_key == '9dc45e403f3e11916b49d7f4b87ed42d') {  return  "第五集群USA"; }; 
- if ( l_key == '1f8ce554ea0a33aaeeb754716b536e44') {  return  "第五集群USA"; }; 
- if ( l_key == 'a5ea2444d4bb286e07d3cb50f33c1279') {  return  "第五集群USA"; }; 
- if ( l_key == '6e5a5c489a5485ff05c831307ac47582') {  return  "第五集群USA"; }; 
- if ( l_key == 'bb40382d4a0bf5deeabdc45462aead0d') {  return  "第五集群USA"; }; 
- if ( l_key == '9f3fd0eb4c8566da205ae4a8458abe34') {  return  "第五集群USA"; }; 
- if ( l_key == 'e3828e6fa24eaaf56fce1cb011f79584') {  return  "第五集群USA"; }; 
- if ( l_key == '89af640994a48e3c8b0b5afa5b09fdfd') {  return  "第五集群USA"; }; 
- if ( l_key== '26e6cafcba7ae55d48c6b3566ae0e8fa') {  return "谷歌云加速"; }; 
- if ( l_key == 'e3d3441c826ff797b94011619daea676') {  return  "谷歌云加速"; }; 
- if ( l_key == '64f4a146a8424369aa646872092b70a7') {  return  "谷歌云加速"; }; 
- if ( l_key == 'd3eba8794e5aaf89d2f05fb4cd827234') {  return  "谷歌云加速"; }; 
- if ( l_key == 'eab17cdc059f58cc329fc9f923a44539') {  return  "谷歌云加速"; }; 
- if ( l_key == '85989356bc583de76dd895e9c3237e5f') {  return  "谷歌云加速"; }; 
- if ( l_key == 'af9ade305cf750fd77bd2900222d9dfc') {  return  "谷歌云加速"; }; 
- if ( l_key == '18c0d6c2173ac8febc5fb52d7588b7b4') {  return  "谷歌云加速"; }; 
- if ( l_key== '893dd2f82031494139a5970b75a21162') {  return "过YD专用4"; }; 
- if ( l_key == '46f4b7f32e98fc45db355d7462530cff') {  return  "过YD专用4"; }; 
- if ( l_key == 'af4b04ce17fee313662918fb8b52cc92') {  return  "过YD专用4"; }; 
- if ( l_key == '1b86d94188ef4ed146c2ae03ed154349') {  return  "过YD专用4"; }; 
- if ( l_key == '85cb956095a1d40436710d46f0e93eff') {  return  "过YD专用4"; }; 
- if ( l_key == 'ccb874239a7e94bef865cf9c3dba9b45') {  return  "过YD专用4"; }; 
- if ( l_key == '2a43425b0438f149d46b17fa31fda313') {  return  "过YD专用4"; }; 
- if ( l_key == '9f2ef96bd46447c7b29f619474044792') {  return  "过YD专用4"; }; 
- if ( l_key == '005cf06469163b18c47126cf3482380d') {  return  "过YD专用4"; }; 
- if ( l_key == '060db9f73dbe2a83d67a6cda9ffef49a') {  return  "过YD专用4"; }; 
- if ( l_key == 'f5118b5d4eb268b76e76421db47776c5') {  return  "过YD专用4"; }; 
- if ( l_key == 'f834b8ea880d4bbb886f2d71f639bf3a') {  return  "过YD专用4"; }; 
- if ( l_key == 'c91d4eacf547c0327ce70b29767545aa') {  return  "过YD专用4"; }; 
- if ( l_key == 'c44205006ca82d563a355f88ebc968e8') {  return  "过YD专用4"; }; 
- if ( l_key == 'dc74472966535b31172dacbabe1f57a8') {  return  "过YD专用4"; }; 
- if ( l_key == '0d8d5c6520cc3cadc50e7145e4cadb86') {  return  "过YD专用4"; }; 
- if ( l_key == 'e69b2efc537784348809980b20aff07f') {  return  "过YD专用4"; }; 
- if ( l_key == 'e2c76004d33e7778187b5ce962ec3637') {  return  "过YD专用4"; }; 
- if ( l_key == '1aaab7b13556a7b989383a000b1ea845') {  return  "过YD专用4"; }; 
- if ( l_key == 'de740039df8f6f467ddc9ce6cac1563c') {  return  "过YD专用4"; }; 
- if ( l_key == 'a970b2bff44964b271d33b67256c36f5') {  return  "过YD专用4"; }; 
- if ( l_key == 'e9e0a1e83764fdb22317404cff22f9f4') {  return  "过YD专用4"; }; 
- if ( l_key == '88b549e2877597caef0b48fab069bfc8') {  return  "过YD专用4"; }; 
- if ( l_key == '81c403cd26c031752bbb4658e332bd42') {  return  "过YD专用4"; }; 
- if ( l_key == '316c88b02e08180d1280acb93f088c38') {  return  "过YD专用4"; }; 
- if ( l_key == '5ba793acf6e110a35f71ff79a4d63c80') {  return  "过YD专用4"; }; 
- if ( l_key == '3899699d9be62b1d5692a6fc2b76f5d4') {  return  "过YD专用4"; }; 
- if ( l_key == '21aa19d61daa18aaff1ffea98fd319df') {  return  "过YD专用4"; }; 
- if ( l_key == '189654d86fedeca6a9565d81f6c11d93') {  return  "过YD专用4"; }; 
- if ( l_key == 'e6e2b5bb5ef29d268d6d6f6854409aa1') {  return  "过YD专用4"; }; 
- if ( l_key== '699c508cf44dfafb7f9ffb0180bdd326') {  return "第7集群USA"; }; 
- if ( l_key == 'a30f522f3c45586bbc938e21349826ab') {  return  "第7集群USA"; }; 
- if ( l_key == 'a75e587dd481e666c7e4c092e5ad9264') {  return  "第7集群USA"; }; 
- if ( l_key == '32be338607fae6a3e612cabf194032e9') {  return  "第7集群USA"; }; 
- if ( l_key == '22f12b7c75c90d401b13b007d539ccc2') {  return  "第7集群USA"; }; 
- if ( l_key == '72466904bfef67bf0ff43eb9b1b3d4a8') {  return  "第7集群USA"; }; 
- if ( l_key == '19027e9ca2f69d89d7c9d1b1b0d67373') {  return  "第7集群USA"; }; 
- if ( l_key == '501f48147997779fd67ff37c61cab4f0') {  return  "第7集群USA"; }; 
- if ( l_key == 'a422489da85eb2433ce19bf01e24f332') {  return  "第7集群USA"; }; 
- if ( l_key == '3d30345271f75e972c2408dd65035834') {  return  "第7集群USA"; }; 
- if ( l_key == '196f0567f15587e051089e271e754c94') {  return  "第7集群USA"; }; 
- if ( l_key == '911b3517f78aa517f799ce7e9764caee') {  return  "第7集群USA"; }; 
- if ( l_key == '234bf9cbdd1fa1921310a3eab6dab1f3') {  return  "第7集群USA"; }; 
- if ( l_key == 'bed39356c24c8ea50ee39eb8d63e2b3b') {  return  "第7集群USA"; }; 
- if ( l_key == 'e9c48cf52843bd555294a66db2514cff') {  return  "第7集群USA"; }; 
- if ( l_key == '9229b9f142af37cbc1861c6a37c7e738') {  return  "第7集群USA"; }; 
- if ( l_key == 'f61d45ae4edf0b19701d952f85cdd5c1') {  return  "第7集群USA"; }; 
- if ( l_key == '4de25ae5b862e0a5c8908d56963e374b') {  return  "第7集群USA"; }; 
- if ( l_key == 'd794e23b0f3661bcfc32bbe50a6cf010') {  return  "第7集群USA"; }; 
- if ( l_key == '4443d6d4682e0aa43632aedebb39090b') {  return  "第7集群USA"; }; 
- if ( l_key == 'da70ad0baaf9778438376768174918a3') {  return  "第7集群USA"; }; 
- if ( l_key == '0b4b2eb0e253f0d2c74a8e289f1db5fb') {  return  "第7集群USA"; }; 
- if ( l_key == '6642d9e971137ef3cda5b08aa4fa7dec') {  return  "第7集群USA"; }; 
- if ( l_key == '74777333ad52ae6bd053f0b714292642') {  return  "第7集群USA"; }; 
- if ( l_key == '4b1a3c8026d3fd5f15f417bbe1b021de') {  return  "第7集群USA"; }; 
- if ( l_key == 'fe885a77eb167d66fbe80e957bd94cf5') {  return  "第7集群USA"; }; 
- if ( l_key == '5e15f6fa26defadbb2845f611e62d52d') {  return  "第7集群USA"; }; 
- if ( l_key == '8d64fc131db9d958acd13c3507f54fd8') {  return  "第7集群USA"; }; 
- if ( l_key == 'e99b31ef09dc636c84ed9e299b770092') {  return  "第7集群USA"; }; 
- if ( l_key == '71bb7f6c00b85bad095e56d02a7040dd') {  return  "第7集群USA"; }; 
- if ( l_key == '5601e5e04d1a5e95caf899b931b7bdb1') {  return  "第7集群USA"; }; 
- if ( l_key== '65cc3b0a146ead9d66e2ad577d55472e') {  return "香港集群6"; }; 
- if ( l_key == '3f3ad73c4b5e1a190192c70900bc319c') {  return  "香港集群6"; }; 
- if ( l_key == '1c62ff09fecffc9207ab8431ae15acb8') {  return  "香港集群6"; }; 
- if ( l_key == '0a3ff0380b7c234a92287e1632e9a2af') {  return  "香港集群6"; }; 
- if ( l_key == '1d646219b278e8916aa9f38763abec98') {  return  "香港集群6"; }; 
- if ( l_key == 'b69ee8ba8f19c78bb5b4dd0a6d1db072') {  return  "香港集群6"; }; 
- if ( l_key == 'cb243363bfd73141c94461cccb60cfb6') {  return  "香港集群6"; }; 
- if ( l_key == '099a749e605dfd16b956f367dc19c519') {  return  "香港集群6"; }; 
- if ( l_key == '3bd497a4b2530d8c4f18c7c0ada4fda1') {  return  "香港集群6"; }; 
- if ( l_key == '396318367a06092d67b54d7ad582ca37') {  return  "香港集群6"; }; 
- if ( l_key == '8a31df4493aaadeb3e2535326aaadd72') {  return  "香港集群6"; }; 
- if ( l_key == '1406ba769a0343b3702519cf6ee9c097') {  return  "香港集群6"; }; 
- if ( l_key == '63229f6eb5febe994c176aa36df85d23') {  return  "香港集群6"; }; 
- if ( l_key == '9535305769326f83d554d58154a35302') {  return  "香港集群6"; }; 
- if ( l_key == '8360006c9f11a8b4009c494b1b90e488') {  return  "香港集群6"; }; 
- if ( l_key == 'bcc71dacc1c68d8f595a05f010bb5ad3') {  return  "香港集群6"; }; 
- if ( l_key == '2f409761cee87a06f1f5c6072afac803') {  return  "香港集群6"; }; 
- if ( l_key == '22b91a9af3aab50b9bd4ed62bcde433a') {  return  "香港集群6"; }; 
- if ( l_key == '7e04b7a0ba6c8b9f5f54ea7b74227153') {  return  "香港集群6"; }; 
- if ( l_key == '2ba77505031c4b3ca432f14e8b32420b') {  return  "香港集群6"; }; 
- if ( l_key == '5c0d951743bd67f1102914f83fd5b4c5') {  return  "香港集群6"; }; 
- if ( l_key == '9acb6f4b543c534157f656ad4fa5c510') {  return  "香港集群6"; }; 
- if ( l_key == 'e96b54def7e3bfa60ebf7508ae51f0d7') {  return  "香港集群6"; }; 
- if ( l_key == 'd7bc5ea53eb5eb0b3c1b0d4574921f26') {  return  "香港集群6"; }; 
- if ( l_key == 'bdc04f553c14c25f2dbaa2f4d6634de5') {  return  "香港集群6"; }; 
- if ( l_key == '9295ef7ff9dbfb6f0234b13ff6101508') {  return  "香港集群6"; }; 
- if ( l_key == '5f46ffd348014ca842ab2869d65b370a') {  return  "香港集群6"; }; 
- if ( l_key == '31cfd47ea1a888a9a0b0051e1c966ab8') {  return  "香港集群6"; }; 
- if ( l_key == 'fdb2c8123c44e7caf4cf166407b48d19') {  return  "香港集群6"; }; 
- if ( l_key == '99798c81611033fbe58828ca7d9a9bde') {  return  "香港集群6"; }; 
- if ( l_key == 'ae4851e6cf227f77c561d616e53d2c02') {  return  "香港集群6"; }; 
- if ( l_key == 'c53dcacd38499039baec3c910a0e8a33') {  return  "香港集群6"; }; 
- if ( l_key == 'a2a739ed844c4de8acbf0fa09b5465da') {  return  "香港集群6"; }; 
- if ( l_key == 'f1c0638e2d92ef094cb44bab01c4c8ed') {  return  "香港集群6"; }; 
- if ( l_key == '51ae0efb7f08929d5d3017bb779151b6') {  return  "香港集群6"; }; 
- if ( l_key == '20978edff69a60e9d5e7b245fd1c44dd') {  return  "香港集群6"; }; 
- if ( l_key == 'de082e6ee781e4ba7fb4f323fe4b672d') {  return  "香港集群6"; }; 
- if ( l_key == '19e44fff848c3a2997940d94ac7cf43d') {  return  "香港集群6"; }; 
- if ( l_key == 'fa2fdbcbf63f6668de41b3ff0debcdd2') {  return  "香港集群6"; }; 
- if ( l_key == '8c4e55060db800622f53c6dbbd908ce8') {  return  "香港集群6"; }; 
- if ( l_key == '23dca1f834c7c5314f0c863b4b14191f') {  return  "香港集群6"; }; 
- if ( l_key== '57894e08270303ff5fd6c302b8e53c54') {  return "免费套餐"; }; 
- if ( l_key == '969b2a679f994eaa4df56616283087eb') {  return  "免费套餐"; }; 
- if ( l_key == 'a6527a17a74726ec1fbd5bbdf49280fc') {  return  "免费套餐"; }; 
- if ( l_key == '409375459d9c1af975186241d2fe6434') {  return  "免费套餐"; }; 
- if ( l_key == '60ea3979603e5345d1932a8d4c2d5333') {  return  "免费套餐"; }; 
- if ( l_key == 'd9d19c426742e7a54411f6f5074d6ec9') {  return  "免费套餐"; }; 
- if ( l_key == '570f360b9bf6b2611b24a22b9d2ca19d') {  return  "免费套餐"; }; 
- if ( l_key == '78876977f9f6b35d00e77fbd5fbeb8c4') {  return  "免费套餐"; }; 
- if ( l_key == '6a25ca1700ab21c224784ed9023bcc56') {  return  "免费套餐"; }; 
- if ( l_key == '6bee6d938dbe264aba8d5038c722a289') {  return  "免费套餐"; }; 
- if ( l_key == '5307b3b0eed03b32a0e9fc891e6281a6') {  return  "免费套餐"; }; 
- if ( l_key == 'e47906cfb2fd96b8f7f4b737aff87357') {  return  "免费套餐"; }; 
- if ( l_key == '2ac8108069e0fdc6019a95fef7176fb2') {  return  "免费套餐"; }; 
- if ( l_key == '10d83abf861a1372e476dfc4a804f241') {  return  "免费套餐"; }; 
- if ( l_key == '84cbafc2922c36bcad1082cdc5c8f000') {  return  "免费套餐"; }; 
- if ( l_key == '535b9e1123f9ce20aa018e5ac508706e') {  return  "免费套餐"; }; 
- if ( l_key == '35d44dcb3f25fd5828dc57093dc4b1f6') {  return  "免费套餐"; }; 
- if ( l_key == '89b4497e0095a999b98615ee57f97889') {  return  "免费套餐"; }; 
- if ( l_key == '7561175dcc6f8ed5210fb19cbf14d788') {  return  "免费套餐"; }; 
- if ( l_key == '82213164f9ce9b67c87676c84b63c67c') {  return  "免费套餐"; }; 
- if ( l_key == '0d1e6361aee122eac258e7a9eff42e3f') {  return  "免费套餐"; }; 
- if ( l_key == '553dec72e46757c8a5375cf530378744') {  return  "免费套餐"; }; 
- if ( l_key == '5d6576e53d3249e8d8441548ec0f35c6') {  return  "免费套餐"; }; 
- if ( l_key == '850eacc5eb9e304484350612051c8db0') {  return  "免费套餐"; }; 
- if ( l_key == '0ab7f3fedda6774b0982cdf7bbbf8128') {  return  "免费套餐"; }; 
- if ( l_key == 'c1ca110c8a4cd3debd74baa9a0ea75ac') {  return  "免费套餐"; }; 
- if ( l_key == '23b012795374c1175e38b8666fa197ef') {  return  "免费套餐"; }; 
- if ( l_key == '4a476ab8fef728344898eafb7f0da6b7') {  return  "免费套餐"; }; 
- if ( l_key == '0d29275e5ac5b9dae90750ba3c981fa5') {  return  "免费套餐"; }; 
- if ( l_key == '137c875c4c415fd82ee160b250120701') {  return  "免费套餐"; }; 
- if ( l_key== '4cdda8ad7d028f7c91a349aedbcb7b10') {  return "US大带宽节点"; }; 
- if ( l_key == '1e24c1c5187fb9033fa54da959803072') {  return  "US大带宽节点"; }; 
- if ( l_key == '4235cadda9d54944b678c5563a692790') {  return  "US大带宽节点"; }; 
- if ( l_key == '8976bd4b3c7d88737028184cbcc09f0e') {  return  "US大带宽节点"; }; 
- if ( l_key == '48f4b5d9cc4a4146d21f9f5b09c52bd5') {  return  "US大带宽节点"; }; 
- if ( l_key == '85ad69bc9c35b5e9a13bb2d6cff5121a') {  return  "US大带宽节点"; }; 
- if ( l_key == '44b85685ceeedcc33806c672d41a4291') {  return  "US大带宽节点"; }; 
- if ( l_key == 'ea5d46825bb69b1ba2915ede81110bb3') {  return  "US大带宽节点"; }; 
- if ( l_key == '1ba9b4b278d7832bea21c85b2c6ee767') {  return  "US大带宽节点"; }; 
- if ( l_key == '79080eb063222a9e6947051943570722') {  return  "US大带宽节点"; }; 
- if ( l_key == 'c17ceb0ad772646f38b12f7f580c316a') {  return  "US大带宽节点"; }; 
- if ( l_key == '92c5c8a3b93e99631e6cf7d466b013de') {  return  "US大带宽节点"; }; 
- if ( l_key == 'd66c61b635760261c5971d18853c9eec') {  return  "US大带宽节点"; }; 
- if ( l_key == '00697f3e2522a3894f72c4c0a9207b00') {  return  "US大带宽节点"; }; 
- if ( l_key == '2f74527dcc6fc64ba82af39936217cd7') {  return  "US大带宽节点"; }; 
- if ( l_key == '61b21dd1d9bda53aa88479d436906cbb') {  return  "US大带宽节点"; }; 
- if ( l_key == '45a96b8255748993c1fbada6eba7016b') {  return  "US大带宽节点"; }; 
- if ( l_key == 'e0fa1da97464acf9be78499455aae8c6') {  return  "US大带宽节点"; }; 
- if ( l_key == 'ffd0de960a8d6c8eef8c87f36195ecc1') {  return  "US大带宽节点"; }; 
- if ( l_key == '097a253519dc25eba3942bc51f5f8ed8') {  return  "US大带宽节点"; }; 
- if ( l_key == 'f11a16913b896b8923ce9ff8813a399b') {  return  "US大带宽节点"; }; 
- if ( l_key == '0dc286281268fd48ea7ce58910aa1a98') {  return  "US大带宽节点"; }; 
- if ( l_key == '575a74abff86821e708b5fe2311f2d0d') {  return  "US大带宽节点"; }; 
- if ( l_key == 'b8d84bcbcfcd10c732073c4eda6954c0') {  return  "US大带宽节点"; }; 
- if ( l_key == '70c9403b87b2bcfe3bb6bb47102b5a35') {  return  "US大带宽节点"; }; 
- if ( l_key == 'dbb4fd587ee7c95cc3c36b4f63153204') {  return  "US大带宽节点"; }; 
- if ( l_key == '0c08a246a0bdcf33580cc08cc85871c3') {  return  "US大带宽节点"; }; 
- if ( l_key == '5e904a8c3024f53458b190a643f1069f') {  return  "US大带宽节点"; }; 
- if ( l_key == '25a72135e53f85e38a78abc6b5aad96b') {  return  "US大带宽节点"; }; 
- if ( l_key == '2abc5cf8c7aa60eeb626d1dfe1671867') {  return  "US大带宽节点"; }; 
- if ( l_key == '7143ae5fbbef7df9f2a0a4c15eda6580') {  return  "US大带宽节点"; }; 
- if ( l_key == '6a95f4b3cb1e323e7a80e20ac5bccd16') {  return  "US大带宽节点"; }; 
- if ( l_key == '58893adbf44dd5725737539e577bee7e') {  return  "US大带宽节点"; }; 
- if ( l_key == 'dcdbc2032921544d17ad2eb6ec339e0a') {  return  "US大带宽节点"; }; 
- if ( l_key == '2bf256de6498777e6486e82eaa529d78') {  return  "US大带宽节点"; }; 
- if ( l_key == 'f90e18a5cfeae769037ef4274f19dca8') {  return  "US大带宽节点"; }; 
- if ( l_key == 'd0c1013762de3c60cfe6b3fd0af922f2') {  return  "US大带宽节点"; }; 
- if ( l_key == '2f7838a2e20be5f52c778ebd1cacaa34') {  return  "US大带宽节点"; }; 
- if ( l_key == '7aadaa8fa1ad1dec0427991a7f53a692') {  return  "US大带宽节点"; }; 
- if ( l_key == '6c1981c6e87365c97f1ca7b8bfa776e9') {  return  "US大带宽节点"; }; 
- if ( l_key == '78663dbbf4cda0234c9308f81c95be69') {  return  "US大带宽节点"; }; 
- if ( l_key == '097df30fa61341eace4e1f2e3d6211eb') {  return  "US大带宽节点"; }; 
- if ( l_key == '7b9ec05ccd37e50c33d7d3bbe2f6bce6') {  return  "US大带宽节点"; }; 
- if ( l_key == '16b29fbd79f4f17a6f2311473cf41315') {  return  "US大带宽节点"; }; 
- if ( l_key == '5f46728c37292bce0bf36e8db4a5affc') {  return  "US大带宽节点"; }; 
- if ( l_key == 'eec8f9ae5467c15ffd760684537ca304') {  return  "US大带宽节点"; }; 
- if ( l_key == 'b463c15b4a666da7464bee81464d5793') {  return  "US大带宽节点"; }; 
- if ( l_key == '7a8d5ba91f8d59be0911ca5948121a6e') {  return  "US大带宽节点"; }; 
- if ( l_key == '9cd51f27e5385fc5b1dfbbeeb654170a') {  return  "US大带宽节点"; }; 
- if ( l_key == '14d2ec6e315fb6d824a82144c0d194ee') {  return  "US大带宽节点"; }; 
- if ( l_key == '4c8d1791737e47131a089e7370428f1d') {  return  "US大带宽节点"; }; 
- if ( l_key == '50de402129be5b015307e64be77e9c15') {  return  "US大带宽节点"; }; 
- if ( l_key == '9edba3b595d7f892c91bf6a4d8004c89') {  return  "US大带宽节点"; }; 
- if ( l_key == '3ce9079f53f69c8c1a526d3fa6bfcf6a') {  return  "US大带宽节点"; }; 
- if ( l_key == '2aea0af187013782380c32b35d26a30f') {  return  "US大带宽节点"; }; 
- if ( l_key == '9b195e17fea88eb8b0946f952bb90d69') {  return  "US大带宽节点"; }; 
- if ( l_key == '75bda1e9600aad8bd4da15fe7bdfb269') {  return  "US大带宽节点"; }; 
- if ( l_key == '114774632bc543eee9c38dd5062a954d') {  return  "US大带宽节点"; }; 
- if ( l_key == '76963d3d1aa5210ec0eea21c1239cb9f') {  return  "US大带宽节点"; }; 
- if ( l_key == '88eb7fa0a074e4c683243c701a6431fd') {  return  "US大带宽节点"; }; 
- if ( l_key == 'fb4c9e2fcef2c350027953df7a2f772d') {  return  "US大带宽节点"; }; 
- if ( l_key == 'd2d704cf7b1b5b77361c5d997d766ed0') {  return  "US大带宽节点"; }; 
- if ( l_key == 'de443a81a19abf0d97983aaa56d171f7') {  return  "US大带宽节点"; }; 
- if ( l_key == 'c01b566fea0e8dec524e2876fb6c981f') {  return  "US大带宽节点"; }; 
- if ( l_key == 'dad06204d28af26e32e4a2ca8ffab40d') {  return  "US大带宽节点"; }; 
- if ( l_key == 'f0f8cfeed17691c00501bbbaac295a70') {  return  "US大带宽节点"; }; 
- if ( l_key== 'd30f8bea6bdaf52d9f5ec62961479dbd') {  return "第8集群无延时YD"; }; 
- if ( l_key == '7b649b567a946fae1fd3479e48dc97cd') {  return  "第8集群无延时YD"; }; 
- if ( l_key == 'bec4130e1e7a3d2b9323e3bfb6df6254') {  return  "第8集群无延时YD"; }; 
- if ( l_key == 'a12303926e6f978747763f90b57d0c5d') {  return  "第8集群无延时YD"; }; 
- if ( l_key == 'f35b1494802ddc4872519e5a5324d166') {  return  "第8集群无延时YD"; }; 
- if ( l_key == 'd8bdf06f814c1d591bc3055e7bbcc76e') {  return  "第8集群无延时YD"; }; 
- if ( l_key == '9718fa7401843db7c44aab213f197e97') {  return  "第8集群无延时YD"; }; 
- if ( l_key == 'c2f8422b7f3ec5c7c89b065ca8f5963d') {  return  "第8集群无延时YD"; }; 
- if ( l_key == '30eda919d4baa8c2649a5529cd936774') {  return  "第8集群无延时YD"; }; 
- if ( l_key == '13f9819f615e74a2fb7a5b2b0c45381d') {  return  "第8集群无延时YD"; }; 
- if ( l_key == 'b83f02d5ddf5827b8c37de5064543e2b') {  return  "第8集群无延时YD"; }; 
- if ( l_key == '15ba1d25ae91f5f4026cece73c1b6ff1') {  return  "第8集群无延时YD"; }; 
- if ( l_key == '8db051b2d33db890b69a580a16288d8e') {  return  "第8集群无延时YD"; }; 
- if ( l_key == '96d7e29326d32a72e5f736a8715ac137') {  return  "第8集群无延时YD"; }; 
- if ( l_key == '081f6dd257f7020c93b5f3a93d0a5ff3') {  return  "第8集群无延时YD"; }; 
- if ( l_key == '8328dba8cd9ac0925e6374412ac20eb2') {  return  "第8集群无延时YD"; }; 
- if ( l_key == 'ce2b5ab81ebf5f9b203106054d01a1fb') {  return  "第8集群无延时YD"; }; 
- if ( l_key == '2938e2e81c2052b96060bc49c7df9327') {  return  "第8集群无延时YD"; }; 
- if ( l_key == '18609f439f8185bc4678d9599e9610e5') {  return  "第8集群无延时YD"; }; 
- if ( l_key == 'c67e9bdf6dbb5544d0e3dc15ed90879a') {  return  "第8集群无延时YD"; }; 
- if ( l_key == '172e4dbeae6a0d6de654ad8c065f24ed') {  return  "第8集群无延时YD"; }; 
- if ( l_key == 'd4013f84d069abbf53b8c32d73d9c2b6') {  return  "第8集群无延时YD"; }; 
- if ( l_key == 'e2841686757d061deb1c60131f946583') {  return  "第8集群无延时YD"; }; 
- if ( l_key == 'c8c2ed7f0b8952a358b51ae66439861f') {  return  "第8集群无延时YD"; }; 
- if ( l_key == '860da05096dda9768f83fb3ee1d9e36c') {  return  "第8集群无延时YD"; }; 
- if ( l_key == 'c67418571d6262725e868f19648aea61') {  return  "第8集群无延时YD"; }; 
- if ( l_key == '0897bc28a026c166d88577d182930719') {  return  "第8集群无延时YD"; }; 
- if ( l_key == '3b2883d6fcb71e49a4c8d7ba0455aa7e') {  return  "第8集群无延时YD"; }; 
- if ( l_key == '1ad14ceecdacf868212e7c18207fadc4') {  return  "第8集群无延时YD"; }; 
- if ( l_key == '5fec430ac1bdb9f95fe0dff71c4ebec5') {  return  "第8集群无延时YD"; }; 
- if ( l_key== '0f846bef8555fc0757602f8318161a17') {  return "usa第1集群"; }; 
- if ( l_key == 'f0bac857778bcd3efa4ddb5e95b739c7') {  return  "usa第1集群"; }; 
- if ( l_key == '30b034ce6a73ca8a1505992ce92ad711') {  return  "usa第1集群"; }; 
- if ( l_key == '4254ce8ad447e0a41460d0549172c825') {  return  "usa第1集群"; }; 
- if ( l_key == '1fc67527323b843be7bc5de595bfac40') {  return  "usa第1集群"; }; 
- if ( l_key == '435d0b02fe86dd9a8d9eefddbdf4d24f') {  return  "usa第1集群"; }; 
- if ( l_key == '7272ed2e9b1818f9ccc975d95a9f6dfe') {  return  "usa第1集群"; }; 
- if ( l_key == '94f0a7353f69e51d411728413ce362a1') {  return  "usa第1集群"; }; 
- if ( l_key == '002f57b8e9900d108afa0b7488b074b5') {  return  "usa第1集群"; }; 
- if ( l_key == 'd50fdbd7cd70b7987117b74d90590473') {  return  "usa第1集群"; }; 
- if ( l_key == '1fcc098329dca4f64990425fb8f3c541') {  return  "usa第1集群"; }; 
- if ( l_key == '532db7654255ebc3872cbeaa7aaaa223') {  return  "usa第1集群"; }; 
- if ( l_key == 'ef730b54b52b1471d21229e156665506') {  return  "usa第1集群"; }; 
- if ( l_key == 'abe5a03f39a4e71df6b54443fb72b581') {  return  "usa第1集群"; }; 
- if ( l_key == 'eb915b0fea419b5fb5df5454bd1657ee') {  return  "usa第1集群"; }; 
- if ( l_key == '2be507e88f5d2651b5de9aa592416552') {  return  "usa第1集群"; }; 
- if ( l_key == '41abfe31c02671eca89cda67ac71a067') {  return  "usa第1集群"; }; 
- if ( l_key == '03572cfcfa857250f2c5f87ce5d85e04') {  return  "usa第1集群"; }; 
- if ( l_key== '1de99705c2bdf939dea2a96f5f5e794d') {  return "第9集群usa"; }; 
- if ( l_key == 'cf53fd75fd73bf5f74adade56b85c6df') {  return  "第9集群usa"; }; 
- if ( l_key == '7bedfb717d50cd7d3d26ce1282acdccf') {  return  "第9集群usa"; }; 
- if ( l_key == '33cba9f87f9935b9f42a50463721d346') {  return  "第9集群usa"; }; 
- if ( l_key == '80c79b0610a50dddccfc8cc8c64cb5e5') {  return  "第9集群usa"; }; 
- if ( l_key== 'ae840f7e199f129f9845a43e7bc0ca96') {  return "无延时YD"; }; 
- if ( l_key == '8b9e970bcfcb09fd92a8e1620b55383e') {  return  "无延时YD"; }; 
- if ( l_key == 'bcd7b4242a211bab04c85fc0420e45b7') {  return  "无延时YD"; }; 
- if ( l_key == 'e80e3026b52896b53c66ba54d1f4b8f1') {  return  "无延时YD"; }; 
- if ( l_key == '17aacf4105515e9e14595547dd50ee64') {  return  "无延时YD"; }; 
- if ( l_key == '83359541f64d8e089e91bf7be7f95e27') {  return  "无延时YD"; }; 
- if ( l_key == '604b00a19a585e87b153b3e586cca301') {  return  "无延时YD"; }; 
- if ( l_key == 'a8ec97ab4ebbd449c09e5848ebc33fa8') {  return  "无延时YD"; }; 
- if ( l_key == '517c07b1898842196bdd18630766d6e9') {  return  "无延时YD"; }; 
- if ( l_key == '4db5916658626eaaaccf47780cd03955') {  return  "无延时YD"; }; 
- if ( l_key == '35d2728bd5a9632ab0db26160d3e76e5') {  return  "无延时YD"; }; 
- if ( l_key == '9df0b606f44c8fc97ed45d78235ecf8d') {  return  "无延时YD"; }; 
- if ( l_key == 'ada2620b8a9c5cf9ab1f0c1031421d88') {  return  "无延时YD"; }; 
- if ( l_key == 'e20f4534bae5e786937c315fb5e40ec7') {  return  "无延时YD"; }; 
- if ( l_key == '38d259966b572f938a950a5f2cfdb18a') {  return  "无延时YD"; }; 
- if ( l_key == '95237c58177da78bff633b4227856486') {  return  "无延时YD"; }; 
- if ( l_key == 'e32d8b8ecefbd7aa7c5335a84914d674') {  return  "无延时YD"; }; 
- if ( l_key == '9c636872961b9092317f7e0ddb8e9d66') {  return  "无延时YD"; }; 
- if ( l_key == '3d9c3a8d7fe1e6aeb33195b35319e6c6') {  return  "无延时YD"; }; 
- if ( l_key == '9810716c80957eeabf449b4181328102') {  return  "无延时YD"; }; 
- if ( l_key == '17fe2e082c8c6ae1b85f7513d5a5b689') {  return  "无延时YD"; }; 
- if ( l_key == 'a9430f76c916e6d5c9ea4343f47d2471') {  return  "无延时YD"; }; 
- if ( l_key == '6bead359b73c71849083ad9dd16d97e9') {  return  "无延时YD"; }; 
- if ( l_key == 'c9688696dbc233ec5425d6a2b4579f2f') {  return  "无延时YD"; }; 
- if ( l_key == 'd305bfe624321b74f11a58a7920da98a') {  return  "无延时YD"; }; 
- if ( l_key == 'b38716bf519a88689ee3df35252e4662') {  return  "无延时YD"; }; 
- if ( l_key == '3903acd6ee9b2f274e974a1d114a3a36') {  return  "无延时YD"; }; 
- if ( l_key == 'd02cd5ce9453fdcb51090ed146c95055') {  return  "无延时YD"; }; 
- if ( l_key == 'b8375d2410b2ad5b8cf64d0ad9f4cce8') {  return  "无延时YD"; }; 
- if ( l_key == 'b1ff23dba7f19c7ab235f5956682eb2f') {  return  "无延时YD"; }; 
- if ( l_key== 'fe7d0f24822746aa3a1391bdd1404a8b') {  return "无延时YD"; }; 
- if ( l_key == 'defc65a37212bff55a0d636c005e321d') {  return  "无延时YD"; }; 
- if ( l_key == '7b082de9cdd8a19dfd0fe4680c8fd649') {  return  "无延时YD"; }; 
- if ( l_key == 'bdf480f2f72c249cc91a02d3865ef6a4') {  return  "无延时YD"; }; 
- if ( l_key == '50b2f22b8ec1d5f3d1040a687c60bfd4') {  return  "无延时YD"; }; 
- if ( l_key == '2527bd165aa968f8d76f0b338b5ad65a') {  return  "无延时YD"; }; 
- if ( l_key == '010b9a3fa217dbb433202c8814b2df44') {  return  "无延时YD"; }; 
- if ( l_key == '11db0f54b6f79db8124f6942b1f6ba5b') {  return  "无延时YD"; }; 
- if ( l_key == 'a31cde9caeea78d89a9a784106132f17') {  return  "无延时YD"; }; 
- if ( l_key == '01296e7cd4b8e8fdb669f05d7b4ca124') {  return  "无延时YD"; }; 
- if ( l_key == 'a0276e382aa2a153225c05759d2aebfa') {  return  "无延时YD"; }; 
- if ( l_key == 'f35ba3bffee3b1b05c2e5bcc380c8d32') {  return  "无延时YD"; }; 
- if ( l_key == '98d90c182fd7adbdd0a59bce71b56ed1') {  return  "无延时YD"; }; 
- if ( l_key == 'b0a396de1dea1ae89068c3184201eed2') {  return  "无延时YD"; }; 
- if ( l_key == 'f6d4e61231c7a6d275e6e8db8e5feeda') {  return  "无延时YD"; }; 
- if ( l_key == 'cc669d4156d2db678588c033d92a22c8') {  return  "无延时YD"; }; 
- if ( l_key == 'c83f894573476b008ef4c9d0c538038a') {  return  "无延时YD"; }; 
- if ( l_key == '0273b22485f79f064fe721bcc1e20d3d') {  return  "无延时YD"; }; 
- if ( l_key == '2f9dc33d94ccb7257f7bfb595d5f8041') {  return  "无延时YD"; }; 
- if ( l_key == 'a69600fb4bb7c11a30ed642302576d38') {  return  "无延时YD"; }; 
- if ( l_key == 'cc9a2e735a720f593ad86e872e5c4613') {  return  "无延时YD"; }; 
- if ( l_key == 'd5f173a90ac1129f805b4ce502e48bb0') {  return  "无延时YD"; }; 
- if ( l_key == '0191c3c3f33019487aba98ea42a99b63') {  return  "无延时YD"; }; 
- if ( l_key == '702f3aa13062f650c4982c9d5dff7435') {  return  "无延时YD"; }; 
- if ( l_key == 'c2ea04f1b1c1dac32acfd491e11b24bd') {  return  "无延时YD"; }; 
- if ( l_key == 'f3ef143e2015e725d35eb0a6fff9a70a') {  return  "无延时YD"; }; 
- if ( l_key == 'd8dad73b687a4dc83014793033bdee67') {  return  "无延时YD"; }; 
- if ( l_key == 'ef3dfde225044758bbe47317b53c1e9e') {  return  "无延时YD"; }; 
- if ( l_key == 'a37152d19f507ef341aa165679065192') {  return  "无延时YD"; }; 
- if ( l_key == '6851bce7a0dff7a15e4666cdb1924bb9') {  return  "无延时YD"; }; 
- if ( l_key== 'ff074178d829f9e2cd86d00e430c6e34') {  return "无延时YD"; }; 
- if ( l_key == 'ebb401a12240589f4683dda38eb6c181') {  return  "无延时YD"; }; 
- if ( l_key == '8c086bad168ac39db10187eaba44ec86') {  return  "无延时YD"; }; 
- if ( l_key == 'd4c61714f82e68c48a41cbd47f06260b') {  return  "无延时YD"; }; 
- if ( l_key == '30377c4383adfa65b9250b1e4f88ba76') {  return  "无延时YD"; }; 
- if ( l_key == '4a96a36db91ff6632ee98ad9dfa26917') {  return  "无延时YD"; }; 
- if ( l_key == 'd6185d9be1a41ee56b39e5da6e345a31') {  return  "无延时YD"; }; 
- if ( l_key == '13fc7f40e1c9196dc494571203035ce0') {  return  "无延时YD"; }; 
- if ( l_key == 'be2ddb96ebdce35a5de0197be079725c') {  return  "无延时YD"; }; 
- if ( l_key == '394ea6d3149e0aa889823f022679f216') {  return  "无延时YD"; }; 
- if ( l_key == '60dc0740166bb884fa4612055ae52ac0') {  return  "无延时YD"; }; 
- if ( l_key == 'f8792b8125510ff9dfdace36c54918e5') {  return  "无延时YD"; }; 
- if ( l_key == '37a48449efff8f6c0302a165cf2b3e79') {  return  "无延时YD"; }; 
- if ( l_key == '619bfecdaf1d3bdf3f8ded649a97ecf7') {  return  "无延时YD"; }; 
- if ( l_key == '25e93dbcc5f256090d632a2d440d5793') {  return  "无延时YD"; }; 
- if ( l_key == '0fe9141a96a06de045fc130ecff318b8') {  return  "无延时YD"; }; 
- if ( l_key == 'f5e65543601f6483f40b2e7d5d38299e') {  return  "无延时YD"; }; 
- if ( l_key == 'd23f12d5e1b4f78969aa1f28623b723a') {  return  "无延时YD"; }; 
- if ( l_key == '8cc51a43be60734b269c9671ceaf438e') {  return  "无延时YD"; }; 
- if ( l_key == 'f40c4882b6331e7615b13d97ea2153bd') {  return  "无延时YD"; }; 
- if ( l_key== '869114936733c208c71ccc7fa57bb6c9') {  return "第11集群香港"; }; 
- if ( l_key == 'ad64c5696ec6828624ee9b8553ee4aeb') {  return  "第11集群香港"; }; 
- if ( l_key == 'c3336d35711e2aee01ddba9d073019ce') {  return  "第11集群香港"; }; 
- if ( l_key == '47837f6be2db4d57e61195f97fa1d761') {  return  "第11集群香港"; }; 
- if ( l_key == 'bf2f6d05b6ca48a258e2b8fceacc8611') {  return  "第11集群香港"; }; 
- if ( l_key == '21e3908977fce70022f83f2198cc52b5') {  return  "第11集群香港"; }; 
- if ( l_key == '7439e831aa0367ebf258b189c6f0268f') {  return  "第11集群香港"; }; 
- if ( l_key == '203973911c1b5839e9170090bc1e254c') {  return  "第11集群香港"; }; 
- if ( l_key == '03de93b65eaac097ebb8148507d33143') {  return  "第11集群香港"; }; 
- if ( l_key == '9fe69bc4b4a0ecc8ef61c3e84a4eaf50') {  return  "第11集群香港"; }; 
- if ( l_key == '1ef3fcf94b8f860d92fda36ee754be0c') {  return  "第11集群香港"; }; 
- if ( l_key == '7e657b9a932a7f8dff6c06f92e1ec929') {  return  "第11集群香港"; }; 
- if ( l_key == 'dd794f6739a48b56c3851dfd00ea7e67') {  return  "第11集群香港"; }; 
- if ( l_key == '4c821245e82e699480328120c7a31936') {  return  "第11集群香港"; }; 
- if ( l_key == '6607fb0923f1adb847cba9d7f1063de5') {  return  "第11集群香港"; }; 
- if ( l_key == 'dec759f1dfdd4abc6659f2c95deb6570') {  return  "第11集群香港"; }; 
- if ( l_key == '5a8dda9c9004d50fe09b21d7a8609452') {  return  "第11集群香港"; }; 
- if ( l_key == 'd1169a6638e7ee9225ba2d0d81c587aa') {  return  "第11集群香港"; }; 
- if ( l_key == '68d653a2ac358e30ba995aa8b914b539') {  return  "第11集群香港"; }; 
- if ( l_key == 'c6f6e5ddb683ba96df3d6148dd106a43') {  return  "第11集群香港"; }; 
- if ( l_key == 'a390acbbc79a664845c83bf873633b7e') {  return  "第11集群香港"; }; 
- if ( l_key == 'cef75e97b1055e31f41dd2e3d85299db') {  return  "第11集群香港"; }; 
- if ( l_key == 'a2746ca57b2980690bf9afbe7d1d6d06') {  return  "第11集群香港"; }; 
- if ( l_key == '511a5da82a46a32d802c79fc55dd3428') {  return  "第11集群香港"; }; 
- if ( l_key == 'a272a081b75c483518caf54aae88ca9f') {  return  "第11集群香港"; }; 
- if ( l_key == '43ac7f8332917de8fc9c91bf8b31dfe2') {  return  "第11集群香港"; }; 
- if ( l_key == '4b5e4fddafc816de1fe5293094c4e89f') {  return  "第11集群香港"; }; 
- if ( l_key == '67b88526e5b308586ce09cdf1148a998') {  return  "第11集群香港"; }; 
- if ( l_key == '74b9c4576f8025fa41323e6723c3276a') {  return  "第11集群香港"; }; 
- if ( l_key == '29fce8401f1e714bd9940379623008b8') {  return  "第11集群香港"; }; 
- if ( l_key == 'bf2eaab5a785814a48f8310da944077b') {  return  "第11集群香港"; }; 
- if ( l_key == '92952b16ff4dd4b185a4eb1f0a30bf4e') {  return  "第11集群香港"; }; 
- if ( l_key == 'a38abf4b84d18c05be0b92863a96f8c5') {  return  "第11集群香港"; }; 
- if ( l_key == '389572f1f98254c7efef222e221bfab1') {  return  "第11集群香港"; }; 
- if ( l_key == '81dc1f7b70a0af5436fb50770960dff9') {  return  "第11集群香港"; }; 
- if ( l_key == '07453393d7256c1bb47295837d551e2a') {  return  "第11集群香港"; }; 
- if ( l_key == 'f82f4c5f45acee5622b8a33dac3a113b') {  return  "第11集群香港"; }; 
- if ( l_key == '1e84f13a09acc15d06c3b437a317cdb2') {  return  "第11集群香港"; }; 
- if ( l_key == '9098e52d4df8b776b36c23e6374a5cb4') {  return  "第11集群香港"; }; 
- if ( l_key == 'c3018a96e13a9dc9168dfedc7b0f25f8') {  return  "第11集群香港"; }; 
- if ( l_key == '240cc8d752230a76f7a9250274762d7a') {  return  "第11集群香港"; }; 
- if ( l_key== '3a537ce3ebc9bf83198ff3f3f269a1be') {  return "无延时YD13"; }; 
- if ( l_key == '944a58b34a70a05012a7ff86d0f14424') {  return  "无延时YD13"; }; 
- if ( l_key == '67065b301f00654dc985ee3ac2a165dc') {  return  "无延时YD13"; }; 
- if ( l_key == '280e9fa92c369387fa396f74d2d9e53d') {  return  "无延时YD13"; }; 
- if ( l_key == '9274aa35ce46e72c489b4d936bb1c4ce') {  return  "无延时YD13"; }; 
- if ( l_key == '7db7201fc8f50f838cda04cfa4ae95ee') {  return  "无延时YD13"; }; 
- if ( l_key == '1d8165938aa15317fcf3015d22f658f0') {  return  "无延时YD13"; }; 
- if ( l_key == '73862be5c5a301dd799adb6a61895e88') {  return  "无延时YD13"; }; 
- if ( l_key == '264914a8618171bf487c2ed42e278ece') {  return  "无延时YD13"; }; 
- if ( l_key == '6488ef7cc5b7fd5fcbc9e0a3d970f747') {  return  "无延时YD13"; }; 
- if ( l_key == '200199a2becd449a223cbe0af43b41f6') {  return  "无延时YD13"; }; 
- if ( l_key == '0d008559507960cdbfd76707a1afaf2b') {  return  "无延时YD13"; }; 
- if ( l_key == 'e85377e7101ee442bc96b7008def896d') {  return  "无延时YD13"; }; 
- if ( l_key == '20c2f1f3cee72372dbfad1cf7a8f491e') {  return  "无延时YD13"; }; 
- if ( l_key == '5f7dac4972ad8fc565a1243da0ba2518') {  return  "无延时YD13"; }; 
- if ( l_key == '3bc512fb46ce0b2c08be29c67a59d8d2') {  return  "无延时YD13"; }; 
- if ( l_key == '290413ffeaaade42b35df4e325f6384f') {  return  "无延时YD13"; }; 
- if ( l_key == 'a06f5b7b9c5a62206951c8991b05285e') {  return  "无延时YD13"; }; 
- if ( l_key == '7c25738bccebeeebc617e6500d3f0136') {  return  "无延时YD13"; }; 
- if ( l_key == '684f4978bee3815dff9080ce7e2cb251') {  return  "无延时YD13"; }; 
- if ( l_key == '3d41c6be9fe50eaf0f9e9b5d3d6574c8') {  return  "无延时YD13"; }; 
- if ( l_key == '67c2599814d4f4a880289dbf6a8bb7d4') {  return  "无延时YD13"; }; 
- if ( l_key == '5c44ac983fd4239e002cf5d6a581d6ab') {  return  "无延时YD13"; }; 
- if ( l_key == '3ac030677c46ffc92be85093d9aaa89a') {  return  "无延时YD13"; }; 
- if ( l_key == 'eb7a4a2308fa48e61336013de26d5fc3') {  return  "无延时YD13"; }; 
- if ( l_key == '5158a3585b5cfe32cdaeef76e17a87a2') {  return  "无延时YD13"; }; 
- if ( l_key == '586fdbea193bdf92bba4157a7223b8f4') {  return  "无延时YD13"; }; 
- if ( l_key == '7d30d5a04ba0f9878770918dc22bfa6a') {  return  "无延时YD13"; }; 
- if ( l_key == '8c88615d14c2e65588a2dd06fb4f231a') {  return  "无延时YD13"; }; 
- if ( l_key == '15f9cd009081ff12c4c47cceae287117') {  return  "无延时YD13"; }; 
- if ( l_key== 'd397bbcb6364cc7872b08bbfef617e51') {  return "香港集群12"; }; 
- if ( l_key == '4068b216f23c097af382852c5c7f2a6a') {  return  "香港集群12"; }; 
- if ( l_key == 'e282fde3197d00602991cdf4e98eab24') {  return  "香港集群12"; }; 
- if ( l_key == '1c72500e151e46a17f8c48b33ba3c2ef') {  return  "香港集群12"; }; 
- if ( l_key == '6beef03e907d55e712972451bfb32bf2') {  return  "香港集群12"; }; 
- if ( l_key == '615046d313781e2eb72b0ae305e1e738') {  return  "香港集群12"; }; 
- if ( l_key == 'b00bea03331b1e0186edc3e9b1e26f9e') {  return  "香港集群12"; }; 
- if ( l_key == 'bf6607e21ffe538aec349344cd72cc1a') {  return  "香港集群12"; }; 
- if ( l_key == '639eb75be1732c2bc05d98b45a4ecc88') {  return  "香港集群12"; }; 
- if ( l_key == 'bf373ed331f19f0346c1f06326cc6b17') {  return  "香港集群12"; }; 
- if ( l_key == 'fb1590945db43c0baa970ac67394fff5') {  return  "香港集群12"; }; 
- if ( l_key == '2acf13b8fa77ea56d0574a69e4bbfe87') {  return  "香港集群12"; }; 
- if ( l_key == '5d85f0e6c77d14e3739a583b2648d93b') {  return  "香港集群12"; }; 
- if ( l_key == '7e9139b3d41a063dcf39991e89a2ff16') {  return  "香港集群12"; }; 
- if ( l_key == '7001afdbf82198e00a6fd99562bbe68b') {  return  "香港集群12"; }; 
- if ( l_key == '48494c702d8c4a2e169d6b6ff75773dc') {  return  "香港集群12"; }; 
- if ( l_key == '07360a715b582e3aa44f3c0a647558a0') {  return  "香港集群12"; }; 
- if ( l_key == '5cf52bf2f6295ef3359e406590665c5d') {  return  "香港集群12"; }; 
- if ( l_key == '86abc31b2c16e0b0caab1687c161b1c8') {  return  "香港集群12"; }; 
- if ( l_key == '8d8b51a56e5c3dc9db6814be3c9aa8a0') {  return  "香港集群12"; }; 
- if ( l_key == '69b0471c37c093209334f78ef771560c') {  return  "香港集群12"; }; 
- if ( l_key == '345350d973c24fd0bff1608b37409486') {  return  "香港集群12"; }; 
- if ( l_key == '3bcc0dc878e30194d7ed7e473ab8d929') {  return  "香港集群12"; }; 
- if ( l_key == '18e12d47bb378abb053e2497e484d715') {  return  "香港集群12"; }; 
- if ( l_key == 'd88508bfcff810cd25ffb40835f0f6b9') {  return  "香港集群12"; }; 
- if ( l_key == 'e2e78842f42dc05ae6d942a677dc7298') {  return  "香港集群12"; }; 
- if ( l_key == '801fffb0e9c781a5f12a256679550077') {  return  "香港集群12"; }; 
- if ( l_key == '35a5903445736c5e9a3a99f2851082b6') {  return  "香港集群12"; }; 
- if ( l_key == '4d6397833a61e2c2dda9de9fe108abc0') {  return  "香港集群12"; }; 
- if ( l_key == '414af4e5b0719d7aae6e077a267562a8') {  return  "香港集群12"; }; 
- if ( l_key == '68b9ea857ef0c27a436eda76c2178914') {  return  "香港集群12"; }; 
- if ( l_key == '29d42634a56cf003947c91d9a00a81a6') {  return  "香港集群12"; }; 
- if ( l_key == '691dde7909c3a5d59e6f5b49ab60e8b7') {  return  "香港集群12"; }; 
- if ( l_key == 'b38c1b5682b61ef6c1712418bedd9abf') {  return  "香港集群12"; }; 
- if ( l_key== '2e3a4ad11bd5401577d29f61cbc8b48d') {  return "156第13集群"; }; 
- if ( l_key == '6c3f793e525c50274f78f7e6e31f221b') {  return  "156第13集群"; }; 
- if ( l_key == '548e7deb53d8d1d122875b810cc01144') {  return  "156第13集群"; }; 
- if ( l_key == '744a6f212db2af871f52f02ffd684e82') {  return  "156第13集群"; }; 
- if ( l_key == 'c92faf86ebb3ab3ba1f9ace60e737517') {  return  "156第13集群"; }; 
- if ( l_key == 'd2704cf3c77370958b4400dad0efe9ff') {  return  "156第13集群"; }; 
- if ( l_key == '3bc418eb270f7debfd431e2bcd2e2631') {  return  "156第13集群"; }; 
- if ( l_key == 'c990714c2a0f5cf158247fc6e29f50f3') {  return  "156第13集群"; }; 
- if ( l_key == '6d2f0eed2e262bfcf4c6f25d91bddf10') {  return  "156第13集群"; }; 
- if ( l_key == '50a9d0c8de66ca86bc5ed640097f6ec4') {  return  "156第13集群"; }; 
- if ( l_key == '3e81bd4112faf31e6594e2d9bc32fc1b') {  return  "156第13集群"; }; 
- if ( l_key == '9f97466004b3837f973412e6977c99c9') {  return  "156第13集群"; }; 
- if ( l_key == '658cc093ab440d6edcc3786757551594') {  return  "156第13集群"; }; 
- if ( l_key == '0bfa23f4a9a10910b03fb177c29efbc3') {  return  "156第13集群"; }; 
- if ( l_key == '2a851f5f2415421a3801eb0d9bcef456') {  return  "156第13集群"; }; 
- if ( l_key == '3fa1f19543f7c094e3431b69d8c925aa') {  return  "156第13集群"; }; 
- if ( l_key == '4565177ad3683c2fc9dfd60d17bc2936') {  return  "156第13集群"; }; 
- if ( l_key == '881d7cc712e33ba1ebdf03ddee7db5eb') {  return  "156第13集群"; }; 
- if ( l_key == '151aa2b5b4abfcface767d35d21269a5') {  return  "156第13集群"; }; 
- if ( l_key == '5cc95e30b493aaf157d58d36a92fde58') {  return  "156第13集群"; }; 
- if ( l_key == '57e43b9ce2669d534ee4d629398afb63') {  return  "156第13集群"; }; 
- if ( l_key == '8d63055e1e7bbc6e95ce95880626cf7f') {  return  "156第13集群"; }; 
- if ( l_key == '2a96817bf717a1d9d31eb6c7a93b04cb') {  return  "156第13集群"; }; 
- if ( l_key == '0e716186460cbb6457ea6af1e84dc30a') {  return  "156第13集群"; }; 
- if ( l_key == 'fa512452dc2056b92e53bce73bfd0519') {  return  "156第13集群"; }; 
- if ( l_key == '193e9f8fd6bc16c1d0814fe51d294493') {  return  "156第13集群"; }; 
- if ( l_key == '6bbbd90a060c640a7117f184d9b958be') {  return  "156第13集群"; }; 
- if ( l_key == '78cde5eb9145aca25eabfd8fd206f5c4') {  return  "156第13集群"; }; 
- if ( l_key == '9a03c2d908f0bde0c5d696af0d5455c1') {  return  "156第13集群"; }; 
- if ( l_key == '0faaff6b0a9d74aba1dfaa4171c2a5de') {  return  "156第13集群"; }; 
- if ( l_key == '80cf50f1c1df3e9db0b6a339cc9d2a8d') {  return  "156第13集群"; }; 
- if ( l_key == '495c14fac992ff5e58e08b6629a98710') {  return  "156第13集群"; }; 
- if ( l_key == 'b0cd722654c026536e493b65d0b0e45a') {  return  "156第13集群"; }; 
- if ( l_key == '04f99a12fdf2d94606a6f55843be923c') {  return  "156第13集群"; }; 
- if ( l_key == 'ebaab1a7e1f06a989c03cd9d53e3b126') {  return  "156第13集群"; }; 
- if ( l_key == '96f238048df18ff03fdc86b29277930b') {  return  "156第13集群"; }; 
- if ( l_key == '229f186a41c350c71bbde8d50202f3a6') {  return  "156第13集群"; }; 
- if ( l_key == 'e461c7a6d53fea33f936b533a852ecb1') {  return  "156第13集群"; }; 
- if ( l_key == '83a604089a167e323ffab44cf2167051') {  return  "156第13集群"; }; 
- if ( l_key == 'a273cb4c7fd1fb1cadbb558cd3627af5') {  return  "156第13集群"; }; 
- if ( l_key == '187081fff6530fe3eb7f783a75d8db67') {  return  "156第13集群"; }; 
- if ( l_key == 'acb86c89c946fa9098607f7a887af36f') {  return  "156第13集群"; }; 
- if ( l_key == 'f4f2090e8743f05d6f38f0271cd999b3') {  return  "156第13集群"; }; 
- if ( l_key == '9cd727fb510e9afaeae221d4d7b2515c') {  return  "156第13集群"; }; 
- if ( l_key == '2683e5513a7f6ee51c19ea4cf0e2b1c7') {  return  "156第13集群"; }; 
- if ( l_key == 'c9c4d89a1723a95ff90f880e309a81a7') {  return  "156第13集群"; }; 
- if ( l_key == '28ac62467d7718c9f78008a13831497c') {  return  "156第13集群"; }; 
- if ( l_key == 'bd5176ff619f71f1f87b56ee70226f32') {  return  "156第13集群"; }; 
- if ( l_key == '15caedc09d751bb999b3cffeb732dac6') {  return  "156第13集群"; }; 
- if ( l_key == '082968c1215f5e2ff83d1e56c451a5b0') {  return  "156第13集群"; }; 
- if ( l_key == 'c8c8a9a6a35a61ba64d0e3c8cf488f4f') {  return  "156第13集群"; }; 
- if ( l_key == 'c3e078dffcf91dfe3eeca9018ffae92f') {  return  "156第13集群"; }; 
- if ( l_key == '68b2f1c9f29fb444a4c6355b1030f043') {  return  "156第13集群"; }; 
- if ( l_key == '93aa2a1da46ff103c0b4e6b0c70e872f') {  return  "156第13集群"; }; 
- if ( l_key == '72dd5ec13d89851c42c6d9af3b74985d') {  return  "156第13集群"; }; 
- if ( l_key == '7879e4651d5526fcae47e74f6b39e808') {  return  "156第13集群"; }; 
- if ( l_key == 'c3bcd99549f58c4732326a9107b9e91d') {  return  "156第13集群"; }; 
- if ( l_key == '5095767b4baf6882ae728b365b44f47f') {  return  "156第13集群"; }; 
- if ( l_key == '0315b96e2e11bfc06cdeb88f962e44ca') {  return  "156第13集群"; }; 
- if ( l_key == '2f3a35e0ed6285c31b17c578e2fa03ad') {  return  "156第13集群"; }; 
- if ( l_key == 'f75e17f6b821a34e5b5308875888146f') {  return  "156第13集群"; }; 
- if ( l_key == 'ca0b06c0e5efee95d641c2f604f5ddd8') {  return  "156第13集群"; }; 
- if ( l_key == '75570cfd969354daebb7337e9f62732f') {  return  "156第13集群"; }; 
- if ( l_key == '9d37f900b50bef711313e252b1dcf830') {  return  "156第13集群"; }; 
- if ( l_key == 'd39ea382ed920c4bd6f89d451493988c') {  return  "156第13集群"; }; 
- if ( l_key == '8e3590b67adebfcac686a3b1af06b8c4') {  return  "156第13集群"; }; 
- if ( l_key == 'd8217342c9980f14d69b7e298fd2afbd') {  return  "156第13集群"; }; 
- if ( l_key == 'b4790620c46f56f537aca646d8806eb5') {  return  "156第13集群"; }; 
- if ( l_key == '2fb7427402f5b92069c23e7032abc063') {  return  "156第13集群"; }; 
- if ( l_key == '8d6c1c9732c1081eef14fd58119a8ac2') {  return  "156第13集群"; }; 
- if ( l_key == '9daf10170dff7977c33c241035905f83') {  return  "156第13集群"; }; 
- if ( l_key == '920b9a67c2f90babc9bc4b1076940d03') {  return  "156第13集群"; }; 
- if ( l_key == 'a4f36b6af52a126fdf4279200a47a05f') {  return  "156第13集群"; }; 
- if ( l_key == '20815040a09ca536e0773388a3cb8f24') {  return  "156第13集群"; }; 
- if ( l_key == '67898814c6cc4a3140ef52ace1e42409') {  return  "156第13集群"; }; 
- if ( l_key == '6122ae6ebc1a022da64803338e2af5c1') {  return  "156第13集群"; }; 
- if ( l_key == '3b55a7e4223e7476250f9ed0019910f7') {  return  "156第13集群"; }; 
- if ( l_key == '091e7c51c7411a86fadeec3855598592') {  return  "156第13集群"; }; 
- if ( l_key == '783924764621ffa8751e0b77ea2eff3f') {  return  "156第13集群"; }; 
- if ( l_key == '1c551fadef37853727706cfb09e293c9') {  return  "156第13集群"; }; 
- if ( l_key == 'b4d914536d95eb56d47f50f0d6ea7815') {  return  "156第13集群"; }; 
- if ( l_key == 'bedb630382b6c3f859a4498d8fe9b387') {  return  "156第13集群"; }; 
- if ( l_key == 'a648a6c693b788e4c827a7eed153e8a5') {  return  "156第13集群"; }; 
- if ( l_key == '23385902c8bfed78b7e855dcdd2eea06') {  return  "156第13集群"; }; 
- if ( l_key == '669e30d72cd91ecbd062aabc17b21c93') {  return  "156第13集群"; }; 
- if ( l_key == 'c5d0a6ce770c7677f0c242c74be5dafd') {  return  "156第13集群"; }; 
- if ( l_key == '065a39409c6d0f30f534a5ebbb739868') {  return  "156第13集群"; }; 
- if ( l_key == '40a2ed7b2706c1d916fb08d286cb9caf') {  return  "156第13集群"; }; 
- if ( l_key == '4cbdfa73c9d5d46c2d12e988407636d4') {  return  "156第13集群"; }; 
- if ( l_key == '1a658e6cf6d0da6b1f7934acbacee54b') {  return  "156第13集群"; }; 
- if ( l_key == 'f458b6b1dc7f4bd44990afb7061c491b') {  return  "156第13集群"; }; 
- if ( l_key == '1cc455c9bdeb0d18988f71cdc93f0e13') {  return  "156第13集群"; }; 
- if ( l_key == '6559efd960cf3ee8be9c811fd903b706') {  return  "156第13集群"; }; 
- if ( l_key == 'a91dc0d2454a5b30532833949c7b7621') {  return  "156第13集群"; }; 
- if ( l_key == 'de989fbd0803c00b75818870c2150e4f') {  return  "156第13集群"; }; 
- if ( l_key == '738effd5fb44e63b5c83ae324ad3ed7f') {  return  "156第13集群"; }; 
- if ( l_key == '2a004f5b8514d0b38d4fb554fa184d60') {  return  "156第13集群"; }; 
- if ( l_key == '1f1f189a8aa37464e007be21158cb7cd') {  return  "156第13集群"; }; 
- if ( l_key == '602cc23a3fdd4f14f451e3067c5f9ecb') {  return  "156第13集群"; }; 
- if ( l_key == '56e763a4617a19b01b2d612e711fc291') {  return  "156第13集群"; }; 
- if ( l_key == '4e6279130c837e7a77e3bd2293ad761a') {  return  "156第13集群"; }; 
- if ( l_key == '4472925dec4e37f52d204682d4cc4bee') {  return  "156第13集群"; }; 
- if ( l_key == 'adb66be4464a6679ff4b69c65a118319') {  return  "156第13集群"; }; 
- if ( l_key == '179545817a7d1a86b83fa8910e6ccbb4') {  return  "156第13集群"; }; 
- if ( l_key == '967e1f100f82970858dbadce02e1541d') {  return  "156第13集群"; }; 
- if ( l_key == 'a896ac040d6c7bb8bb69c99c7d1ecfe6') {  return  "156第13集群"; }; 
- if ( l_key == 'c91b348efa8a8fcdbfa4e33420a74761') {  return  "156第13集群"; }; 
- if ( l_key == 'ff8ebc3047f2146cee1f2b6c1ab53844') {  return  "156第13集群"; }; 
- if ( l_key == 'a5083823be374fbfa613575645153e50') {  return  "156第13集群"; }; 
- if ( l_key == 'f47e425e29d55f65138782cfa2767c01') {  return  "156第13集群"; }; 
- if ( l_key == '5c22e40a2022f0e749d0d3b7558c0262') {  return  "156第13集群"; }; 
- if ( l_key == 'fad5eb7e5e05296312f40131f641b6c7') {  return  "156第13集群"; }; 
- if ( l_key == 'd29b04bc8d0961d3f3cfb1dfe7381c56') {  return  "156第13集群"; }; 
- if ( l_key == 'e28c44454fa9e85cec8a955f6be5c02c') {  return  "156第13集群"; }; 
- if ( l_key == '71227a19d01302960e68e3b5be736dfb') {  return  "156第13集群"; }; 
- if ( l_key == '72dcf2243b2a2de7d30109c5f21a93e9') {  return  "156第13集群"; }; 
- if ( l_key == 'a755eff78c90cbc2fb054af67cbdb31e') {  return  "156第13集群"; }; 
- if ( l_key == 'af6e8f0ea9448629210c53a879ec3eac') {  return  "156第13集群"; }; 
- if ( l_key == '6f310ab5ed93b05bbc5ef7bdf727aff8') {  return  "156第13集群"; }; 
- if ( l_key == 'e81e9490fa28cbdbe9c69dee33cc93bf') {  return  "156第13集群"; }; 
- if ( l_key == '0a070c5e9fccbe7e98e8be5812038a9a') {  return  "156第13集群"; }; 
- if ( l_key == '38f4de7f884de2aea68b452508eca0e6') {  return  "156第13集群"; }; 
- if ( l_key == '0663419d971a821f0394282726d412c6') {  return  "156第13集群"; }; 
- if ( l_key == '44b2e3d3ca58f9dd83d70f607c6bc1cf') {  return  "156第13集群"; }; 
- if ( l_key == '02a7d7bc03d430c0094736774c2da635') {  return  "156第13集群"; }; 
- if ( l_key == '12084ccb217e1ebb97697e220764020f') {  return  "156第13集群"; }; 
- if ( l_key == 'eea4019aed2410cfc73ef6530e11eccd') {  return  "156第13集群"; }; 
- if ( l_key == '28e822e0ccafea0861ff5bd09e87dd96') {  return  "156第13集群"; }; 
- if ( l_key == 'a9e5c1c5a9ce9065a89694a53158e451') {  return  "156第13集群"; }; 
- if ( l_key == '52aed61f922c74a3531e80ffae08be0c') {  return  "156第13集群"; }; 
- if ( l_key == '10e9bb8c59c61c1f61b448c75668efe3') {  return  "156第13集群"; }; 
- if ( l_key == 'c7a287c04d330e4bfe11af0548d80f03') {  return  "156第13集群"; }; 
- if ( l_key == '2e6e8246f1838dd6d9525c2a583c71dd') {  return  "156第13集群"; }; 
- if ( l_key == 'dd994082675528f0a2103fe7895db526') {  return  "156第13集群"; }; 
- if ( l_key == 'bfbf1acd88224c998bbb367dec4c33b4') {  return  "156第13集群"; }; 
- if ( l_key == '0ece3af9b08a3ef9d93590f46ea59c7c') {  return  "156第13集群"; }; 
- if ( l_key == 'c432ff16376221634543f844bd8564e7') {  return  "156第13集群"; }; 
- if ( l_key == 'cdcb47d02ac7f410ee31596c57076a06') {  return  "156第13集群"; }; 
- if ( l_key == 'bd8fba8d8d4daef65c286a75fe7c8551') {  return  "156第13集群"; }; 
- if ( l_key == '58b0bf00df59bdc1aaab0585ab0b4eef') {  return  "156第13集群"; }; 
- if ( l_key == 'c98ebe7d40013aa1b284a6a2e0d3ef98') {  return  "156第13集群"; }; 
- if ( l_key == '3183cd28a3ab2ed893075dc472a29c34') {  return  "156第13集群"; }; 
- if ( l_key == '2ba719225cae881a76473a129b6a7b48') {  return  "156第13集群"; }; 
- if ( l_key == '8a7ad8355f7543aa19339615db32b0c4') {  return  "156第13集群"; }; 
- if ( l_key == 'ee310be75c32a38b77ef0cb28fb3bae5') {  return  "156第13集群"; }; 
- if ( l_key == '9da545e2d9bbe82142a27f7d927165e4') {  return  "156第13集群"; }; 
- if ( l_key == 'dbfab116e19a8da3e91371a401ec19d6') {  return  "156第13集群"; }; 
- if ( l_key == 'a94a6b9e04c7e8e5fa89b603e5ee747e') {  return  "156第13集群"; }; 
- if ( l_key == 'b00cc4bdc280e3a645031872bcc7cfb8') {  return  "156第13集群"; }; 
- if ( l_key == 'f19a0cf3219cbd9d320946c9a151ea90') {  return  "156第13集群"; }; 
- if ( l_key == '4e9c4d3f6bde7e74d2099c2a2ea9cc07') {  return  "156第13集群"; }; 
- if ( l_key == 'afa28699bb3aaa3970aedc58846b3ac0') {  return  "156第13集群"; }; 
- if ( l_key == '9545cb80371cdbad79f7761356c1e81d') {  return  "156第13集群"; }; 
- if ( l_key == '86ed923c902851641786f16ab54a08c5') {  return  "156第13集群"; }; 
- if ( l_key == 'c369c5988bdf5ca4d4971b2fed67a6ba') {  return  "156第13集群"; }; 
- if ( l_key == '2a941d07395a2f2fdbcd9bc39a4e6ca2') {  return  "156第13集群"; }; 
- if ( l_key == 'dfb4a88dfc2ae1e9804724cbc0436b76') {  return  "156第13集群"; }; 
- if ( l_key == 'c6d529b8d80f3fe8f8ed6967b8f98120') {  return  "156第13集群"; }; 
- if ( l_key == 'cfa52e769e9d4bbc201b18f21b04b45c') {  return  "156第13集群"; }; 
- if ( l_key == '90db398ae01be1831029e243792cd752') {  return  "156第13集群"; }; 
- if ( l_key == '4b6b2ad1d3919b348d5e4478b1e7cf56') {  return  "156第13集群"; }; 
- if ( l_key == '20c80aeb68706014543c07266d813db7') {  return  "156第13集群"; }; 
- if ( l_key == 'c58cbb5c803ae3cacaf3fae8c7abc725') {  return  "156第13集群"; }; 
- if ( l_key == '9ec58d2f62fce69a3e26e059216f761d') {  return  "156第13集群"; }; 
- if ( l_key == 'cab173e3eb1dcd2456875b7419b05429') {  return  "156第13集群"; }; 
- if ( l_key == '8890a16533ae5896255bd71d5a7c5c37') {  return  "156第13集群"; }; 
- if ( l_key == 'bd1101b1e9420810310173f5cb332092') {  return  "156第13集群"; }; 
- if ( l_key == '83a7a6fea38fbd689d68804474c8af29') {  return  "156第13集群"; }; 
- if ( l_key == 'cdc2b30141d290a6e863579ea184ee5c') {  return  "156第13集群"; }; 
- if ( l_key == 'ec9aef129f33c6fd7b20eb4640f87eb1') {  return  "156第13集群"; }; 
- if ( l_key == 'fb117cf1ace3de02b3098fb27b789b6c') {  return  "156第13集群"; }; 
- if ( l_key == '5ae94a45ea059bfdfa36fa7951bae81a') {  return  "156第13集群"; }; 
- if ( l_key == '0d577cb0a28e0363ec047251c5228ab2') {  return  "156第13集群"; }; 
- if ( l_key == '493a3c36ec5d43df6952317b0ac68e93') {  return  "156第13集群"; }; 
- if ( l_key == '63309e9f454b5b19fdb25387d1a0ff7d') {  return  "156第13集群"; }; 
- if ( l_key == 'ba65a2ad6eb5f1677a9cf9f253ac0545') {  return  "156第13集群"; }; 
- if ( l_key == 'b0a47e64f16723eb422ac2ce9bc1d33a') {  return  "156第13集群"; }; 
- if ( l_key == '1b4f0cf0fc33c20c8ff9ec4fb0e86c23') {  return  "156第13集群"; }; 
- if ( l_key == '4ffa9809b27b3cd0ed38946335021c90') {  return  "156第13集群"; }; 
- if ( l_key == '1420683bced2f0e86a3ecf51da195506') {  return  "156第13集群"; }; 
- if ( l_key == 'e425b03239489f9b3dc9ee8c83f8e026') {  return  "156第13集群"; }; 
- if ( l_key == 'f8f831afef9ef9d5a35b6e0ba8187f48') {  return  "156第13集群"; }; 
- if ( l_key == '9328ec21ace39a2d62a10d1a08b1263d') {  return  "156第13集群"; }; 
- if ( l_key == 'e7fbe5d38e562c379883291eebd1c5db') {  return  "156第13集群"; }; 
- if ( l_key == '93a2846ec83961fe024a961f0151ea28') {  return  "156第13集群"; }; 
- if ( l_key == 'f5027d1536529bee65a7afb57515ad37') {  return  "156第13集群"; }; 
- if ( l_key == '826f54f2ebcb2c01934a822c49ac370a') {  return  "156第13集群"; }; 
- if ( l_key == 'c4136ca8394d5a2e1d6551e57ec8b14f') {  return  "156第13集群"; }; 
- if ( l_key == 'ee355da0a47fb235481e53293f8e6f49') {  return  "156第13集群"; }; 
- if ( l_key == '813c2c5c3ddd15978b35f7e37d3f44ad') {  return  "156第13集群"; }; 
- if ( l_key == '8d94cf46187ff71ba454d5c800044529') {  return  "156第13集群"; }; 
- if ( l_key == '8b8944d838d93068f415c83e4bdc413c') {  return  "156第13集群"; }; 
- if ( l_key == '813f3ebd5a64b872626e7b9c88bf68e1') {  return  "156第13集群"; }; 
- if ( l_key == '0bc103e5e53873e00fe6a0c68fd06117') {  return  "156第13集群"; }; 
- if ( l_key == '7563994c4633280c616140c2d1fbba87') {  return  "156第13集群"; }; 
- if ( l_key == '60fffcae66ae36d6e16fbbcc785bb384') {  return  "156第13集群"; }; 
- if ( l_key == 'a0abf13aee9e8d582af7911cbb846501') {  return  "156第13集群"; }; 
- if ( l_key == '9202c15e6d6ecc5c6413ad72fe2d1388') {  return  "156第13集群"; }; 
- if ( l_key == 'cd4f6cd8b1853ebfe8a360b98367b1a2') {  return  "156第13集群"; }; 
- if ( l_key == 'c6df7f240d5c59e60e83e4d2fd2561e3') {  return  "156第13集群"; }; 
- if ( l_key == 'c52efa9fe8e13cc826e3d7be2b0b5f2d') {  return  "156第13集群"; }; 
- if ( l_key == '188ada5649b468b2423417f57b31fa3b') {  return  "156第13集群"; }; 
- if ( l_key == 'abb711287420b306bcc46882e662c96a') {  return  "156第13集群"; }; 
- if ( l_key == 'af48890a6f5bdeac3e6fc19723e8e004') {  return  "156第13集群"; }; 
- if ( l_key == '4ad39ea61f8728cf7451265eaf66fb0e') {  return  "156第13集群"; }; 
- if ( l_key == 'f558a8bf4662d33fc340251ce577ece3') {  return  "156第13集群"; }; 
- if ( l_key == 'bdebe5cc475c6281aa177d74477c0c3b') {  return  "156第13集群"; }; 
- if ( l_key == '037912375542ecfd0a0fc79fc96e7578') {  return  "156第13集群"; }; 
- if ( l_key == '8dde4a45d1f33ea1c82385c8e0b8cc4c') {  return  "156第13集群"; }; 
- if ( l_key == 'a2fc4d8679d6240c1dcc8f075bda39a0') {  return  "156第13集群"; }; 
- if ( l_key == 'a7c055525baf1fc35b87818ec6a09569') {  return  "156第13集群"; }; 
- if ( l_key == '87e5442ebd65e0b99e7bb352146f2444') {  return  "156第13集群"; }; 
- if ( l_key == '4fe6106faf83f414e3a01d74ca3c2dfb') {  return  "156第13集群"; }; 
- if ( l_key == '6d787b65f2264177074277aa34d3cd0f') {  return  "156第13集群"; }; 
- if ( l_key == '3d7d1acc4349cc24e9d0d1d508a0838c') {  return  "156第13集群"; }; 
- if ( l_key == 'e4b18ca5a407e0c919d15371477a968e') {  return  "156第13集群"; }; 
- if ( l_key == 'a010959b0d7d7eb6bf44c22c6bb79b46') {  return  "156第13集群"; }; 
- if ( l_key == '6f20cb6be49800a89e405f22db3fdf93') {  return  "156第13集群"; }; 
- if ( l_key == 'ac6ebbb73a630ab2a284d9f92bb8b4ee') {  return  "156第13集群"; }; 
- if ( l_key == '1e89c72568bf0eed7c3d1fa893e4c9b9') {  return  "156第13集群"; }; 
- if ( l_key == 'b496f2bcbd47e44fe3f1a6c11513d4a0') {  return  "156第13集群"; }; 
- if ( l_key == '20fee49622fbd3be7421ffd5dd32d952') {  return  "156第13集群"; }; 
- if ( l_key == '8627969a4a9bf779ed499c71560fbeaf') {  return  "156第13集群"; }; 
- if ( l_key == 'b61869137b06ce44d49787b30018c465') {  return  "156第13集群"; }; 
- if ( l_key == '9c6c4071eba83395edf0c2286fbdc7e2') {  return  "156第13集群"; }; 
- if ( l_key == 'd5ad9ed52752d5e90ad9e8b7f4162e10') {  return  "156第13集群"; }; 
- if ( l_key == '0d09fcc4ce2527197b7eacd22f893164') {  return  "156第13集群"; }; 
- if ( l_key == '36614deb6a9702cb3aa6247832d18a82') {  return  "156第13集群"; }; 
- if ( l_key == '894171fac60c39e9af652014cbc66289') {  return  "156第13集群"; }; 
- if ( l_key == '8b6a31a4077b6d1c079098a50afdaa66') {  return  "156第13集群"; }; 
- if ( l_key == '8212ba8e7c9c1de28bab36ec19dbbc9c') {  return  "156第13集群"; }; 
- if ( l_key == '02b82ba6674cf61ef55790c0f1855c85') {  return  "156第13集群"; }; 
- if ( l_key == 'f6f447e7d3e26ba451fdcc665fa0c24d') {  return  "156第13集群"; }; 
- if ( l_key == '4fba68a7646b3cb2bd036ce59d960854') {  return  "156第13集群"; }; 
- if ( l_key == '5071e53758ec25bcd1b0e81ea1c12804') {  return  "156第13集群"; }; 
- if ( l_key == '2a7223428fb8efc419d2ceaac9927378') {  return  "156第13集群"; }; 
- if ( l_key == 'f208b88144950d03753af2c8af5abd3e') {  return  "156第13集群"; }; 
- if ( l_key == 'a640aed58fe2d6b9dcb1c17d04a07688') {  return  "156第13集群"; }; 
- if ( l_key == '56592cad510196c4260abcb4245ee065') {  return  "156第13集群"; }; 
- if ( l_key == 'cd9eda8af1b481ce2ce50fff07647ce0') {  return  "156第13集群"; }; 
- if ( l_key == '0ce8f6e9f0bdb0eae489858cf3b458ce') {  return  "156第13集群"; }; 
- if ( l_key == 'b2d10546e06feb54276cc2c215999e54') {  return  "156第13集群"; }; 
- if ( l_key == '2cfc6220c73309ccc3d3706aa642b6c7') {  return  "156第13集群"; }; 
- if ( l_key == '3b1ecef1d399024ba3ecc456c8908ba4') {  return  "156第13集群"; }; 
- if ( l_key == '1b0efb6c38f515f72b0013f8601aa8df') {  return  "156第13集群"; }; 
- if ( l_key == '54e0ba30cbab695c0727221b12c60dca') {  return  "156第13集群"; }; 
- if ( l_key == 'd757e5820b220aa0e7edf0d4b3ee9bd5') {  return  "156第13集群"; }; 
- if ( l_key == '6e3416d9bdb8a767925b4dd6a9399af3') {  return  "156第13集群"; }; 
- if ( l_key == '53a28971b3af3902f1b2a24eb8ece57d') {  return  "156第13集群"; }; 
- if ( l_key == '43dfca9cf41e9c508b4b18703a3aa3c5') {  return  "156第13集群"; }; 
- if ( l_key == 'd275e5a43191bceb02fdb3626a4f5539') {  return  "156第13集群"; }; 
- if ( l_key == '965e96781a1cfecd24c62059d7659902') {  return  "156第13集群"; }; 
- if ( l_key == '364caac1754731c88c10d4c1a056b390') {  return  "156第13集群"; }; 
- if ( l_key == 'b3cb9841ead657a4195296ec48fb87e8') {  return  "156第13集群"; }; 
- if ( l_key == 'c213e59f93534df08dae3615cb2fdb8a') {  return  "156第13集群"; }; 
- if ( l_key == '0b134e826a31b4dff95e5abd259ff8ba') {  return  "156第13集群"; }; 
- if ( l_key == 'c2e75dd0565ff3fb78e630d5ca7e3ee3') {  return  "156第13集群"; }; 
- if ( l_key == 'bbf010e5c6f7c18185d595034972e4e8') {  return  "156第13集群"; }; 
- if ( l_key== '0d50be6114f0d4d0589fbf36dd337c4c') {  return "无延时14"; }; 
- if ( l_key == '8ad443dd9cfdddfe0e92624c02f6d111') {  return  "无延时14"; }; 
- if ( l_key == '68797ab482b1edfb778b7036f6cc2351') {  return  "无延时14"; }; 
- if ( l_key == 'f85eadc3016e252ab7b99eb0932b9929') {  return  "无延时14"; }; 
- if ( l_key == '55681998c7a36ebf6d8ed9bd7fd74938') {  return  "无延时14"; }; 
- if ( l_key == 'a0f63055827a3cac896443d582658e23') {  return  "无延时14"; }; 
- if ( l_key == '6cc661703eb83574751c385794d48768') {  return  "无延时14"; }; 
- if ( l_key == '9d2be88d18ac520984dfd14160062c8a') {  return  "无延时14"; }; 
- if ( l_key == '899922c994b435c13db4babc31c3c51c') {  return  "无延时14"; }; 
- if ( l_key == '6accdca7930faf5ef9df52e039a5ab96') {  return  "无延时14"; }; 
- if ( l_key == '6205ebe1644d81cc29f58c8899b19b2d') {  return  "无延时14"; }; 
- if ( l_key == 'dc026070c38fb692e7abb65d3bc47350') {  return  "无延时14"; }; 
- if ( l_key == '9b17f5e99aa00411a8e34c068d6700fa') {  return  "无延时14"; }; 
- if ( l_key == '6512bfceb034e5941536d28db12ac606') {  return  "无延时14"; }; 
- if ( l_key == 'b3fcf55bc77f3292b2fe2cde2815ee8d') {  return  "无延时14"; }; 
- if ( l_key == '6f29f776caae27444035139425bffa5a') {  return  "无延时14"; }; 
- if ( l_key == '5c3425ec84bbf45314206ffcbeef67fe') {  return  "无延时14"; }; 
- if ( l_key == '03bb1704e05d02039042a6844b879d1b') {  return  "无延时14"; }; 
- if ( l_key == '18b7d61807433c1c90211b536626c1b5') {  return  "无延时14"; }; 
- if ( l_key == '0ab300fa277129ab58fca01a8a8cafcd') {  return  "无延时14"; }; 
- if ( l_key == '1bd5dcb15fb44deeda966bf9cd86d0af') {  return  "无延时14"; }; 
- if ( l_key == '08bfd3bd2e07172e97b2dbad2cdadca6') {  return  "无延时14"; }; 
- if ( l_key == '7b8d97aa8ff2c52e8e90db2dfa498084') {  return  "无延时14"; }; 
- if ( l_key == '93abdc60bf27ded2476e53b069cc12eb') {  return  "无延时14"; }; 
- if ( l_key == '0fa51e35cd553f7bb18372051811007d') {  return  "无延时14"; }; 
- if ( l_key == '127dcf0deb0e914c895415eef955d4ca') {  return  "无延时14"; }; 
- if ( l_key == '34fa25cb647c90c3b646b5780f215203') {  return  "无延时14"; }; 
- if ( l_key == '0ee6e19ac9a52e5bcfcd68c9a5637e4f') {  return  "无延时14"; }; 
- if ( l_key == 'c27c601cc310ff7ab86f034dcda5f055') {  return  "无延时14"; }; 
- if ( l_key == 'dfdaa93ac16cd83e6b07ea7bdb047fd6') {  return  "无延时14"; }; 
- if ( l_key== '4a727fe6f60a119335bb81f542241a38') {  return "第14集群香港1"; }; 
- if ( l_key == '075dd2dd24c037d474ff7156c455e6ec') {  return  "第14集群香港1"; }; 
- if ( l_key == '62bef1cfb1bb1858f2894c2478837a9b') {  return  "第14集群香港1"; }; 
- if ( l_key == 'b1ed1f535dfd6038ee9184f64c5ac6e7') {  return  "第14集群香港1"; }; 
- if ( l_key == 'be352fcc3fe4b33e52deee5dbcdf2033') {  return  "第14集群香港1"; }; 
- if ( l_key == '1d076cfc0261e92dfea45cac10522ab8') {  return  "第14集群香港1"; }; 
- if ( l_key == '9b2c3f98b5e9eec093d203acc61d9f04') {  return  "第14集群香港1"; }; 
- if ( l_key == '95edec50ff6be727196cd972caa0fc20') {  return  "第14集群香港1"; }; 
- if ( l_key == 'a82bde9ec6be850f15b77e56d1eb1c93') {  return  "第14集群香港1"; }; 
- if ( l_key == '3e145092393149c613794b165db234bc') {  return  "第14集群香港1"; }; 
- if ( l_key == '6f6c8ceddca0a85e87f8a82f195331c8') {  return  "第14集群香港1"; }; 
- if ( l_key == '2cfdef9020dff49bc002a670863d1d6a') {  return  "第14集群香港1"; }; 
- if ( l_key == '3363b39f6f72dc9ea9a4a0955474b40f') {  return  "第14集群香港1"; }; 
- if ( l_key == '54941ddb67916251ad0b1869b393bc37') {  return  "第14集群香港1"; }; 
- if ( l_key == '32c7d4554c8cfc73a4ea59adb0e68a95') {  return  "第14集群香港1"; }; 
- if ( l_key == '65aa59a28b2600fd689a0d91db0d39b5') {  return  "第14集群香港1"; }; 
- if ( l_key== '68781e70e63be3da39a239515f97ae46') {  return "usa14集群"; }; 
- if ( l_key == 'aa6c8ee9fea4ef376f1f29192c535b4f') {  return  "usa14集群"; }; 
- if ( l_key == '6afcdcbb3b99232e984cf7745c6526ce') {  return  "usa14集群"; }; 
- if ( l_key == 'ef583e30a17fb436a2e6913dab82cfea') {  return  "usa14集群"; }; 
- if ( l_key == 'ccf0e3697faa58638d58dcc455066cfb') {  return  "usa14集群"; }; 
-;  
- return ""; 
-};
-document.getElementById("sys_ip_remark").textContent = ip_remark_txt();</script>
+        },
+        {
+            "key": "csp_Quanwk",
+            "name": "👀┃全看┃影视",
+            "type": 3,
+            "api": "csp_Quanwk",
+            "ext": "https://www.91qkw.com"
+        },
+        {
+            "key": "csp_J",
+            "name": "🌎┃饺子┃外剧",
+            "type": 3,
+            "api": "csp_Jiaozi",
+            "playerType": 2
+        },
+        {
+            "key": "csp_SaoHuo",
+            "name": "🔥┃火火┃影视",
+            "type": 3,
+            "api": "csp_SaoHuo",
+            "playerType": 2,
+            "ext": "https://shdy5.us"
+        },
+        {
+            "key": "csp_Gz360",
+            "name": "🍉┃瓜子┃影视",
+            "type": 3,
+            "api": "csp_Gz360",
+            "playerType": 2
+        },
+        {
+            "key": "csp_LiteApple",
+            "name": "🍎┃苹果┃影视",
+            "type": 3,
+            "api": "csp_LiteApple",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "厂长",
+            "name": "🏭┃厂长┃影视",
+            "type": 3,
+            "playerType": "2",
+            "api": "csp_Czsapp",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://www.czzymovie.com"
+        },
+        {
+            "key": "猎手影视",
+            "name": "🐆┃猎手┃影视",
+            "type": 3,
+            "api": "https://gitee.com/PizazzXS/another-d/raw/master/movie/py/LSYS.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "零度",
+            "name": "🥶┃零度┃影视",
+            "type": 3,
+            "api": "https://6296.kstore.vip/lingdu.py"
+        },
+        {
+            "key": "csp_AppXY",
+            "name": "🎀️┃星牙┃短剧",
+            "type": 3,
+            "api": "csp_AppXY"
+        },
+        {
+            "key": "河马短剧",
+            "name": "🦛┃河马┃短剧",
+            "type": 3,
+            "api": "https://gitee.com/PizazzXS/another-d/raw/master/movie/py/HMDJ.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "偷乐短剧",
+            "name": "☺️┃偷乐┃短剧",
+            "type": 3,
+            "api": "https://gitee.com/PizazzXS/another-d/raw/master/movie/py/TLDJ.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "csp_SP360",
+            "name": "📺┃360┃官源",
+            "type": 3,
+            "api": "csp_SP360"
+        },
+        {
+            "key": "csp_Bili",
+            "name": "🅱┃️哔哩┃合集",
+            "type": 3,
+            "api": "csp_Bili",
+            "playerType": 2,
+            "ext": {
+                "json": "./bili.json",
+                "cookie": ""
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.333
+            }
+        },
+        {
+            "key": "csp_Dm84",
+            "name": "🤣┃动漫┃巴士",
+            "type": 3,
+            "playerType": "2",
+            "api": "csp_Dm84",
+            "ext": "https://dm84.net"
+        },
+        {
+            "key": "56动漫",
+            "name": "5️⃣┃56┃动漫",
+            "type": 3,
+            "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
+            "ext": "https://gitee.com/PizazzXS/another-d/raw/master/anime/js/56DM.js"
+        },
+        {
+            "key": "NT动漫",
+            "name": "🧬┃NT┃动漫",
+            "type": 3,
+            "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
+            "ext": "https://gitee.com/PizazzXS/another-d/raw/master/anime/js/NTDM.js"
+        },
+        {
+            "key": "Anime1",
+            "name": "🌏┃️Anime┃动漫",
+            "type": 3,
+            "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
+            "ext": "https://gitee.com/PizazzXS/another-d/raw/master/anime/js/Anime1.js"
+        },
+        {
+            "key": "csp_FourK",
+            "name": "🌋┃绝对┃影视",
+            "type": 3,
+            "playerType": "2",
+            "api": "csp_FourK",
+            "ext": "https://www.4kvm.tv"
+        },
+        {
+            "key": "csp_FirstAid",
+            "name": "🚑┃急救┃教学",
+            "type": 3,
+            "api": "csp_FirstAid",
+            "searchable": 0,
+            "quickSearch": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 3.8
+            },
+            "gridview": "0-0-4.1"
+        },
+        {
+            "key": "酷狗",
+            "name": "🐾┃酷狗┃音乐",
+            "type": 3,
+            "api": "csp_Kugou",
+            "playerType": 2,
+            "ext": {
+                "classes": [
+                    {
+                        "type_name": "酷狗",
+                        "type_id": "kugou"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "MTV",
+            "name": "🎧┃明星┃MV",
+            "type": 3,
+            "api": "csp_Bili",
+            "playerType": 2,
+            "ext": {
+                "json": "https://img2.gelonghui.com/library/2b4eb-8fb08a6b-f9f1-48d8-816a-1bc712a85fefnull",
+                "cookie": ""
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.333
+            }
+        },
+        {
+            "key": "娱乐",
+            "name": "🎮┃游戏┃娱乐",
+            "type": 3,
+            "api": "http://1.95.79.193:999/py/LIVES.py",
+            "style": {
+                "type": "rect",
+                "ratio": 1.333
+            },
+            "ext": ""
+        },
+        {
+            "key": "看球",
+            "name": "⚾┃看球┃直播",
+            "type": 3,
+            "api": "csp_Kanqiu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "gridview": 3,
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "drpy_js_310直播",
+            "name": "🏀┃体育┃直播",
+            "type": 3,
+            "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+            "changeable": 0,
+            "gridview": 3,
+            "style": {
+                "type": "list"
+            },
+            "ext": "https://img2.gelonghui.com/library/d6014-7a5d5b19-3fe5-456a-8335-925bc845606fnull"
+        },
+        {
+            "key": "米搜",
+            "name": "🌖┃米搜┃网盘",
+            "type": 3,
+            "api": "csp_MiSou",
+            "ext": "http://127.0.0.1:9978/file/fatcat/kk.txt"
+        },
+        {
+            "key": "csp_PanSearch",
+            "name": "🚃┃盘搜┃网盘",
+            "type": 3,
+            "api": "csp_PanSearch",
+            "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
+        },
+        {
+            "key": "儿童",
+            "name": "📚┃儿童┃启蒙",
+            "type": 3,
+            "api": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "ext": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js"
+        },
+        {
+            "key": "csp_少儿",
+            "name": "📚┃少儿┃教育",
+            "type": 3,
+            "api": "csp_Bili",
+            "playerType": 2,
+            "ext": {
+                "json": "https://img2.gelonghui.com/library/1903b-eb0f1675-2437-4e72-bcf0-427b1626d79fnull",
+                "cookie": ""
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.333
+            }
+        },
+        {
+            "key": "csp_小学",
+            "name": "📚┃小学┃课堂",
+            "type": 3,
+            "api": "csp_Bili",
+            "playerType": 2,
+            "ext": {
+                "json": "https://img2.gelonghui.com/library/a1140-144855fe-3eaa-44f3-b689-6812c233de54null",
+                "cookie": ""
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.333
+            }
+        },
+        {
+            "key": "csp_初中",
+            "name": "📚┃初中┃课堂",
+            "type": 3,
+            "api": "csp_Bili",
+            "playerType": 2,
+            "ext": {
+                "json": "https://img2.gelonghui.com/library/ba156-73e16cad-8257-4f33-b8c0-e051e72e546dnull",
+                "cookie": ""
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.333
+            }
+        },
+        {
+            "key": "csp_高中",
+            "name": "📚┃高中┃课堂",
+            "type": 3,
+            "api": "csp_Bili",
+            "playerType": 2,
+            "ext": {
+                "json": "https://img2.gelonghui.com/library/e44b3-4a82ab48-e014-49b2-bb66-ee5207e8f195null",
+                "cookie": ""
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.333
+            }
+        },
+        {
+            "key": "push_agent",
+            "name": "关注公众号：肥猫宝贝",
+            "type": 3,
+            "api": "csp_Push",
+            "playerType": "1",
+            "searchable": 0,
+            "ext": ".json/txt/ken.txt"
+        }
+    ],
+    "parses": [
+        {
+            "name": "Json聚合",
+            "type": 3,
+            "url": "Demo"
+        },
+        {
+            "name": "Web聚合",
+            "type": 3,
+            "url": "Web"
+        },
+        {
+            "name": "qiyi[官源]",
+            "type": 1,
+            "url": "http://39.104.230.177:1122/lxjx/myyk.php?url="
+        },
+        {
+            "name": "肥猫最可爱",
+            "type": 1,
+            "url": "http://xn--ihqu10cn4c.xn--z7x900a.live/jx.php?id=2&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "tucheng",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "yzm",
+                    "aliyun",
+                    "RJuMao",
+                    "bilibili",
+                    "1905",
+                    "xinvip",
+                    "XAL",
+                    "qiqi",
+                    "XALS",
+                    "YuMi-vip"
+                ]
+            }
+        }
+    ],
+    "lives": [
+        {
+            "name": "live",
+            "type": 0,
+            "playerType": 1,
+            "url": "https://6296.kstore.vip/25.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        }
+    ],
+    "rules": [
+        {
+            "name": "♻️量非",
+            "hosts": [
+                "lz",
+                "vip.lz",
+                "v.cdnlz",
+                "hd.lz",
+                "ffzy",
+                "vip.ffzy",
+                "hd.ffzy"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:6.600000,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "♻️索尼",
+            "hosts": [
+                "suonizy",
+                "qrssv.com"
+            ],
+            "regex": [
+                "15.1666",
+                "15.2666"
+            ]
+        },
+        {
+            "name": "♻️乐视",
+            "hosts": [
+                "leshiyun"
+            ],
+            "regex": [
+                "15.92"
+            ]
+        },
+        {
+            "name": "♻️优质",
+            "hosts": [
+                "yzzy",
+                "playback"
+            ],
+            "regex": [
+                "16.63",
+                "18.66",
+                "17.66",
+                "19.13"
+            ]
+        },
+        {
+            "name": "♻️快看",
+            "hosts": [
+                "kuaikan",
+                "vip.kuaikan"
+            ],
+            "regex": [
+                "15.32",
+                "15.231",
+                "18.066"
+            ]
+        },
+        {
+            "name": "♻️360",
+            "hosts": [
+                "lyhuicheng"
+            ],
+            "regex": [
+                "#EXTINF.*?\\s+.*?hrz8QcR9.*?\\.ts\\s+",
+                "#EXT-X-KEY:METHOD=NONE[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "♻️开源棋牌",
+            "hosts": [
+                "askzycdn",
+                "jkunbf",
+                "bfikuncdn",
+                "bfaskcdn"
+            ],
+            "regex": [
+                "#EXT-X-KEY:METHOD=NONE\r*\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXT-X-KEY:METHOD=AES-128,URI=\"[^\"]+\"\r*\n*#EXTINF:3.333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "♻️暴风",
+            "hosts": [
+                "bfengbf.com",
+                "bfzy",
+                "c1"
+            ],
+            "regex": [
+                "#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+",
+                "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name": "♻️农民",
+            "hosts": [
+                "toutiaovod.com"
+            ],
+            "regex": [
+                "video/tos/cn"
+            ]
+        },
+        {
+            "name": "♻️火山",
+            "hosts": [
+                "huoshan.com"
+            ],
+            "regex": [
+                "item_id="
+            ]
+        },
+        {
+            "name": "♻️抖音",
+            "hosts": [
+                "douyin.com"
+            ],
+            "regex": [
+                "is_play_url="
+            ]
+        },
+        {
+            "name": "♻️磁力",
+            "hosts": [
+                "magnet"
+            ],
+            "regex": [
+                "最 新",
+                "直 播",
+                "更 新"
+            ]
+        },
+        {
+            "name": "♻️饭团点击",
+            "hosts": [
+                "dadagui",
+                "freeok",
+                "dadagui"
+            ],
+            "script": [
+                "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();"
+            ]
+        },
+        {
+            "name": "♻️毛驴点击",
+            "hosts": [
+                "www.maolvys.com"
+            ],
+            "script": [
+                "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+            ]
+        }
+    ]
+}
