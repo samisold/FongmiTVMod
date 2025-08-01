@@ -1,5 +1,5 @@
 {
- "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/afbfc7729a1503d4/wex.png;md5;465d9d39054a2718ee09c20bdb9a86ab",
+ "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/94d140960f93b512/wex.png;md5;2ec9736c412884a87906c6f263f9d4e2",
   "wallpaper": "http://王二小放牛娃牛逼.999888987.xyz",
   "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716818643045/wexfnw.gif",
   "sites": [
@@ -92,10 +92,10 @@
       "timeout": 120
     },
     {
-      "key": "WexZHyunchao",
-      "name": "💓云巢┃4K💓",
+      "key": "WexFox4KGuard",
+      "name": "💓极狐┃4K💓",
       "type": 3,
-      "api": "csp_WexZHyunchaoGuard",
+      "api": "csp_WexFox4KGuard",
       "searchable": 1,
       "changeable": 1,
       "timeout": 120
