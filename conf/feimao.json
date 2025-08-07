@@ -248,6 +248,30 @@
             }
         },
         {
+            "key": "兔子",
+            "name": "🐇┃兔子┃APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://211.154.24.56:5211",
+                "dataKey": "685bf108bc47b67d",
+                "siteApi": "get",
+                "version": "521"
+            }
+        },
+        {
+            "key": "永永",
+            "name": "♾️┃永永┃APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://app.lkdyw.cn/",
+                "dataKey": "e65144389e9361b5",
+                "siteApi": "get",
+                "version": ""
+            }
+        },
+        {
             "key": "csp_Jpys",
             "name": "🥇️┃金牌┃影视",
             "type": 3,
