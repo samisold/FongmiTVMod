@@ -1,5 +1,5 @@
 {
- "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/c01ade7664e4904b/wex.png;md5;a0c53fe978b5b739b8ae18a81d3ef5f1",
+ "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/dbac0975ac37cb43/wex.png;md5;2fae453e2661200bdb1f6305972fc663",
   "wallpaper": "http://王二小放牛娃牛逼.999888987.xyz",
   "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716818643045/wexfnw.gif",
   "sites": [
@@ -114,14 +114,6 @@
       "name": "💓木偶┃4K💓",
       "type": 3,
       "api": "csp_WexmuouggGuard",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Wexyingchao",
-      "name": "💓鸟巢┃4K💓",
-      "type": 3,
-      "api": "csp_WexyingchaoGuard",
       "searchable": 1,
       "changeable": 1
     },
