@@ -1,11 +1,21 @@
 {
- "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/dbac0975ac37cb43/wex.png;md5;2fae453e2661200bdb1f6305972fc663",
+ "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/9fadd28b5fb884e3/wex.png;md5;da870f2384c7d328231d8c47934e98e0",
   "wallpaper": "http://王二小放牛娃牛逼.999888987.xyz",
   "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716818643045/wexfnw.gif",
   "sites": [
     {
       "key": "Douban",
       "name": "🐮【公众号：王二小放牛娃】🐮",
+      "type": 3,
+      "api": "csp_DoubanGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1747636545646/douban.json"
+    },
+	    {
+      "key": "Doubana",
+      "name": "🐮【更新日期:20250820】🐮",
       "type": 3,
       "api": "csp_DoubanGuard",
       "searchable": 0,
@@ -105,6 +115,15 @@
       "name": "💓团长┃4K💓",
       "type": 3,
       "api": "csp_WexTuanZhangGuard",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 120
+    },
+    {
+      "key": "WexduoduoziyuanGuard",
+      "name": "💓多多┃4K💓",
+      "type": 3,
+      "api": "csp_WexduoduoziyuanGuard",
       "searchable": 1,
       "changeable": 1,
       "timeout": 120
