@@ -314,7 +314,8 @@
             "name": "🎬┃荐片┃影视",
             "api": "csp_Jianpian",
             "type": 3,
-            "playerType": "2"
+            "playerType": "2",
+            "ext":"https://ij1men.slsw6.com"
             
         },
         {
