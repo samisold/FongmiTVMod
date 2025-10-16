@@ -1,5 +1,5 @@
 {
- "spider": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/3C91B7D_773_wex_20251010000651785newMediaImage.png;md5;71dc083d78a50699316596f2f98d0d91",
+ "spider": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/1A8FF6F_773_wex_20251016014414484newMediaImage.png;md5;4a58737279cf658417500b1266334f60",
   "wallpaper": "http://王二小放牛娃牛逼.999888987.xyz",
   "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
   "sites": [
@@ -15,7 +15,7 @@
     },
 	{
       "key": "Doubana",
-      "name": "🐮【更新日期:20251010】🐮",
+      "name": "🐮【更新日期:20251016】🐮",
       "type": 3,
       "api": "csp_DoubanGuard",
       "searchable": 0,
@@ -80,15 +80,6 @@
       "name": "💓无名┃4K💓",
       "type": 3,
       "api": "csp_WexnullnameGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "timeout": 120
-    },
-	{
-      "key": "Wexseedhub",
-      "name": "💓种子┃4K💓",
-      "type": 3,
-      "api": "csp_WexseedhubGuard",
       "searchable": 1,
       "changeable": 1,
       "timeout": 120
