@@ -624,16 +624,36 @@
             }
         }
     ],
-    "lives": [
-        {
-            "name": "live",
-            "type": 0,
-            "playerType": 2,
-            "url": "https://6296.kstore.vip/25.txt",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
-        }
-    ],
+  "lives": [
+    {
+      "name": "冰茶",
+      "type": 0,
+      "playerType": 2,
+      "url": "https://fy.188766.xyz/?ip=&mima=mianfeidehaimaiqian&json=true",
+      "ua": "bingcha/1.1 (mianfeifenxiang) "
+    }
+  ],
+  "headers": [
+    {
+      "host": "hlsztemgsplive.miguvideo.com",
+      "header": {
+        "User-Agent": "bingcha/1.1 (mianfeifenxiang) "
+      }
+    }
+  ],
+  "proxy": [
+    "raw.githubusercontent.com"
+  ],
+  "hosts": [
+    "hlsztemgsplive.miguvideo.com=hlsztemgsplive.miguvideo.com.b.cdn.chinamobile.com",
+    "push-rtmp-hs-spe-f5.douyincdn.com=source-fcdn-spe-push.s.bytefcdn.com",
+    "cdn9.163189.xyz=gcore.jsdelivr.net",
+    "cache.ott.fifalive.itv.cmvideo.cn=cache.ott.fifalive.itv.cmvideo.cn.e.cdn.chinamobile.com",
+    "studentlive.migucloud.com=base-v4v6-miguvideo.e.cdn.chinamobile.com"
+  ],
+  "ads": [
+    "static-mozai.4gtv.tv"
+  ],
     "rules": [
         {
             "name": "♻️量非",
