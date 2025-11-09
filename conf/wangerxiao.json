@@ -1,5 +1,5 @@
 {
- "spider": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/3D9B941_773_wex_20251030154004765newMediaImage.png;md5;17951645b1a4d8f0ca41309caccdd6f3",
+ "spider": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/1CEC85F_773_wex_20251107003047846newMediaImage.png;md5;168f9674f8980510773eedcdc58d8851",
   "wallpaper": "http://王二小放牛娃牛逼.999888987.xyz",
   "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
   "sites": [
@@ -15,7 +15,7 @@
     },
 	{
       "key": "Doubana",
-      "name": "🐮【更新日期:20251030】🐮",
+      "name": "🐮【更新日期:20251107】🐮",
       "type": 3,
       "api": "csp_DoubanGuard",
       "searchable": 0,
@@ -347,7 +347,15 @@
       "searchable": 1,
       "changeable": 1
     },
-	    {
+	 {
+      "key": "Wexduanjusuipian",
+      "name": "🍉短剧┃速播🍉",
+      "type": 3,
+      "api": "csp_WexduanjusuipianGuard",
+      "searchable": 1,
+      "changeable": 1
+    },
+	{
       "key": "Wexduanjuhema",
       "name": "🍉短剧┃仙品🍉",
       "type": 3,
