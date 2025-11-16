@@ -1,5 +1,5 @@
 {
- "spider": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/1860D0B_773_wex_20251110002159531newMediaImage.png;md5;1fcca766ea99e0b6b76d9932befdf956",
+  "spider": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/44F3D12_773_wex_20251116022852108newMediaImage.png;md5;96b3222e24cfb3d9a43a007b3e52f1c1",
   "wallpaper": "http://王二小放牛娃牛逼.999888987.xyz",
   "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
   "sites": [
@@ -15,7 +15,7 @@
     },
 	{
       "key": "Doubana",
-      "name": "🐮【更新日期:20251110】🐮",
+      "name": "🐮【更新日期:20251116】🐮",
       "type": 3,
       "api": "csp_DoubanGuard",
       "searchable": 0,
@@ -305,25 +305,6 @@
       "changeable": 1
     },
     {
-      "key": "Wexduanjuquark",
-      "name": "🍉短剧┃夸克🍉",
-      "type": 3,
-      "api": "csp_WexduanjuquarkGuard",
-      "searchable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "Wexduanjuvip",
-      "name": "🍉短剧┃免费🍉",
-      "type": 3,
-      "api": "csp_WexduanjuvipGuard",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
       "key": "Wexduanjuvop",
       "name": "🍉短剧┃秒播🍉",
       "type": 3,
@@ -352,14 +333,6 @@
       "name": "🍉短剧┃神品🍉",
       "type": 3,
       "api": "csp_Wexduanju001Guard",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "WexduanjuvmpGuard",
-      "name": "🍉短剧┃帝品🍉",
-      "type": 3,
-      "api": "csp_WexduanjuvmpGuard",
       "searchable": 1,
       "changeable": 1
     },
@@ -908,6 +881,9 @@
     {
       "name": "proxy",
       "hosts": [
+	    "hlsztemgsplive.miguvideo.com=hlsztemgsplive.188766.xyz",
+        "cache.ott.fifalive.itv.cmvideo.cn=fifalive.188766.xyz",
+        "iptv.huuc.edu.cn=huucv6.188766.xyz",
         "raw.githubusercontent.com",
         "googlevideo.com",
         "cdn.v82u1l.com",
@@ -1004,14 +980,24 @@
   ],
   "ads": [
     "mozai.4gtv.tv",
-    "pv.vipwm.cc"
+    "pv.vipwm.cc",
+	"static-mozai.4gtv.tv"
   ],
   "lives": [
     {
-      "name": "范明明",
+      "name": "冰茶",
       "type": 0,
-      "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
-      "playerType": 1
+      "playerType": 2,
+      "url": "https://bc.188766.xyz/?ip=&json=true",
+      "ua": "bingcha/1.1 (mianfeifenxiang) "
+    }
+  ],
+  "headers": [
+    {
+      "host": "hlsztemgsplive.miguvideo.com",
+      "header": {
+        "User-Agent": "bingcha/1.1 (mianfeifenxiang) "
+      }
     }
   ]
 }
