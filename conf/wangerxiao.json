@@ -1,5 +1,5 @@
 {
-  "spider": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/4C1FF0E_773_wex_20251125202938981newMediaImage.png;md5;905b506670b52fb2a680743fb13086fc",
+  "spider": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/2F45D78_773_wex_20251130194603926newMediaImage.png;md5;c2dd706f2afc0f3e4035b3237ecde3f9",
   "wallpaper": "http://王二小放牛娃牛逼.999888987.xyz",
   "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
   "sites": [
@@ -15,7 +15,7 @@
     },
 	{
       "key": "Doubana",
-      "name": "🐮【更新日期:20251125】🐮",
+      "name": "🐮【更新日期:20251130】🐮",
       "type": 3,
       "api": "csp_DoubanGuard",
       "searchable": 0,
@@ -217,34 +217,10 @@
       "changeable": 1
     },
     {
-      "key": "Wexshandian",
-      "name": "🌺闪电┃秒播🌺",
-      "type": 3,
-      "api": "csp_WexshandianGuard",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Wexbaozitv",
-      "name": "🎇包子┃秒播🎇",
-      "type": 3,
-      "api": "csp_WexbaozitvGuard",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
       "key": "csp_Nmys",
       "name": "🎇伯伯┃秒播🎇",
       "type": 3,
       "api": "csp_WexNmysGuard",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "WexBDys",
-      "name": "🎇滴滴┃秒播🎇",
-      "type": 3,
-      "api": "csp_WexBDysGuard",
       "searchable": 1,
       "changeable": 1
     },
@@ -627,14 +603,6 @@
       "ext": {
         "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/345A587_773_gaozhong_20250828171449997newMediaImage.txt"
       }
-    },
-    {
-      "key": "Wexqingfengdj",
-      "name": "🎼舞曲┃摇头🎼",
-      "type": 3,
-      "api": "csp_WexqingfengdjGuard",
-      "searchable": 1,
-      "changeable": 0
     },
     {
       "key": "WexLunhuiDJ",
