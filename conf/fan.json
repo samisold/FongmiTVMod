@@ -1,5 +1,5 @@
 {
-"spider":"https://oss4liview.moji.com/thd_file/2026/03/04/5c1bf74084efe2f0a837efac09655420.jpg;md5;0a4bc903912b91621f12cb2c1b60bd2c",
+"spider":"https://oss4liview.moji.com/thd_file/2026/03/05/03cf80ef9827fab0712e532237d6b1fe.jpg;md5;f7b4591247c805e87dfa1fd5e2bbee62",
 "wallpaper":"https://深色壁纸.xxooo.cf/",
 "sites":[
 {"key":"点我切源","name":"修复所有，新公众号【太太太硬了】","type": 3, "api": "csp_DouDouGuard","indexs":1,"searchable": 0,"quickSearch": 0,"changeable":0},
@@ -59,7 +59,7 @@
 {"key":"cc","name":"请勿相信视频中广告","type":3,"api":"csp_XPathGuard","searchable":1,"quickSearch":0,"changeable":0}
 ],
 "logo":"https://bdcache1-f1.v3mh.com/image/25-12-16/6941612717007.gif",
-"hosts":["img1.wsyzy.org=danmu.888484.xyz"],
+"hosts":["img1.wsyzy.org=danmu.888484.xyz","fiizvfck.top=danmu.888484.xyz"],
 "lives":[
 {"name":"Kimentanm","type":0,"url":"https://gh.llkk.cc/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u","playerType":2},
 {"name":"develop202","type":0,"url":"https://gh.llkk.cc/http://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt","playerType":2,"epg":"http://diyp5.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
