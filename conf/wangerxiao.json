@@ -1,5 +1,5 @@
 {
-  "spider": "https://nos.netease.com/ysf/a76ae1d52ff79d12d655caaf7499c8c7.txt;md5;69aaa82befede80e5e905128732f1a3c",
+  "spider": "https://nos.netease.com/ysf/086049b8ca8bf3b53988e860c89a40dd.txt;md5;105e052a76be2de50e76630da0bde937",
   "wallpaper": "http://王二小放牛娃牛逼.999888987.xyz",
   "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
   "sites": [
@@ -15,7 +15,7 @@
     },
 	{
       "key": "Doubana",
-      "name": "🐮【更新日期:20260426】🐮",
+      "name": "🐮【更新日期:20260504】🐮",
       "type": 3,
       "api": "csp_DoubanGuard",
       "searchable": 0,
@@ -53,7 +53,7 @@
     },
     {
       "key": "Wexerxiaoziyuan",
-      "name": "💓‍二小┃4K💓‍",
+      "name": "💓指南┃4K💓‍",
       "type": 3,
       "api": "csp_WexerxiaoziyuanGuard",
       "searchable": 1,
