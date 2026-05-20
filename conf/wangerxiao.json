@@ -1,11 +1,11 @@
 {
-  "spider": "https://nos.netease.com/ysf/086049b8ca8bf3b53988e860c89a40dd.txt;md5;105e052a76be2de50e76630da0bde937",
+  "spider": "https://nos.netease.com/ysf/4be3c8f23848a17afc6a4ff87d47a772.txt;md5;6b497b8e531f046481e3e94cc3dccece",
   "wallpaper": "http://王二小放牛娃牛逼.999888987.xyz",
   "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
   "sites": [
     {
       "key": "Douban",
-      "name": "🐮【公众号：王二小放牛娃】🐮",
+      "name": "🐮【免费分享】🐮",
       "type": 3,
       "api": "csp_DoubanGuard",
       "searchable": 0,
@@ -15,7 +15,7 @@
     },
 	{
       "key": "Doubana",
-      "name": "🐮【更新日期:20260504】🐮",
+      "name": "🐮【更新日期:20260518】🐮",
       "type": 3,
       "api": "csp_DoubanGuard",
       "searchable": 0,
