@@ -1,5 +1,5 @@
 {
-  "spider": "https://nos.netease.com/ysf/50059c222b1264907b612ae07d04b9cf.txt;md5;97d788866a626c470cbcf7698dc08900",
+  "spider": "https://nos.netease.com/ysf/49db9f394f13188bcd226d3d38d12554.txt;md5;b5f1c02f9fc551d4962b89464bebc1f6",
   "wallpaper": "http://王二小放牛娃牛逼.999888987.xyz",
   "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
   "sites": [
@@ -15,7 +15,7 @@
     },
 	{
       "key": "Doubana",
-      "name": "🐮【更新日期:20260526】🐮",
+      "name": "🐮【更新日期:20260601】🐮",
       "type": 3,
       "api": "csp_DoubanGuard",
       "searchable": 0,
@@ -936,14 +936,14 @@
     {
         "name": "Kimentanm",
         "type": 0,
-        "url": "https://gh.llkk.cc/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+        "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
         "playerType": 2
     },
     {
       "name": "综合直播",
       "type": 0,
       "playerType": 2,
-      "url": "https://ds65.tv1288.xyz",
+      "url": "https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
       "ua": "bingcha/1.1 (mianfeifenxiang) "
     }
   ],
