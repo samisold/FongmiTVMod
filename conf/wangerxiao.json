@@ -1,5 +1,5 @@
 {
-  "spider": "https://nos.netease.com/ysf/49db9f394f13188bcd226d3d38d12554.txt;md5;b5f1c02f9fc551d4962b89464bebc1f6",
+  "spider": "https://nos.netease.com/ysf/1ddb71e02523f373f27d14d7e904b857.jar;md5;dfc4fb3d07865822a5e3e046aa95e0d2",
   "wallpaper": "http://王二小放牛娃牛逼.999888987.xyz",
   "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
   "sites": [
@@ -15,7 +15,7 @@
     },
 	{
       "key": "Doubana",
-      "name": "🐮【更新日期:20260601】🐮",
+      "name": "🐮【更新日期:20260619】🐮",
       "type": 3,
       "api": "csp_DoubanGuard",
       "searchable": 0,
@@ -94,14 +94,6 @@
       "timeout": 120
     },
     {
-      "key": "Wexsayangziyuan",
-      "name": "💓撒仰┃4K💓",
-      "type": 3,
-      "api": "csp_Wexsayangziyuan",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
       "key": "Wexmuougg",
       "name": "💓木偶┃4K💓",
       "type": 3,
@@ -114,14 +106,6 @@
       "name": "💓双星┃4K💓",
       "type": 3,
       "api": "csp_WexshuangzixingGuard",
-      "searchable": 1,
-      "changeable": 1
-    },
-	{
-      "key": "WexXuexi",
-      "name": "💓综合┃4K💓",
-      "type": 3,
-      "api": "csp_WexXuexiGuard",
       "searchable": 1,
       "changeable": 1
     },
@@ -390,30 +374,6 @@
       "changeable": 0
     },
     {
-      "key": "Wexxifan",
-      "name": "🤡稀饭┃动漫🤡",
-      "type": 3,
-      "api": "csp_WexxifanGuard",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "WexDm84",
-      "name": "🤡巴士┃动漫🤡",
-      "type": 3,
-      "api": "csp_WexYingGuard",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "WexYsj",
-      "name": "🤡异界┃动漫🤡",
-      "type": 3,
-      "api": "csp_WexYsjGuard",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
       "key": "自定义",
       "name": "🥇全能┃DIY🥇",
       "type": 3,
@@ -600,14 +560,6 @@
       }
     },
     {
-      "key": "WexTJso",
-      "name": "🎠TJ┃综合🎠",
-      "type": 3,
-      "api": "csp_WexTJsoGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
       "key": "Wextyso",
       "name": "🎠给力┃天逸🎠",
       "type": 3,
@@ -624,14 +576,6 @@
       "changeable": 0
     },
     {
-      "key": "WexAiPanGuard",
-      "name": "🎠给力┃综合🎠",
-      "type": 3,
-      "api": "csp_WexAiPanGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
       "key": "WexHaiYinsoGuard",
       "name": "🎠海音┃综合🎠",
       "type": 3,
@@ -644,14 +588,6 @@
       "name": "🎠九七┃综合🎠",
       "type": 3,
       "api": "csp_Wex97pansoGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "WexZhaoPansoGuard",
-      "name": "🎠找盘┃综合🎠",
-      "type": 3,
-      "api": "csp_WexZhaoPansoGuard",
       "searchable": 1,
       "changeable": 0
     },
