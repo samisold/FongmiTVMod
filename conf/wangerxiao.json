@@ -1,5 +1,5 @@
 {
-  "spider": "https://nos.netease.com/ysf/955f5ebd9f96755c64decfe4ff53ea4f.jar;md5;e11dfad1c324e310e688c0845f9a06b8",
+  "spider": "https://nos.netease.com/ysf/40937fbedd6ff4db5cbe26e2999508bd.jar;md5;0128c4c7488204dacb5b6d1d2223b462",
   "wallpaper": "http://王二小放牛娃牛逼.999888987.xyz",
   "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
   "sites": [
@@ -15,7 +15,7 @@
     },
 	{
       "key": "Doubana",
-      "name": "🐮【更新日期:20260619】🐮",
+      "name": "🐮【更新日期:20260705】🐮",
       "type": 3,
       "api": "csp_DoubanGuard",
       "searchable": 0,
