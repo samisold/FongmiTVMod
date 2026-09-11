@@ -5,7 +5,7 @@
   "sites": [
     {
       "key": "Douban",
-      "name": "🐮【王二小放牛娃】🐮",
+      "name": "🐮【免费分享】🐮",
       "type": 3,
       "api": "csp_DoubanGuard",
       "searchable": 0,
@@ -15,7 +15,7 @@
     },
 	{
       "key": "Doubana",
-      "name": "🐮【更新日期:20260820】🐮",
+      "name": "🐮【更新日期:20260911】🐮",
       "type": 3,
       "api": "csp_DoubanGuard",
       "searchable": 0,
@@ -52,26 +52,10 @@
       "indexs": 0
     },
     {
-      "key": "Wexerxiaoziyuan",
-      "name": "💓指南┃4K💓‍",
-      "type": 3,
-      "api": "csp_WexerxiaoziyuanGuard",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
       "key": "玩偶",
       "name": "💓‍玩偶┃4K💓‍",
       "type": 3,
       "api": "csp_WoggGuard",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Wexzhizhen",
-      "name": "💓至臻┃4K💓",
-      "type": 3,
-      "api": "csp_WexzhizhenGuard",
       "searchable": 1,
       "changeable": 1
     },
@@ -114,22 +98,6 @@
       "name": "💓虎斑┃4K💓",
       "type": 3,
       "api": "csp_WexhubanGuard",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "盘他",
-      "name": "💓‍盘他┃4K💓‍",
-      "type": 3,
-      "api": "csp_WexYDpantaGuard",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "雷鲸",
-      "name": "💓‍雷鲸┃4K💓‍",
-      "type": 3,
-      "api": "csp_WexleijingGuard",
       "searchable": 1,
       "changeable": 1
     },
